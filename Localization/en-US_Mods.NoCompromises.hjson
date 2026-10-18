@@ -1,0 +1,58 @@
+Items: {
+	StarterBag: {
+		DisplayName: Starter Bag
+		Tooltip: ""
+	}
+
+	FRankAdventurerEmblem: {
+		Tooltip: ""
+		DisplayName: F Rank Adventurer Emblem
+	}
+
+	CRankAdventurerEmblem: {
+		Tooltip: ""
+		DisplayName: C Rank Adventurer Emblem
+	}
+
+	BRankAdventurerEmblem: {
+		Tooltip: ""
+		DisplayName: B Rank Adventurer Emblem
+	}
+
+	ARankAdventurerEmblem: {
+		Tooltip: ""
+		DisplayName: A Rank Adventurer Emblem
+	}
+}
+
+Buffs: {
+	HeroOfTheVillage: {
+		Description: Mods.NoCompromises.Buffs.HeroOfTheVillage.Description
+		DisplayName: Hero Of The Village
+	}
+
+	HeroVillage4: {
+		Description: Mods.NoCompromises.Buffs.HeroVillage4.Description
+		DisplayName: Hero Village4
+	}
+
+	HeroVillage3: {
+		Description: Mods.NoCompromises.Buffs.HeroVillage3.Description
+		DisplayName: Hero Village3
+	}
+
+	HeroVillage2: {
+		Description: Mods.NoCompromises.Buffs.HeroVillage2.Description
+		DisplayName: Hero Village2
+	}
+
+	HeroVillage1: {
+		Description: Mods.NoCompromises.Buffs.HeroVillage1.Description
+		DisplayName: Hero Village1
+	}
+
+	ArachnophobiaDebuff: {
+		Description: Mods.NoCompromises.Buffs.ArachnophobiaDebuff.Description
+		DisplayName: Arachnophobia Debuff
+	}
+}

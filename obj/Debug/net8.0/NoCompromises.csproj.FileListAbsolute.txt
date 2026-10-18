@@ -1,0 +1,5 @@
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\NoCompromises\obj\Debug\net8.0\NoCompromises.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\NoCompromises\obj\Debug\net8.0\NoCompromises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\NoCompromises\obj\Debug\net8.0\NoCompromises.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\NoCompromises\obj\Debug\net8.0\NoCompromises.AssemblyInfo.cs
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\NoCompromises\obj\Debug\net8.0\NoCompromises.csproj.CoreCompileInputs.cache

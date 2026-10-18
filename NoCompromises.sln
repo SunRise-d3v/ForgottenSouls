@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoCompromises", "NoCompromises.csproj", "{0BF996A7-2D25-F5E1-C243-A91016B2A07E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FargowiltasSouls", "..\..\..\..\..\..\..\source\repos\FargosSoulsMod\FargowiltasSouls.csproj", "{376508A5-9C3B-5B5C-A398-0CF49379F1CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF996A7-2D25-F5E1-C243-A91016B2A07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF996A7-2D25-F5E1-C243-A91016B2A07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF996A7-2D25-F5E1-C243-A91016B2A07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF996A7-2D25-F5E1-C243-A91016B2A07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376508A5-9C3B-5B5C-A398-0CF49379F1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376508A5-9C3B-5B5C-A398-0CF49379F1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376508A5-9C3B-5B5C-A398-0CF49379F1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376508A5-9C3B-5B5C-A398-0CF49379F1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {981EB371-4484-45F6-8DB2-E79EC87FF4AF}
+	EndGlobalSection
+EndGlobal

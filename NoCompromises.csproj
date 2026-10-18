@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="Content\Entities\Bosses\Bosses\Other\**" />
+	  <Compile Remove="Content\Entities\Bosses\Bosses\Other\**" />
+	  <EmbeddedResource Remove="Content\Entities\Bosses\Bosses\Other\**" />
+	  <None Remove="Content\Entities\Bosses\Bosses\Other\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Include="Content\Entities\Bosses\Bosses\Other\Lepus.cs" />
+	  <Compile Include="Content\Entities\Bosses\Bosses\Other\Mekhaduza.cs" />
+	  <Compile Include="Content\Entities\Bosses\Bosses\Other\Okram.cs" />
+	  <Compile Include="Content\Entities\Bosses\Bosses\Other\TheUngratefulTurkey.cs" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Content\Entities\Bosses\Bosses\HM\CelestialTowers\" />
+	  <Folder Include="Content\Entities\Bosses\ModifiedBossLoot\Boss\" />
+	  <Folder Include="Content\Entities\Mobs\Mobs\HM\" />
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>
