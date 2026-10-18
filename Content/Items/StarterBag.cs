@@ -6,10 +6,12 @@ internal sealed class StarterBag : ModItem
     {
         Item.maxStack = 9999;
         Item.consumable = true;
+
         Item.width = 32;
         Item.height = 32;
+
         Item.rare = ItemRarityID.Blue;
-        Item.value = 4000;
+        Item.value = Item.sellPrice(silver: 75);
     }
 
     public override bool CanRightClick() => true;

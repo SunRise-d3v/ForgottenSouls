@@ -3,6 +3,7 @@ author = SunRise-d3v
 version = 0.0.1
 
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.gif
-modReferences = FargowiltasSouls
-weakReferences = FargowiltasMusic
-sortAfter = FargowiltasSouls, FargowiltasMusic
+
+modReferences = FargowiltasSouls, Fargowiltas
+weakReferences = FargowiltasMusic, MagicStorage
+sortAfter = Fargowiltas, FargowiltasSouls, FargowiltasMusic
