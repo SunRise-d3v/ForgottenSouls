@@ -13,7 +13,7 @@ global using Terraria.ID;
 #endregion
 
 #region XNA Framework
-
+global using Microsoft.Xna.Framework;
 #endregion
 
 #region Mod

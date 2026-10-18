@@ -3,64 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\mechanics\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\mechanics\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\lifecrystaltileexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\lifecrystaltileexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\desert\\desertdebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\desert\\desertdebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\evil\\evilbleed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\evil\\evilbleed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\other\\arachnophobia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\other\\arachnophobia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\debuffs\\arachnophobiadebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\debuffs\\arachnophobiadebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\debuffs\\arachnophobiadebuff.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\debuffs\\arachnophobiadebuff.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\snow\\chillinsnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\snow\\chillinsnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\hell\\burninhellplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\hell\\burninhellplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\hell\\instantlavadeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\hell\\instantlavadeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\snow\\freezeinsnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\snow\\freezeinsnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\other\\drownfaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\other\\drownfaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\items\\emblems\\adventureremblems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\items\\emblems\\adventureremblems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\heroofthevillage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\heroofthevillage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\npcs\\shops\\discountbuffshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\npcs\\shops\\discountbuffshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\debuffs\\arachnophobiadebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\debuffs\\arachnophobiadebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\other\\arachnophobia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\other\\arachnophobia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\compromisehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\compromisehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\startinginventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\startinginventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\mechanics\\quickrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\mechanics\\quickrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\observerbuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\observerbuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\template\\superbufftemplate.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\template\\superbufftemplate.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\template\\debufftemplate.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\template\\debufftemplate.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\template\\bufftemplate.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\template\\bufftemplate.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\heroofthevillage4.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\heroofthevillage4.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\heroofthevillage3.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\heroofthevillage3.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\heroofthevillage2.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\heroofthevillage2.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\heroofthevillage1.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\heroofthevillage1.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\nocompromises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,6 +81,82 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\icon_small.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:icon_small.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\icon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:icon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\description_workshop.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:description_workshop.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\description.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:description.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\build.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:build.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\systems\\fastsleep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\systems\\fastsleep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\systems\\bosstitlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\systems\\bosstitlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\snow\\freezeinsnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\snow\\freezeinsnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\snow\\chillinsnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\snow\\chillinsnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\other\\drownfaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\other\\drownfaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\hell\\instantlavadeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\hell\\instantlavadeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\hell\\burninhellplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\hell\\burninhellplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\evil\\evilbleed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\evil\\evilbleed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\desert\\solarstrike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\desert\\solarstrike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\desert\\desertdebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\desert\\desertdebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\biome\\cave\\darkcavedebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\biome\\cave\\darkcavedebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\mechanics\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\mechanics\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\buffs\\debuffs\\arachnophobiadebuff.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\buffs\\debuffs\\arachnophobiadebuff.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\player\\mechanics\\quickrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\player\\mechanics\\quickrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -80,10 +168,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\entities\\bosses\\bosses\\bossdeathstrike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\entities\\bosses\\bosses\\bossdeathstrike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\systems\\bosstitlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\systems\\bosstitlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\npcs\\tortoiseoneshotplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,16 +194,8 @@
       "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\items\\mirrormanacost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\items\\emblems\\adventureremblems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\items\\emblems\\adventureremblems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\npcs\\shops\\changedshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\npcs\\shops\\changedshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\npcs\\shops\\discountbuffshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\npcs\\shops\\discountbuffshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{376508A5-9C3B-5B5C-A398-0CF49379F1CF}|..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\FargowiltasSouls.csproj|c:\\users\\user\\source\\repos\\fargossoulsmod\\content\\buffs\\betsydashbuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -154,10 +230,6 @@
       "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\items\\starterbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\systems\\fastsleep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\systems\\fastsleep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\nocompromises\\content\\globals\\npcs\\shops\\armsdealershop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BF996A7-2D25-F5E1-C243-A91016B2A07E}|NoCompromises.csproj|solutionrelative:content\\globals\\npcs\\shops\\armsdealershop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -173,7 +245,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -213,71 +285,295 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "LifeCrystalTileExplosion.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\LifeCrystalTileExplosion.cs",
+              "RelativeDocumentMoniker": "Content\\LifeCrystalTileExplosion.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\LifeCrystalTileExplosion.cs",
+              "RelativeToolTip": "Content\\LifeCrystalTileExplosion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T10:17:27.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObserverBuff.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\ObserverBuff.cs",
+              "RelativeDocumentMoniker": "Content\\Buffs\\ObserverBuff.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\ObserverBuff.cs",
+              "RelativeToolTip": "Content\\Buffs\\ObserverBuff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T10:06:56.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DebuffTemplate.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Template\\DebuffTemplate.png",
+              "RelativeDocumentMoniker": "Content\\Buffs\\Template\\DebuffTemplate.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Template\\DebuffTemplate.png",
+              "RelativeToolTip": "Content\\Buffs\\Template\\DebuffTemplate.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-18T09:55:03.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BuffTemplate.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Template\\BuffTemplate.png",
+              "RelativeDocumentMoniker": "Content\\Buffs\\Template\\BuffTemplate.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Template\\BuffTemplate.png",
+              "RelativeToolTip": "Content\\Buffs\\Template\\BuffTemplate.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-18T09:55:00.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SuperBuffTemplate.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Template\\SuperBuffTemplate.png",
+              "RelativeDocumentMoniker": "Content\\Buffs\\Template\\SuperBuffTemplate.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Template\\SuperBuffTemplate.png",
+              "RelativeToolTip": "Content\\Buffs\\Template\\SuperBuffTemplate.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-18T09:53:14.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HeroOfTheVillage4.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage4.png",
+              "RelativeDocumentMoniker": "Content\\Buffs\\HeroOfTheVillage4.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage4.png",
+              "RelativeToolTip": "Content\\Buffs\\HeroOfTheVillage4.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-18T09:53:13.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HeroOfTheVillage3.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage3.png",
+              "RelativeDocumentMoniker": "Content\\Buffs\\HeroOfTheVillage3.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage3.png",
+              "RelativeToolTip": "Content\\Buffs\\HeroOfTheVillage3.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-18T09:53:12.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HeroOfTheVillage2.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage2.png",
+              "RelativeDocumentMoniker": "Content\\Buffs\\HeroOfTheVillage2.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage2.png",
+              "RelativeToolTip": "Content\\Buffs\\HeroOfTheVillage2.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-18T09:53:11.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HeroOfTheVillage1.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage1.png",
+              "RelativeDocumentMoniker": "Content\\Buffs\\HeroOfTheVillage1.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage1.png",
+              "RelativeToolTip": "Content\\Buffs\\HeroOfTheVillage1.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-18T09:53:10.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CompromiseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\CompromiseHelper.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\CompromiseHelper.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\CompromiseHelper.cs",
+              "RelativeToolTip": "Content\\Globals\\CompromiseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:52:55.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "icon.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\icon.png",
+              "RelativeDocumentMoniker": "icon.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\icon.png",
+              "RelativeToolTip": "icon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-18T09:42:20.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "description_workshop.txt",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\description_workshop.txt",
+              "RelativeDocumentMoniker": "description_workshop.txt",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\description_workshop.txt",
+              "RelativeToolTip": "description_workshop.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-18T09:42:18.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "build.txt",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\build.txt",
+              "RelativeDocumentMoniker": "build.txt",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\build.txt",
+              "RelativeToolTip": "build.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-18T09:42:11.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "description.txt",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\description.txt",
+              "RelativeDocumentMoniker": "description.txt",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\description.txt",
+              "RelativeToolTip": "description.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-18T09:42:08.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-18T09:42:07.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "Content\\GlobalUsing.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\GlobalUsing.cs",
+              "RelativeToolTip": "Content\\GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:41:31.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SolarStrike.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Desert\\SolarStrike.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Desert\\SolarStrike.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Desert\\SolarStrike.cs",
+              "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Desert\\SolarStrike.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:22:24.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DarkCaveDebuff.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Cave\\DarkCaveDebuff.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Cave\\DarkCaveDebuff.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Cave\\DarkCaveDebuff.cs",
+              "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Cave\\DarkCaveDebuff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:17:55.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "DesertDebuff.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Desert\\DesertDebuff.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Desert\\DesertDebuff.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Desert\\DesertDebuff.cs",
               "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Desert\\DesertDebuff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T16:28:06.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 32,
               "Title": "EvilBleed.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Evil\\EvilBleed.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Evil\\EvilBleed.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Evil\\EvilBleed.cs",
               "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Evil\\EvilBleed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T16:27:16.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 37,
               "Title": "ArachnophobiaDebuff.png",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\DeBuffs\\ArachnophobiaDebuff.png",
-              "RelativeDocumentMoniker": "Content\\Buffs\\DeBuffs\\ArachnophobiaDebuff.png",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\DeBuffs\\ArachnophobiaDebuff.png",
-              "RelativeToolTip": "Content\\Buffs\\DeBuffs\\ArachnophobiaDebuff.png",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.png",
+              "RelativeDocumentMoniker": "Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.png",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.png",
+              "RelativeToolTip": "Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T16:11:43.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T16:11:43.086Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ArachnophobiaDebuff.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\DeBuffs\\ArachnophobiaDebuff.cs",
-              "RelativeDocumentMoniker": "Content\\Buffs\\DeBuffs\\ArachnophobiaDebuff.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\DeBuffs\\ArachnophobiaDebuff.cs",
-              "RelativeToolTip": "Content\\Buffs\\DeBuffs\\ArachnophobiaDebuff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.cs",
+              "RelativeDocumentMoniker": "Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.cs",
+              "RelativeToolTip": "Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T16:07:31.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Arachnophobia.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Other\\Arachnophobia.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Other\\Arachnophobia.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Other\\Arachnophobia.cs",
               "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Other\\Arachnophobia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T16:05:57.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "ChillInSnow.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Snow\\ChillInSnow.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Snow\\ChillInSnow.cs",
@@ -290,32 +586,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "FreezeInSnow.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Snow\\FreezeInSnow.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Snow\\FreezeInSnow.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Snow\\FreezeInSnow.cs",
               "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Snow\\FreezeInSnow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T15:45:39.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "icon_small.png",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\icon_small.png",
               "RelativeDocumentMoniker": "icon_small.png",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\icon_small.png",
               "RelativeToolTip": "icon_small.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T15:37:16.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T15:37:16.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 39,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -323,25 +618,24 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAOQAAAAAAAAAAAAqwAkBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-10-17T14:59:07.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T14:59:07.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "InstantLavaDeath.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Hell\\InstantLavaDeath.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Hell\\InstantLavaDeath.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Hell\\InstantLavaDeath.cs",
               "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Hell\\InstantLavaDeath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T14:53:15.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "DrownFaster.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Other\\DrownFaster.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Other\\DrownFaster.cs",
@@ -354,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 31,
               "Title": "BurnInHellPlayer.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Biome\\Hell\\BurnInHellPlayer.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Hell\\BurnInHellPlayer.cs",
@@ -367,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 36,
               "Title": "Dash.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Mechanics\\Dash.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Mechanics\\Dash.cs",
@@ -379,16 +673,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 41,
               "Title": "BossDeathStrike.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Entities\\Bosses\\Bosses\\BossDeathStrike.cs",
               "RelativeDocumentMoniker": "Content\\Entities\\Bosses\\Bosses\\BossDeathStrike.cs",
@@ -396,25 +682,24 @@
               "RelativeToolTip": "Content\\Entities\\Bosses\\Bosses\\BossDeathStrike.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T14:36:13.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T14:36:13.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "BossTitleSystem.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Systems\\BossTitleSystem.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\BossTitleSystem.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Systems\\BossTitleSystem.cs",
               "RelativeToolTip": "Content\\Systems\\BossTitleSystem.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAuwHQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAADwvzMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T14:34:32.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 40,
               "Title": "BossAnnounce.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\BossAnnounce.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\BossAnnounce.cs",
@@ -422,12 +707,11 @@
               "RelativeToolTip": "Content\\Globals\\NPCs\\BossAnnounce.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAIwIUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T14:33:29.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T14:33:29.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 42,
               "Title": "TortoiseOneShotPlayer.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\TortoiseOneShotPlayer.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\TortoiseOneShotPlayer.cs",
@@ -435,12 +719,11 @@
               "RelativeToolTip": "Content\\Globals\\NPCs\\TortoiseOneShotPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T14:28:20.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T14:28:20.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "GoldCritterDrop.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\GoldCritterDrop.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\GoldCritterDrop.cs",
@@ -448,12 +731,11 @@
               "RelativeToolTip": "Content\\Globals\\NPCs\\GoldCritterDrop.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T14:27:35.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T14:27:35.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
               "Title": "NPCProperties.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\NPCProperties.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\NPCProperties.cs",
@@ -461,12 +743,11 @@
               "RelativeToolTip": "Content\\Globals\\NPCs\\NPCProperties.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T14:26:54.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T14:26:54.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 45,
               "Title": "Mimic.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\Mimic.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\Mimic.cs",
@@ -474,12 +755,11 @@
               "RelativeToolTip": "Content\\Globals\\NPCs\\Mimic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T14:25:50.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T14:25:50.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 47,
               "Title": "MirrorManaCost.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\MirrorManaCost.cs",
               "RelativeDocumentMoniker": "Content\\Items\\MirrorManaCost.cs",
@@ -487,12 +767,11 @@
               "RelativeToolTip": "Content\\Items\\MirrorManaCost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T14:07:55.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T14:07:55.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 46,
               "Title": "GlobalItems.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\GlobalItems.cs",
               "RelativeDocumentMoniker": "Content\\Items\\GlobalItems.cs",
@@ -500,38 +779,37 @@
               "RelativeToolTip": "Content\\Items\\GlobalItems.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T13:49:28.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T13:49:28.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "NoCompromises.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\NoCompromises.cs",
               "RelativeDocumentMoniker": "NoCompromises.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\NoCompromises.cs",
               "RelativeToolTip": "NoCompromises.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T13:19:25.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 3,
               "Title": "DiscountBuffShop.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\Shops\\DiscountBuffShop.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\Shops\\DiscountBuffShop.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\Shops\\DiscountBuffShop.cs",
               "RelativeToolTip": "Content\\Globals\\NPCs\\Shops\\DiscountBuffShop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T12:11:00.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 49,
               "Title": "BetsyDashBuff.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BetsyDashBuff.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BetsyDashBuff.cs",
@@ -539,72 +817,66 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BetsyDashBuff.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T11:40:15.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:40:15.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 50,
               "Title": "MagicalCleanseCDBuff.png",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\MagicalCleanseCDBuff.png",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\MagicalCleanseCDBuff.png",
               "ToolTip": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\MagicalCleanseCDBuff.png",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\MagicalCleanseCDBuff.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T11:40:13.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:40:13.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 51,
               "Title": "GladiatorBuff.png",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\GladiatorBuff.png",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\GladiatorBuff.png",
               "ToolTip": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\GladiatorBuff.png",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\GladiatorBuff.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T11:40:11.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:40:11.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 53,
               "Title": "BetsyDashBuff.png",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BetsyDashBuff.png",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BetsyDashBuff.png",
               "ToolTip": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BetsyDashBuff.png",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BetsyDashBuff.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T11:40:09.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:40:09.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 52,
               "Title": "buffTemplate.png",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\buffTemplate.png",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\buffTemplate.png",
               "ToolTip": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\buffTemplate.png",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\buffTemplate.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T11:40:08.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:40:08.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 54,
               "Title": "debuffTemplate.png",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\debuffTemplate.png",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\debuffTemplate.png",
               "ToolTip": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\debuffTemplate.png",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\debuffTemplate.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T11:40:04.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:40:04.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 55,
               "Title": "BerserkerInstallBuff.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BerserkerInstallBuff.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BerserkerInstallBuff.cs",
@@ -612,62 +884,59 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BerserkerInstallBuff.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T11:36:58.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:36:58.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 56,
               "Title": "BerserkerInstallBuff.png",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BerserkerInstallBuff.png",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BerserkerInstallBuff.png",
               "ToolTip": "C:\\Users\\User\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BerserkerInstallBuff.png",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\source\\repos\\FargosSoulsMod\\Content\\Buffs\\BerserkerInstallBuff.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T11:36:57.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:36:57.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "HeroOfTheVillage.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage.cs",
               "RelativeDocumentMoniker": "Content\\Buffs\\HeroOfTheVillage.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Buffs\\HeroOfTheVillage.cs",
               "RelativeToolTip": "Content\\Buffs\\HeroOfTheVillage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T11:36:29.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 57,
               "Title": "FRankAdventurerEmblem.png",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\Emblems\\FRankAdventurerEmblem.png",
               "RelativeDocumentMoniker": "Content\\Items\\Emblems\\FRankAdventurerEmblem.png",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\Emblems\\FRankAdventurerEmblem.png",
               "RelativeToolTip": "Content\\Items\\Emblems\\FRankAdventurerEmblem.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T11:31:21.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:31:21.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 1,
               "Title": "AdventurerEmblems.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\Emblems\\AdventurerEmblems.cs",
               "RelativeDocumentMoniker": "Content\\Items\\Emblems\\AdventurerEmblems.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\Emblems\\AdventurerEmblems.cs",
               "RelativeToolTip": "Content\\Items\\Emblems\\AdventurerEmblems.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA7wDkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAxwD8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T11:20:11.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 25,
               "Title": "FastSleep.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Systems\\FastSleep.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\FastSleep.cs",
@@ -680,20 +949,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "StartingInventory.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\StartingInventory.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\StartingInventory.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\StartingInventory.cs",
               "RelativeToolTip": "Content\\Globals\\Player\\StartingInventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T11:10:54.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 38,
               "Title": "QuickRespawn.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Mechanics\\QuickRespawn.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Mechanics\\QuickRespawn.cs",
@@ -701,25 +970,24 @@
               "RelativeToolTip": "Content\\Globals\\Player\\Mechanics\\QuickRespawn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T11:07:01.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:07:01.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Properties.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Properties.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Properties.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\Player\\Properties.cs",
               "RelativeToolTip": "Content\\Globals\\Player\\Properties.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T11:06:56.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 48,
               "Title": "ChangedShop.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\Shops\\ChangedShop.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\Shops\\ChangedShop.cs",
@@ -727,12 +995,11 @@
               "RelativeToolTip": "Content\\Globals\\NPCs\\Shops\\ChangedShop.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T11:01:12.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:01:12.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 59,
               "Title": "ArmsDealerShop.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Globals\\NPCs\\Shops\\ArmsDealerShop.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\Shops\\ArmsDealerShop.cs",
@@ -740,24 +1007,22 @@
               "RelativeToolTip": "Content\\Globals\\NPCs\\Shops\\ArmsDealerShop.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T11:01:08.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T11:01:08.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 60,
               "Title": "StarterBag.png",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\StarterBag.png",
               "RelativeDocumentMoniker": "Content\\Items\\StarterBag.png",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\StarterBag.png",
               "RelativeToolTip": "Content\\Items\\StarterBag.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-10-17T10:59:53.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T10:59:53.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 58,
               "Title": "StarterBag.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\NoCompromises\\Content\\Items\\StarterBag.cs",
               "RelativeDocumentMoniker": "Content\\Items\\StarterBag.cs",
@@ -765,8 +1030,15 @@
               "RelativeToolTip": "Content\\Items\\StarterBag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-17T10:59:51.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-17T10:59:51.856Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

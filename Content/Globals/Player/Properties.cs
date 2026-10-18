@@ -1,4 +1,6 @@
-﻿namespace NoCompromises.Content.Global;
+﻿using NoCompromises.Content.Buffs;
+
+namespace NoCompromises.Content.Global;
 
 internal sealed class Properties : ModPlayer
 {
@@ -9,7 +11,9 @@ internal sealed class Properties : ModPlayer
     public override void PostUpdateRunSpeeds()
         => Player.maxRunSpeed *= 1.06f;
 
-    /*public override void ResetEffects()
-        => Player.pickSpeed = 0.155f;*/
+    public override void PreUpdateBuffs()
+    {
+        Player.AddBuff(ModContent.BuffType<ObserverBuff>(), 60);
+    }
 #endif
 }

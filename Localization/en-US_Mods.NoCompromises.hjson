@@ -55,4 +55,9 @@ Buffs: {
 		Description: Mods.NoCompromises.Buffs.ArachnophobiaDebuff.Description
 		DisplayName: Arachnophobia Debuff
 	}
+
+	ObserverBuff: {
+		DisplayName: Observer Buff
+		Description: Mods.NoCompromises.Buffs.ObserverBuff.Description
+	}
 }

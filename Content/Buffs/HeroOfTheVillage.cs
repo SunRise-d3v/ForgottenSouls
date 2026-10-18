@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Buffs;
+﻿namespace NoCompromises.Content.Buffs.HeroVillage;
 
 internal abstract class HeroOfTheVillage : ModBuff
 {

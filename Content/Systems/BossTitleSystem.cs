@@ -34,7 +34,8 @@ internal class BossTitleSystem : ModSystem
 
     public override void PostUpdateEverything()
     {
-        if (displayTimer > 0) displayTimer--;
+        if (displayTimer > 0)
+            displayTimer--;
     }
 
     public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
@@ -46,7 +47,9 @@ internal class BossTitleSystem : ModSystem
                 "DisasterMod: Boss Title",
                 delegate
                 {
-                    if (displayTimer > 0) DrawBossTitle();
+                    if (displayTimer > 0)
+                        DrawBossTitle();
+
                     return true;
                 },
                 InterfaceScaleType.UI)
@@ -54,7 +57,7 @@ internal class BossTitleSystem : ModSystem
         }
     }
 
-    private void DrawBossTitle()
+    private static void DrawBossTitle()
     {
         float progress = displayTimer / DisplayTime;
         float baseScale = 1.7f;

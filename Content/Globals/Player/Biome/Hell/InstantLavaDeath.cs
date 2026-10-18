@@ -20,7 +20,6 @@ internal class InstantLavaDeath : ModPlayer
 
     private bool HasLavaProtection()
     {
-        return Player.lavaImmune ||
-               Player.HasBuff(BuffID.ObsidianSkin);
+        return Player.lavaImmune || Player.HasBuff(BuffID.ObsidianSkin);
     }
 }

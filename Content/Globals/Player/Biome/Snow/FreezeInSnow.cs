@@ -18,11 +18,15 @@ internal class FreezeInSnow : ModPlayer
                 freezeTimer = 60;
                 freezeCooldown = Main.rand.Next(1000, 1501);
             }
+
+            Main.buffNoTimeDisplay[BuffID.Frozen] = true;
         }
         else
         {
             freezeCooldown = 0;
             freezeTimer = 0;
+
+            Main.buffNoTimeDisplay[BuffID.Frozen] = false;
         }
 
         if (freezeTimer > 0)

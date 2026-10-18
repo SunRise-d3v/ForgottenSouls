@@ -1,4 +1,4 @@
-﻿using NoCompromises.Content.Buffs.DeBuffs;
+﻿using NoCompromises.Content.Buffs.Debuffs;
 
 namespace NoCompromises.Content.Globals;
 
@@ -20,7 +20,7 @@ internal class Arachnophobia : ModPlayer
                     if (IsSpider(npc))
                     {
                         spiderCount++;
-                        if (spiderCount >= 3)
+                        if (spiderCount > 2)
                         {
                             surroundedBySpiders = true;
                             break;
@@ -33,7 +33,6 @@ internal class Arachnophobia : ModPlayer
         if (IsInSpiderNest() || surroundedBySpiders)
         {
             Player.AddBuff(ModContent.BuffType<ArachnophobiaDebuff>(), 60);
-            //Main
         }
     }
 
@@ -42,7 +41,11 @@ internal class Arachnophobia : ModPlayer
         return npc.type == NPCID.WallCreeper ||
                npc.type == NPCID.WallCreeperWall ||
                npc.type == NPCID.BlackRecluse ||
-               npc.type == NPCID.BlackRecluseWall;
+               npc.type == NPCID.BlackRecluseWall ||
+               npc.type == NPCID.JungleCreeper ||
+               npc.type == NPCID.JungleCreeperWall ||
+               npc.type == NPCID.BloodCrawler ||
+               npc.type == NPCID.BloodCrawlerWall;
     }
 
     private bool IsInSpiderNest()

@@ -1,4 +1,6 @@
-﻿namespace NoCompromises.Content.Items.Emblems;
+﻿using NoCompromises.Content.Buffs.HeroVillage;
+
+namespace NoCompromises.Content.Items.Emblems;
 
 internal abstract class AdventurerEmblems : ModItem
 {
@@ -32,7 +34,7 @@ internal sealed class FRankAdventurerEmblem : AdventurerEmblems
     protected override int SellPrice => 1;
 
     public override string Texture => "NoCompromises/Content/Items/Emblems/FRankAdventurerEmblem";
-    protected override int Buff => ModContent.BuffType<Buffs.HeroVillage1>();
+    protected override int Buff => ModContent.BuffType<HeroVillage1>();
 }
 
 internal sealed class CRankAdventurerEmblem : AdventurerEmblems
@@ -41,7 +43,7 @@ internal sealed class CRankAdventurerEmblem : AdventurerEmblems
     protected override int SellPrice => 50;
 
     public override string Texture => "NoCompromises/Content/Items/Emblems/CRankAdventurerEmblem";
-    protected override int Buff => ModContent.BuffType<Buffs.HeroVillage2>();
+    protected override int Buff => ModContent.BuffType<HeroVillage2>();
 }
 
 internal sealed class BRankAdventurerEmblem : AdventurerEmblems
@@ -50,7 +52,7 @@ internal sealed class BRankAdventurerEmblem : AdventurerEmblems
     protected override int SellPrice => 1 * 100;
 
     public override string Texture => "NoCompromises/Content/Items/Emblems/BRankAdventurerEmblem";
-    protected override int Buff => ModContent.BuffType<Buffs.HeroVillage3>();
+    protected override int Buff => ModContent.BuffType<HeroVillage3>();
 }
 
 internal sealed class ARankAdventurerEmblem : AdventurerEmblems
@@ -59,5 +61,5 @@ internal sealed class ARankAdventurerEmblem : AdventurerEmblems
     protected override int SellPrice => 10 * 100;
 
     public override string Texture => "NoCompromises/Content/Items/Emblems/ARankAdventurerEmblem";
-    protected override int Buff => ModContent.BuffType<Buffs.HeroVillage4>();
+    protected override int Buff => ModContent.BuffType<HeroVillage4>();
 }

@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Buffs.DeBuffs;
+﻿namespace NoCompromises.Content.Buffs.Debuffs;
 
 internal class ArachnophobiaDebuff : ModBuff
 {
@@ -11,7 +11,7 @@ internal class ArachnophobiaDebuff : ModBuff
 
     public override void Update(Player player, ref int buffIndex)
     {
-        player.statDefense -= 5;
-        player.AddBuff(BuffID.Confused, 60);
+        player.statDefense -= 10;
+        player.confused = true;
     }
 }
