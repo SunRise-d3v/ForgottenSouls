@@ -1,6 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-
-namespace NoCompromises.Content.Globals;
+﻿namespace NoCompromises.Content.Biome;
 
 internal class FreezeInSnow : ModPlayer
 {

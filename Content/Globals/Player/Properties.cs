@@ -1,6 +1,4 @@
-﻿using NoCompromises.Content.Buffs;
-
-namespace NoCompromises.Content.Global;
+﻿namespace NoCompromises.Content;
 
 internal sealed class Properties : ModPlayer
 {

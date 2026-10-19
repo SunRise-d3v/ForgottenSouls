@@ -1,7 +1,9 @@
-﻿namespace NoCompromises.Content.Buffs.Debuffs;
+﻿namespace NoCompromises.Content.Debuffs;
 
 internal class ArachnophobiaDebuff : ModBuff
 {
+    public override string Texture => "NoCompromises/Assets/Textures/Buffs/Debuff/ArachnophobiaDebuff";
+
     public override void SetStaticDefaults()
     {
         Main.debuff[Type] = true;

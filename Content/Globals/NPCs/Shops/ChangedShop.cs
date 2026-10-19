@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Global;
+﻿namespace NoCompromises.Content.NPCs.Shops;
 
 internal abstract class ChangedShop : GlobalNPC
 {

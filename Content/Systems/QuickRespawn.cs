@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Global;
+﻿namespace NoCompromises.Content.Systems;
 
 internal sealed class QuickRespawn : ModPlayer
 {

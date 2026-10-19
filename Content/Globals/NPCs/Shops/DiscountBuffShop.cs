@@ -1,7 +1,4 @@
-﻿using NoCompromises.Content.Buffs;
-using NoCompromises.Content.Buffs.HeroVillage;
-
-namespace NoCompromises.Content.Globals.NPCs;
+﻿namespace NoCompromises.Content.NPCs.Shops;
 
 public class DiscountBuffShop : GlobalNPC
 {

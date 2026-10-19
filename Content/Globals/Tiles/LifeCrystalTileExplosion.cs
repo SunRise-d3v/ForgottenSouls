@@ -1,4 +1,4 @@
-﻿using Terraria.DataStructures;
+﻿namespace NoCompromises.Content.Tiles;
 
 internal class LifeCrystalTileExplosion : GlobalTile
 {

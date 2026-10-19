@@ -6,4 +6,4 @@ buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.gif
 
 modReferences = FargowiltasSouls, Fargowiltas
 weakReferences = FargowiltasMusic, MagicStorage
-sortAfter = Fargowiltas, FargowiltasSouls, FargowiltasMusic
+sortAfter = Fargowiltas, FargowiltasSouls, FargowiltasMusic, MagicStorage

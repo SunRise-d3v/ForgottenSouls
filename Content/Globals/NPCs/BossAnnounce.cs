@@ -1,10 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-
-using NoCompromises.Content.Systems;
-
-using Terraria.DataStructures;
-
-namespace NoCompromises.Content.Globals.NPCs;
+﻿namespace NoCompromises.Content.NPCs;
 
 internal class BossAnnounce : GlobalNPC
 {

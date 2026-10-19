@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Global;
+﻿namespace NoCompromises.Content.NPCs.Shops;
 
 internal class ArmsDealerShop : ChangedShop
 {

@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Globals.Items;
+﻿namespace NoCompromises.Content.Items;
 
 internal class SpeedingUpItemUsage : GlobalItem
 {

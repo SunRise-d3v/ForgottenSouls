@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-
-using ReLogic.Graphics;
-
-using Terraria.UI;
-
-namespace NoCompromises.Content.Systems;
+﻿namespace NoCompromises.Content.Systems;
 
 internal class BossTitleSystem : ModSystem
 {

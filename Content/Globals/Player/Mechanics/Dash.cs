@@ -1,8 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-
-using Terraria.Audio;
-
-namespace NoCompromises.Content.Globals;
+﻿namespace NoCompromises.Content.Mechanics;
 
 internal class Dash : ModPlayer
 {

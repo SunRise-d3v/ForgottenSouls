@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Globals;
+﻿namespace NoCompromises.Content.Biome;
 
 internal class ChillInSnow : ModPlayer
 {

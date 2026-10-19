@@ -1,6 +1,4 @@
-﻿using Terraria.DataStructures;
-
-namespace NoCompromises.Content.Globals.NPCs;
+﻿namespace NoCompromises.Content.NPCs;
 
 internal class TortoiseOneShotPlayer : ModPlayer
 {

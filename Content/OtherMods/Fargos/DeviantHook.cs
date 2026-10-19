@@ -1,24 +1,19 @@
-﻿using System;
-using System.Reflection;
-
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-
-namespace NoCompromises.Content.Globals;
+﻿namespace OtherMods;
 
 public class DevianttGift : ModSystem
 {
+    private const string Deviantt = $"{Mods.Fargowiltas}.NPCs.Deviantt";
+
     internal static bool SuppressGifts;
 
     public override void PostSetupContent()
     {
         try
         {
-            if (!ModLoader.TryGetMod("Fargowiltas", out Mod fargo))
+            if (!ModLoader.TryGetMod(Mods.Fargowiltas, out Mod fargo))
                 return;
 
-            Type deviType = fargo.Code.GetType("Fargowiltas.NPCs.Deviantt");
+            Type deviType = fargo.Code.GetType(Deviantt);
             MethodInfo getChat = deviType?.GetMethod("GetChat", BindingFlags.Public | BindingFlags.Instance);
 
             if (getChat == null)
@@ -39,7 +34,7 @@ public class DevianttGift : ModSystem
     {
         bool giftsPending = false;
 
-        if (ModLoader.TryGetMod("FargowiltasSouls", out Mod souls))
+        if (ModLoader.TryGetMod(Mods.FargowiltasSouls, out Mod souls))
         {
             giftsPending = (bool)souls.Call("EternityMode") && !(bool)souls.Call("GiftsReceived");
         }

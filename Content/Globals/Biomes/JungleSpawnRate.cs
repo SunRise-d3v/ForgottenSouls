@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Globals.Biome;
+﻿namespace NoCompromises.Content.Biome;
 
 internal class JungleSpawnRate : GlobalNPC
 {

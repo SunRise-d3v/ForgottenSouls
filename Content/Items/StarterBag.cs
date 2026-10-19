@@ -2,6 +2,71 @@
 
 internal sealed class StarterBag : ModItem
 {
+    public override string Texture => "NoCompromises/Assets/Textures/Items/StarterBag";
+
+    private static readonly (int Type, int Stack)[] Weapons =
+    [
+        (ItemID.WandofSparking, 1),
+        (ItemID.BabyBirdStaff, 1),
+        (ItemID.WoodenArrow, 150),
+    ];
+
+    private static readonly (int Type, int Stack)[] Supplies =
+    [
+        (ItemID.WaterCandle, 1),
+        (ItemID.Torch, 100),
+        (ItemID.Squirrel, 1),
+        (ItemID.SilverCoin, 40),
+    ];
+
+    private static readonly (int Type, int Stack)[] FixedPotions =
+    [
+        (ItemID.RecallPotion, 15),
+        (ItemID.HealingPotion, 15),
+    ];
+
+    private static readonly int[] RandomPotions =
+    [
+        ItemID.MiningPotion,
+        ItemID.SpelunkerPotion,
+        ItemID.ShinePotion,
+    ];
+
+    private static readonly int[] IronGear =
+    [
+        ItemID.IronPickaxe, ItemID.IronAxe, ItemID.IronBroadsword, ItemID.IronBow,
+    ];
+
+    private static readonly int[] LeadGear =
+    [
+        ItemID.LeadPickaxe, ItemID.LeadAxe, ItemID.LeadBroadsword, ItemID.LeadBow,
+    ];
+
+    #region Mods Item
+
+    #region Magic Storage
+    private const string StorageUnit = "StorageUnit";
+    private const string StorageHeart = "StorageHeart";
+    private const string CraftingAccess = "CraftingAccess";
+    #endregion
+
+    #region Fargowiltas
+    private const string AutoHouse = "AutoHouse";
+    private const string MiniInstaBridge = "MiniInstaBridge";
+    #endregion
+
+    #region FargowiltasSouls
+    private const string PuffInABottle = "PuffInABottle";
+    private const string EternityAdvisor = "EternityAdvisor";
+    #endregion
+
+    #endregion
+
+    public override void SetStaticDefaults()
+    {
+        ItemID.Sets.OpenableBag[Type] = true;
+    }
+
     public override void SetDefaults()
     {
         Item.maxStack = 9999;
@@ -18,64 +83,84 @@ internal sealed class StarterBag : ModItem
 
     public override void RightClick(Player player)
     {
-        base.RightClick(player);
+        GiveAll(player, Weapons);
+        GiveAll(player, Supplies);
+        GivePotions(player);
+        GiveOreGear(player);
+        GiveStorage(player);
+        GiveFargoItems(player);
 
-        //Weapon
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.WandofSparking, 1);
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.BabyBirdStaff, 1);
-        //Additionally
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.WoodenArrow, 100);
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.ManaCrystal, Main.rand.Next(1, 3));
-        //Potion
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.MiningPotion, Main.rand.Next(1, 3));
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.SpelunkerPotion, Main.rand.Next(1, 3));
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.ShinePotion, Main.rand.Next(1, 3));
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.RecallPotion, 5);
-        //Items
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.Chest, 3);
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.Torch, 25);
-        player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.Bomb, 10);
-        //If there is silver in the world
-        if (ItemID.Sets.Factory.CreateBoolSet(ItemID.SilverBar)[ItemID.SilverBar])
+        Give(player, ItemID.ManaCrystal, 1);
+        Give(player, ItemID.Apple, 3);
+        Give(player, ModContent.ItemType<FRankAdventurerEmblem>());
+    }
+
+    private void GivePotions(Player player)
+    {
+        GiveAll(player, FixedPotions);
+
+        foreach (int potion in RandomPotions)
+            Give(player, potion, Main.rand.Next(1, 3));
+    }
+
+    private void GiveOreGear(Player player)
+    {
+        int[] gear = WorldGen.SavedOreTiers.Iron == TileID.Iron ? IronGear : LeadGear;
+
+        foreach (int item in gear)
+            Give(player, item);
+    }
+
+    private void GiveStorage(Player player)
+    {
+        if (!ModLoader.HasMod(Mods.MagicStorage))
         {
-            //Tools
-            player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.SilverPickaxe, 1);
-            player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.SilverAxe, 1);
-            //Weapon
-            player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.SilverBroadsword, 1);
-            player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.SilverBow, 1);
+            Give(player, ItemID.Chest, 5);
+            return;
         }
-        else if (ItemID.Sets.Factory.CreateBoolSet(ItemID.TungstenBar)[ItemID.TungstenBar])
+
+        GiveFromMods(player, 4, (Mods.MagicStorage, StorageUnit));
+        GiveFromMods(player, 1, (Mods.MagicStorage, StorageHeart));
+        GiveFromMods(player, 1, (Mods.MagicStorage, CraftingAccess));
+    }
+
+    private void GiveFargoItems(Player player)
+    {
+        GiveFromMods(player, 3, (Mods.Fargowiltas, AutoHouse));
+
+        GiveFromMods(player, 2,
+            (Mods.Fargowiltas, MiniInstaBridge),
+            (Mods.Fargowiltas, MiniInstaBridge));
+
+        GiveFromMods(player, 1,
+            (Mods.FargowiltasSouls, PuffInABottle),
+            (Mods.FargowiltasSouls, PuffInABottle));
+
+        GiveFromMods(player, 1,
+            (Mods.FargowiltasSouls, EternityAdvisor),
+            (Mods.FargowiltasSouls, EternityAdvisor));
+    }
+
+    private void Give(Player player, int type, int stack = 1)
+        => player.QuickSpawnItem(player.GetSource_OpenItem(Type), type, stack);
+
+    private void GiveAll(Player player, (int Type, int Stack)[] items)
+    {
+        foreach ((int type, int stack) in items)
+            Give(player, type, stack);
+    }
+
+    private void GiveFromMods(Player player, int stack, params (string Mod, string Name)[] candidates)
+    {
+        foreach ((string mod, string name) in candidates)
         {
-            //Tools
-            player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.TungstenPickaxe, 1);
-            player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.TungstenAxe, 1);
-            //Weapon
-            player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.TungstenBroadsword, 1);
-            player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.TungstenBow, 1);
+            if (ModContent.TryFind(mod, name, out ModItem modItem))
+            {
+                Give(player, modItem.Type, stack);
+                return;
+            }
         }
-        
-        //Accessories
-        //player.QuickSpawnItem(player.GetSource_DropAsItem(), ModContent.ItemType<FRankAdventurerEmblem>(), 1);
-        //Random Accessories
-        int randomNumber = Main.rand.Next(1, 6);
-        switch (randomNumber)
-        {
-            case 1:
-                player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.ClimbingClaws, 1);
-                break;
-            case 2:
-                player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.AnkletoftheWind, 1);
-                break;
-            case 3:
-                player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.Aglet, 1);
-                break;
-            case 4:
-                player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.HandWarmer, 1);
-                break;
-            case 5:
-                player.QuickSpawnItem(player.GetSource_DropAsItem(), ItemID.Shackle, 1);
-                break;
-        }
+
+        Mod.Logger.Warn($"StarterBag: предмет не найден ({string.Join(", ", candidates.Select(c => $"{c.Mod}/{c.Name}"))})");
     }
 }

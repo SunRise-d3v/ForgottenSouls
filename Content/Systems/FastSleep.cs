@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.System;
+﻿namespace NoCompromises.Content.Systems;
 
 internal sealed class FastSleep : ModSystem
 {

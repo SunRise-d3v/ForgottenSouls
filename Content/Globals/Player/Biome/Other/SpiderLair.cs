@@ -1,8 +1,6 @@
-﻿using NoCompromises.Content.Buffs.Debuffs;
+﻿namespace NoCompromises.Content.Biome;
 
-namespace NoCompromises.Content.Globals;
-
-internal class Arachnophobia : ModPlayer
+internal class SpiderLair : ModPlayer
 {
     public override void PostUpdate()
     {

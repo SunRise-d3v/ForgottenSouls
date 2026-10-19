@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Globals.NPCs;
+﻿namespace NoCompromises.Content.NPCs;
 
 internal class GoldCritterDrop : GlobalNPC
 {

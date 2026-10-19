@@ -1,6 +1,4 @@
-﻿namespace NoCompromises.Content.Globals;
-
-internal class BurnInHellPlayer : ModPlayer
+﻿internal class BurnInHellPlayer : ModPlayer
 {
     public override void PreUpdateBuffs()
     {

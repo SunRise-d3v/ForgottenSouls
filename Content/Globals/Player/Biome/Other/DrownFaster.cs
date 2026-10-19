@@ -1,8 +1,4 @@
-﻿using Terraria;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-
-namespace NoCompromises.Content.Globals;
+﻿namespace NoCompromises.Content.Biome;
 
 internal class DrownFaster : ModPlayer
 {

@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Global;
+﻿namespace NoCompromises.Content;
 
 internal class StartingInventory : ModPlayer
 {
