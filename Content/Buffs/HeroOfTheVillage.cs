@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Buffs;
+﻿namespace ForgottenSouls.Content.Buffs;
 
 internal abstract class HeroOfTheVillage : ModBuff
 {
@@ -16,7 +16,7 @@ internal abstract class HeroOfTheVillage : ModBuff
 
 internal class HeroVillage1 : HeroOfTheVillage
 {
-    public override string Texture => "NoCompromises/Assets/Textures/Buffs/HeroOfTheVillage1";
+    public override string Texture => ForgottenHelper.TextureLoad("Buffs", "HeroOfTheVillage1");
 
     public override void SetStaticDefaults()
     {
@@ -26,7 +26,7 @@ internal class HeroVillage1 : HeroOfTheVillage
 
 internal class HeroVillage2 : HeroOfTheVillage
 {
-    public override string Texture => "NoCompromises/Assets/Textures/Buffs/HeroOfTheVillage2";
+    public override string Texture => ForgottenHelper.TextureLoad("Buffs", "HeroOfTheVillage2");
 
     public override void SetStaticDefaults()
     {
@@ -36,7 +36,7 @@ internal class HeroVillage2 : HeroOfTheVillage
 
 internal class HeroVillage3 : HeroOfTheVillage
 {
-    public override string Texture => "NoCompromises/Assets/Textures/Buffs/HeroOfTheVillage3";
+    public override string Texture => ForgottenHelper.TextureLoad("Buffs", "HeroOfTheVillage3");
 
     public override void SetStaticDefaults()
     {
@@ -46,7 +46,7 @@ internal class HeroVillage3 : HeroOfTheVillage
 
 internal class HeroVillage4 : HeroOfTheVillage
 {
-    public override string Texture => "NoCompromises/Assets/Textures/Buffs/HeroOfTheVillage4";
+    public override string Texture => ForgottenHelper.TextureLoad("Buffs", "HeroOfTheVillage4");
 
     public override void SetStaticDefaults()
     {

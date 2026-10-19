@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Tiles;
+﻿namespace ForgottenSouls.Content.Tiles;
 
 internal class LifeCrystalTileExplosion : GlobalTile
 {
@@ -34,7 +34,7 @@ internal class LifeCrystalTileExplosion : GlobalTile
 internal class LifeCrystalBoulderDropBlocker : GlobalProjectile
 {
     [Obsolete]
-    public override void Kill(Projectile projectile, int timeLeft)
+    public override void OnKill(Projectile projectile, int timeLeft)
     {
         if (projectile.type == ProjectileID.LifeCrystalBoulder)
         {

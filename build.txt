@@ -1,9 +1,9 @@
-displayName = No compromises mod [ALPHA]
+displayName = Forgotten Souls Mod [ALPHA]
 author = SunRise-d3v
 version = 0.0.1
 
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.gif
 
 modReferences = FargowiltasSouls, Fargowiltas
-weakReferences = FargowiltasMusic, MagicStorage
-sortAfter = Fargowiltas, FargowiltasSouls, FargowiltasMusic, MagicStorage
+weakReferences = FargowiltasMusic, MagicStorage, BossChecklist
+sortAfter = Fargowiltas, FargowiltasSouls, FargowiltasMusic, MagicStorage, BossChecklist

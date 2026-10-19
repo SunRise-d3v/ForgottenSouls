@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Items;
+﻿namespace ForgottenSouls.Content.Items;
 
 internal class SpeedingUpItemUsage : GlobalItem
 {

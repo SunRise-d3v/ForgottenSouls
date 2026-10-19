@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content;
+﻿namespace ForgottenSouls.Content;
 
 internal class StartingInventory : ModPlayer
 {

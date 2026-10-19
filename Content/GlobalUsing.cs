@@ -23,19 +23,19 @@ global using Microsoft.Xna.Framework.Graphics;
 #endregion
 
 #region Mod
-global using NoCompromises;
-global using NoCompromises.Content;
-global using NoCompromises.Debug;
-global using NoCompromises.Content.Biome;
-global using NoCompromises.Content.Buffs;
-global using NoCompromises.Content.Debuffs;
-global using NoCompromises.Content.Entities;
-global using NoCompromises.Content.Items;
-global using NoCompromises.Content.Mechanics;
-global using NoCompromises.Content.NPCs;
-global using NoCompromises.Content.NPCs.Shops;
-global using NoCompromises.Content.Systems;
-global using NoCompromises.Content.Tiles;
+global using ForgottenSouls;
+global using ForgottenSouls.Content;
+global using ForgottenSouls.Debug;
+global using ForgottenSouls.Content.Biome;
+global using ForgottenSouls.Content.Buffs;
+global using ForgottenSouls.Content.Debuffs;
+global using ForgottenSouls.Content.Entities;
+global using ForgottenSouls.Content.Items;
+global using ForgottenSouls.Content.Mechanics;
+global using ForgottenSouls.Content.NPCs;
+global using ForgottenSouls.Content.NPCs.Shops;
+global using ForgottenSouls.Content.Systems;
+global using ForgottenSouls.Content.Tiles;
 
-global using OtherMods;
+global using CrossMod;
 #endregion

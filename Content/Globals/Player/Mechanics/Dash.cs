@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Mechanics;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
 internal class Dash : ModPlayer
 {

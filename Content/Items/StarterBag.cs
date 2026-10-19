@@ -1,45 +1,46 @@
-﻿namespace NoCompromises.Content.Items;
+﻿namespace ForgottenSouls.Content.Items;
 
 internal sealed class StarterBag : ModItem
 {
-    public override string Texture => "NoCompromises/Assets/Textures/Items/StarterBag";
+    public override string Texture => ForgottenHelper.TextureLoad("Items", "StarterBag");
 
     private static readonly (int Type, int Stack)[] Weapons =
     [
         (ItemID.WandofSparking, 1),
         (ItemID.BabyBirdStaff, 1),
-        (ItemID.WoodenArrow, 150),
+        (ItemID.WoodenArrow, 150)
     ];
 
     private static readonly (int Type, int Stack)[] Supplies =
     [
         (ItemID.WaterCandle, 1),
         (ItemID.Torch, 100),
+        (ItemID.Rope, 50),
         (ItemID.Squirrel, 1),
-        (ItemID.SilverCoin, 40),
+        (ItemID.SilverCoin, 40)
     ];
 
     private static readonly (int Type, int Stack)[] FixedPotions =
     [
-        (ItemID.RecallPotion, 15),
-        (ItemID.HealingPotion, 15),
+        (ItemID.RecallPotion, 10),
+        (ItemID.HealingPotion, 15)
     ];
 
     private static readonly int[] RandomPotions =
     [
         ItemID.MiningPotion,
         ItemID.SpelunkerPotion,
-        ItemID.ShinePotion,
+        ItemID.ShinePotion
     ];
 
     private static readonly int[] IronGear =
     [
-        ItemID.IronPickaxe, ItemID.IronAxe, ItemID.IronBroadsword, ItemID.IronBow,
+        ItemID.IronPickaxe, ItemID.IronAxe, ItemID.IronBroadsword, ItemID.IronBow
     ];
 
     private static readonly int[] LeadGear =
     [
-        ItemID.LeadPickaxe, ItemID.LeadAxe, ItemID.LeadBroadsword, ItemID.LeadBow,
+        ItemID.LeadPickaxe, ItemID.LeadAxe, ItemID.LeadBroadsword, ItemID.LeadBow
     ];
 
     #region Mods Item
@@ -113,7 +114,7 @@ internal sealed class StarterBag : ModItem
 
     private void GiveStorage(Player player)
     {
-        if (!ModLoader.HasMod(Mods.MagicStorage))
+        if (!ModCompat.MagicStorage)
         {
             Give(player, ItemID.Chest, 5);
             return;

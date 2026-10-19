@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Systems;
+﻿namespace ForgottenSouls.Content.Systems;
 
 internal sealed class QuickRespawn : ModPlayer
 {

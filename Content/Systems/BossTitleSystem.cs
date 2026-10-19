@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Systems;
+﻿namespace ForgottenSouls.Content.Systems;
 
 internal class BossTitleSystem : ModSystem
 {

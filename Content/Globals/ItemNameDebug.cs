@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Debug;
+﻿namespace ForgottenSouls.Debug;
 
 internal class ItemNameDebug : GlobalItem
 {

@@ -1,4 +1,4 @@
-﻿namespace NoCompromises.Content.Biome;
+﻿namespace ForgottenSouls.Content.Biome;
 
 internal class JungleSpawnRate : GlobalNPC
 {

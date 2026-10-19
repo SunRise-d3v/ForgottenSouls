@@ -1,8 +1,8 @@
-﻿namespace NoCompromises.Content.Buffs;
+﻿namespace ForgottenSouls.Content.Buffs;
 
 internal class ObserverBuff : ModBuff
 {
-    public override string Texture => "NoCompromises/Assets/Textures/Buffs/ObserverBuff";
+    public override string Texture => ForgottenHelper.TextureLoad("Buffs", "ObserverBuff");
 
     public override void SetStaticDefaults()
     {

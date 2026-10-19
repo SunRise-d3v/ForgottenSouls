@@ -1,0 +1,58 @@
+Buffs: {
+	HeroVillage1: {
+		DisplayName: Hero Village1
+		Description: Mods.ForgottenSouls.Buffs.HeroVillage1.Description
+	}
+
+	HeroVillage2: {
+		DisplayName: Hero Village2
+		Description: Mods.ForgottenSouls.Buffs.HeroVillage2.Description
+	}
+
+	HeroVillage3: {
+		DisplayName: Hero Village3
+		Description: Mods.ForgottenSouls.Buffs.HeroVillage3.Description
+	}
+
+	HeroVillage4: {
+		DisplayName: Hero Village4
+		Description: Mods.ForgottenSouls.Buffs.HeroVillage4.Description
+	}
+
+	ObserverBuff: {
+		DisplayName: Observer Buff
+		Description: Mods.ForgottenSouls.Buffs.ObserverBuff.Description
+	}
+
+	ArachnophobiaDebuff: {
+		DisplayName: Arachnophobia Debuff
+		Description: Mods.ForgottenSouls.Buffs.ArachnophobiaDebuff.Description
+	}
+}
+
+Items: {
+	ARankAdventurerEmblem: {
+		DisplayName: A Rank Adventurer Emblem
+		Tooltip: ""
+	}
+
+	BRankAdventurerEmblem: {
+		DisplayName: B Rank Adventurer Emblem
+		Tooltip: ""
+	}
+
+	CRankAdventurerEmblem: {
+		DisplayName: C Rank Adventurer Emblem
+		Tooltip: ""
+	}
+
+	FRankAdventurerEmblem: {
+		DisplayName: F Rank Adventurer Emblem
+		Tooltip: ""
+	}
+
+	StarterBag: {
+		DisplayName: Starter Bag
+		Tooltip: ""
+	}
+}
