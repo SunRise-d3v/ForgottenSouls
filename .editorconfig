@@ -2,3 +2,6 @@
 
 # IDE0130: Пространство имен (namespace) не соответствует структуре папок.
 dotnet_style_namespace_match_folder = false
+
+# CA2211: Поля, не являющиеся константами, не должны быть видимыми
+dotnet_diagnostic.CA2211.severity = none

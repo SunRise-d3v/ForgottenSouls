@@ -6,12 +6,12 @@ internal class HungerPlayer : ModPlayer
 
     private static readonly int[] HungerBuffs =
     [
-        BuffID.NeutralHunger, BuffID.Hunger, BuffID.Starving,
+        BuffID.NeutralHunger, BuffID.Hunger, BuffID.Starving
     ];
 
     private static readonly int[] FoodBuffs =
     [
-        BuffID.WellFed, BuffID.WellFed2, BuffID.WellFed3,
+        BuffID.WellFed, BuffID.WellFed2, BuffID.WellFed3
     ];
 
     private bool _savedFlag;

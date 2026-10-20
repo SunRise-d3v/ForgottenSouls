@@ -1,18 +1,32 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<!-- Import tModLoader mod properties -->
 	<Import Project="..\tModLoader.targets" />
 
 	<!-- General -->
 	<PropertyGroup>
-		
+
 	</PropertyGroup>
 
 	<!-- References -->
 	<ItemGroup>
-	  <Folder Include="Content\Entities\Bosses\Bosses\HM\CelestialTowers\" />
-	  <Folder Include="Content\Entities\Bosses\ModifiedBossLoot\Boss\" />
-	  <Folder Include="Content\Entities\Mobs\Mobs\HM\" />
+		<Reference Include="FargowiltasSouls">
+			<HintPath>lib\FargowiltasSouls.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Fargowiltas">
+			<HintPath>lib\Fargowiltas.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Luminance">
+			<HintPath>lib\Luminance.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
 	</ItemGroup>
-
+	<ItemGroup>
+	  <Folder Include="Content\NPCs\Bosses\Ocram\" />
+	  <Folder Include="Content\NPCs\Bosses\Turkor\" />
+	  <Folder Include="Content\Achievements\" />
+	  <Folder Include="CrossMod\BossChecklist\" />
+	</ItemGroup>
 </Project>

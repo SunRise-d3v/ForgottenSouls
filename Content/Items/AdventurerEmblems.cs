@@ -31,7 +31,7 @@ internal sealed class FRankAdventurerEmblem : AdventurerEmblems
     protected override int Rarity => 0;
     protected override int SellPrice => 1;
 
-    public override string Texture => ForgottenHelper.TextureLoad("Items", "FRankAdventurerEmblem");
+    public override string Texture => Helper.TextureLoad("Items", "FRankAdventurerEmblem");
     protected override int Buff => ModContent.BuffType<HeroVillage1>();
 }
 
@@ -40,7 +40,7 @@ internal sealed class CRankAdventurerEmblem : AdventurerEmblems
     protected override int Rarity => 3;
     protected override int SellPrice => 50;
 
-    public override string Texture => ForgottenHelper.TextureLoad("Items", "CRankAdventurerEmblem");
+    public override string Texture => Helper.TextureLoad("Items", "CRankAdventurerEmblem");
     protected override int Buff => ModContent.BuffType<HeroVillage2>();
 }
 
@@ -49,7 +49,7 @@ internal sealed class BRankAdventurerEmblem : AdventurerEmblems
     protected override int Rarity => 4;
     protected override int SellPrice => 1 * 100;
 
-    public override string Texture => ForgottenHelper.TextureLoad("Items", "BRankAdventurerEmblem");
+    public override string Texture => Helper.TextureLoad("Items", "BRankAdventurerEmblem");
     protected override int Buff => ModContent.BuffType<HeroVillage3>();
 }
 
@@ -58,6 +58,6 @@ internal sealed class ARankAdventurerEmblem : AdventurerEmblems
     protected override int Rarity => 5;
     protected override int SellPrice => 10 * 100;
 
-    public override string Texture => ForgottenHelper.TextureLoad("Items", "ARankAdventurerEmblem");
+    public override string Texture => Helper.TextureLoad("Items", "ARankAdventurerEmblem");
     protected override int Buff => ModContent.BuffType<HeroVillage4>();
 }

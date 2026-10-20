@@ -2,7 +2,7 @@
 
 internal class ArachnophobiaDebuff : ModBuff
 {
-    public override string Texture => ForgottenHelper.TextureLoad("Buffs/Debuff", "ArachnophobiaDebuff");
+    public override string Texture => Helper.TextureLoad("Buffs/Debuff", "ArachnophobiaDebuff");
 
     public override void SetStaticDefaults()
     {

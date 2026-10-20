@@ -55,4 +55,37 @@ Items: {
 		DisplayName: Starter Bag
 		Tooltip: ""
 	}
+
+	CookEnchantment: {
+		DisplayName: Cook Enchantment
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	RestlessSoul.DisplayName: Restless Soul
+	VinesOfTheMartyr.DisplayName: Vines Of The Martyr
+	BigEgg.DisplayName: Big Egg
+	ChocolateEgg.DisplayName: Chocolate Egg
+	DisasterBunny.DisplayName: Disaster Bunny
+
+	Lepus: {
+		DisplayName: Lepus
+		Bestiary: Mods.ForgottenSouls.NPCs.Lepus.Bestiary
+	}
+
+	SmallEgg.DisplayName: Small Egg
+}
+
+Projectiles: {
+	LepusStomp.DisplayName: Lepus Stomp
+	LilLepusStomp.DisplayName: Lil Lepus Stomp
+	Stomp.DisplayName: Stomp
+}
+
+Biomes: {
+	RabbitInvasionBiome: {
+		DisplayName: Rabbit Invasion Biome
+		TownNPCDialogueName: the Rabbit Invasion Biome
+	}
 }

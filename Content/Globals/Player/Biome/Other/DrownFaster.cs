@@ -6,7 +6,7 @@ internal class DrownFaster : ModPlayer
     {
         if (Player.wet && !Player.lavaWet && !Player.honeyWet)
         {
-            if (Player.breath > 0 && Main.GameUpdateCount % 8f == 0)
+            if (Player.breath > 0 && Main.GameUpdateCount % 7f == 0)
             {
                 Player.breath--;
             }

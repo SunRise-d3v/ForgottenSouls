@@ -19,13 +19,13 @@ internal class Darkness : ModPlayer
     private int _fadeTicksLeft;
     private float _fadeStartVolume;
 
-    private static readonly SoundStyle AttackSound = new("NoCompromises/Assets/Sounds/CharlieAttack")
+    private static readonly SoundStyle AttackSound = new("ForgottenSouls/Assets/Sounds/CharlieAttack")
     {
         Volume = 1f,
         PitchVariance = 0.1f,
     };
 
-    private static readonly SoundStyle WarningSound = new("NoCompromises/Assets/Sounds/CharlieWarning")
+    private static readonly SoundStyle WarningSound = new("ForgottenSouls/Assets/Sounds/CharlieWarning")
     {
         Volume = 1f,
         PitchVariance = 0.1f,

@@ -31,7 +31,7 @@ internal class BossTitleSystem : ModSystem
         if (index != -1)
         {
             layers.Insert(index, new LegacyGameInterfaceLayer(
-                "DisasterMod: Boss Title",
+                "ForgottenSouls: Boss Title",
                 delegate
                 {
                     if (displayTimer > 0)
@@ -61,7 +61,7 @@ internal class BossTitleSystem : ModSystem
         Vector2 subtitleSize = font.MeasureString(subtitleText) * subtitleScale;
 
         Vector2 mainPos = screenCenter - mainSize * 0.5f;
-        Vector2 subtitlePos = mainPos - new Vector2(0, subtitleSize.Y + 5f); // немного выше основного текста
+        Vector2 subtitlePos = mainPos - new Vector2(0, subtitleSize.Y + 5f);
 
         int appearPerTick = 3;
         int maxLetters = (int)((DisplayTime - displayTimer) / appearPerTick);
@@ -108,8 +108,7 @@ internal class BossTitleSystem : ModSystem
         for (int i = 0; i < mainText.Length; i++)
         {
             string letterStr = mainText[i].ToString();
-
-            Vector2 letterSize = font.MeasureString(letterStr);
+            _ = font.MeasureString(letterStr);
             Vector2 letterPos = mainPos;
 
             for (int j = 0; j < i; j++)

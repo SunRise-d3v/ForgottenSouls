@@ -2,46 +2,52 @@
 
 public class DevianttGift : ModSystem
 {
-    private const string Deviantt = $"{Mods.Fargowiltas}.NPCs.Deviantt";
-
     internal static bool SuppressGifts;
 
-    public override void PostSetupContent()
+    private delegate void OrigChatButton(UnconsciousDeviantt self, bool firstButton, ref string shopName);
+
+    private const BindingFlags Declared = BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly;
+
+    public override void Load()
     {
-        try
-        {
-            if (!ModLoader.TryGetMod(Mods.Fargowiltas, out Mod fargo))
-                return;
+        MonoModHooks.Add(
+            typeof(UnconsciousDeviantt).GetMethod(nameof(UnconsciousDeviantt.OnChatButtonClicked), Declared),
+            ChatButtonDetour);
 
-            Type deviType = fargo.Code.GetType(Deviantt);
-            MethodInfo getChat = deviType?.GetMethod("GetChat", BindingFlags.Public | BindingFlags.Instance);
-
-            if (getChat == null)
-            {
-                Mod.Logger.Warn("Deviantt.GetChat не найден, хук не установлен");
-                return;
-            }
-
-            MonoModHooks.Add(getChat, GetChatDetour);
-        }
-        catch (Exception e)
-        {
-            Mod.Logger.Error("Не удалось установить хук на Deviantt.GetChat", e);
-        }
+        MonoModHooks.Add(
+            typeof(Deviantt).GetMethod(nameof(Deviantt.GetChat), Declared),
+            GetChatDetour);
     }
 
-    private static string GetChatDetour(Func<ModNPC, string> orig, ModNPC self)
+    private static void ChatButtonDetour(OrigChatButton orig, UnconsciousDeviantt self, bool firstButton, ref string shopName)
     {
-        bool giftsPending = false;
-
-        if (ModLoader.TryGetMod(Mods.FargowiltasSouls, out Mod souls))
+        if (!firstButton)
         {
-            giftsPending = FargosMod.EternityMode && !(bool)souls.Call("GiftsReceived");
+            orig(self, firstButton, ref shopName);
+            return;
         }
 
-        SuppressGifts = giftsPending;
-        string result;
+        SuppressGifts = true;
+        try
+        {
+            orig(self, firstButton, ref shopName);
+        }
+        finally
+        {
+            SuppressGifts = false;
+        }
 
+        GiveStarterBag(self.NPC);
+    }
+
+    private static string GetChatDetour(Func<Deviantt, string> orig, Deviantt self)
+    {
+        bool giftsWereReceived = GiftsReceived;
+        bool eternityBefore = WorldSavingSystem.EternityMode;
+
+        SuppressGifts = !giftsWereReceived;
+
+        string result;
         try
         {
             result = orig(self);
@@ -51,14 +57,21 @@ public class DevianttGift : ModSystem
             SuppressGifts = false;
         }
 
-        if (giftsPending)
-        {
-            Main.LocalPlayer.QuickSpawnItem(
-                self.NPC.GetSource_Misc("DevianttStarterBag"),
-                ModContent.ItemType<StarterBag>());
-        }
+        bool giftsJustGiven = !giftsWereReceived && (eternityBefore || GiftsReceived);
+
+        if (giftsJustGiven)
+            GiveStarterBag(self.NPC);
 
         return result;
+    }
+
+    private static bool GiftsReceived => Main.LocalPlayer.FargoSouls().ReceivedMasoGift;
+
+    private static void GiveStarterBag(NPC npc)
+    {
+        Main.LocalPlayer.QuickSpawnItem(
+            npc.GetSource_Misc("DevianttStarterBag"),
+            ModContent.ItemType<StarterBag>());
     }
 }
 
@@ -66,7 +79,7 @@ public class DevianttGiftSuppress : GlobalItem
 {
     public override void OnSpawn(Item item, IEntitySource source)
     {
-        if (DevianttGift.SuppressGifts)
+        if (DevianttGift.SuppressGifts && item.type != ModContent.ItemType<StarterBag>())
             item.TurnToAir();
     }
 }

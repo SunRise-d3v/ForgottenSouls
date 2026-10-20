@@ -2,7 +2,7 @@
 
 internal class ObserverBuff : ModBuff
 {
-    public override string Texture => ForgottenHelper.TextureLoad("Buffs", "ObserverBuff");
+    public override string Texture => Helper.TextureLoad("Buffs", "ObserverBuff");
 
     public override void SetStaticDefaults()
     {
