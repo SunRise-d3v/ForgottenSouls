@@ -36,7 +36,6 @@ internal class SadoDifficultySystem : ModSystem
     }
 }
 
-/// <summary>Четвёртая иконка в окне "Выбрать сложность".</summary>
 public class SadomasochistOption : DifficultyOption
 {
     private const string LocPath = "Mods.NoCompromises.UI.";
@@ -53,13 +52,11 @@ public class SadomasochistOption : DifficultyOption
 
     public override void OnClicked()
     {
-        // Нельзя менять сложность, пока жив босс (так же, как у остальных иконок)
         if (!Masochist.CanToggleEternity())
             return;
 
         bool wasActive = SadoDifficultySystem.Sadomasochist;
 
-        // Садомазохист строится поверх Мазохиста
         MasoDifficultyOption.EnableMasochist();
         SadoDifficultySystem.Sadomasochist = true;
 
@@ -80,11 +77,10 @@ public class SadomasochistOption : DifficultyOption
     }
 }
 
-/// <summary>Добавляет четвёртую иконку в окно Fargo и растягивает панель под четыре кнопки.</summary>
 public class DifficultyMenuHook : ModSystem
 {
-    private const float Spacing = 60f;   // расстояние между центрами иконок
-    private const float OptionSize = 40f; // размер иконки (как в оригинале)
+    private const float Spacing = 60f;
+    private const float OptionSize = 40f;
 
     public override void PostSetupContent()
     {
@@ -101,18 +97,15 @@ public class DifficultyMenuHook : ModSystem
 
     private static void UpdateElementsDetour(Action<DifficultySelectionMenu> orig, DifficultySelectionMenu self)
     {
-        // Оригинал очищает панель и добавляет три иконки
         orig(self);
 
         var options = self.BackPanel.Children.OfType<DifficultyOption>().ToList();
         options.Add(self.AddNewOption(new SadomasochistOption(), 0));
 
-        // Раскладываем все иконки в ряд по центру
         float start = -Spacing * (options.Count - 1) / 2f;
         for (int i = 0; i < options.Count; i++)
             options[i].Left.Set(start + i * Spacing - OptionSize / 2f, 0.5f);
 
-        // Панель под четыре иконки
         float panelWidth = Spacing * options.Count + 20f;
         self.BackPanel.Width.Set(panelWidth, 0);
         self.BackPanel.Left.Set(-panelWidth / 2f, 0.5f);

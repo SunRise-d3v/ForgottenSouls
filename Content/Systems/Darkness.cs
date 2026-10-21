@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Systems;
 
-internal class Darkness : ModPlayer
+internal sealed class Darkness : ModPlayer
 {
     private const int HitTick = 4 * 60;
     private const int PauseBeforeHitTicks = 60;

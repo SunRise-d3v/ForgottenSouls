@@ -1,8 +1,8 @@
 ﻿namespace ForgottenSouls.Content.Dusts;
 
-internal class EggDust : ModDust
+internal sealed class EggDust : ModDust
 {
-    public override string Texture => Helper.TextureLoad("Dusts", "EggDust");
+    public override string Texture =>  Helper.TextureLoad("Dusts", "EggDust");
 
     private bool succ = false;
     public override void OnSpawn(Dust dust)

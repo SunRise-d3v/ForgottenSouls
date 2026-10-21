@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Tiles;
 
-internal class VinesOfTheMartyr : ModNPC
+internal sealed class VinesOfTheMartyr : ModNPC
 {
     public override string Texture => Helper.TextureLoad("NPCs", "VinesOfTheMartyr");
 
@@ -277,7 +277,7 @@ internal class VinesOfTheMartyr : ModNPC
     }
 }
 
-internal class VinePlayer : ModPlayer
+internal sealed class VinePlayer : ModPlayer
 {
     private const int DamageIntervalTicks = 45;
 

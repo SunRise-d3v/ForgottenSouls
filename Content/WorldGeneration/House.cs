@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ForgottenSouls.Content.WorldGeneration;
 
-namespace ForgottenSouls.Content.WorldGeneration;
-
-internal class House : ModSystem
+internal sealed class House : ModSystem
 {
 #if false
     private const int MinDistance = 30;
@@ -38,7 +32,6 @@ internal class House : ModSystem
 
         if (statueType != -1)
         {
-            // Ищем статую рядом со спавном.
             for (int x = 10; x < Main.maxTilesX - 10; x++)
             {
                 for (int y = 10; y < Main.maxTilesY - 10; y++)
@@ -70,7 +63,6 @@ internal class House : ModSystem
         if (!WorldGen.InWorld(houseX, spawnY, HouseWidth + 5))
             return;
 
-        // Ищем поверхность земли.
         int groundY = spawnY;
 
         for (int y = spawnY - 10; y < spawnY + 20; y++)
@@ -89,7 +81,6 @@ internal class House : ModSystem
             }
         }
 
-        // Проверяем, что дом не уйдёт за границы мира.
         if (!WorldGen.InWorld(
             houseX - HouseWidth / 2,
             groundY - HouseHeight - 2,
@@ -109,7 +100,6 @@ internal class House : ModSystem
     {
         int right = left + HouseWidth - 1;
 
-        // Расчищаем место внутри дома.
         for (int x = left; x <= right; x++)
         {
             for (int y = top; y < groundY; y++)
@@ -121,7 +111,6 @@ internal class House : ModSystem
             }
         }
 
-        // Стены, пол и крыша.
         for (int x = left; x <= right; x++)
         {
             WorldGen.PlaceTile(
@@ -144,11 +133,9 @@ internal class House : ModSystem
                 mute: true, forced: true);
         }
 
-        // Проём для двери в левой стене.
         WorldGen.KillTile(left, groundY - 2, noItem: true);
         WorldGen.KillTile(left, groundY - 3, noItem: true);
 
-        // Источник света.
         WorldGen.PlaceTile(
             left + HouseWidth / 2,
             top + 2,
@@ -156,7 +143,6 @@ internal class House : ModSystem
             mute: true,
             forced: true);
 
-        // Обновляем рамки блоков.
         WorldGen.RangeFrame(
             left - 1,
             top - 1,

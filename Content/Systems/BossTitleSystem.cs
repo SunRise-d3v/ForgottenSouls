@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Systems;
 
-internal class BossTitleSystem : ModSystem
+internal sealed class BossTitleSystem : ModSystem
 {
     private static string bossName = "";
     private static string bossSubtitle = "";

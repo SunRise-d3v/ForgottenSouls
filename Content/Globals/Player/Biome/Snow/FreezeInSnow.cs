@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class FreezeInSnow : ModPlayer
+internal sealed class FreezeInSnow : ModPlayer
 {
     private int freezeTimer = 0;
     private int freezeCooldown = 0;

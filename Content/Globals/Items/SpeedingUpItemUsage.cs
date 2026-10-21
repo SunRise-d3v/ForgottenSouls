@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Items;
 
-internal class SpeedingUpItemUsage : GlobalItem
+internal sealed class SpeedingUpItemUsage : GlobalItem
 {
     public override void SetDefaults(Item item)
     {

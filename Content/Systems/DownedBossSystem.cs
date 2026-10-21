@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Terraria.GameContent.ItemDropRules;
-
-namespace ForgottenSouls.Content.Systems;
+﻿namespace ForgottenSouls.Content.Systems;
 
 internal class DownedBossSystem : ModSystem
 {
@@ -68,8 +59,8 @@ internal class DownedBossSystem : ModSystem
 
 public class RabbitInvasionBiome : ModBiome
 {
-    private const string MUSIC_PATH = "Consolaria/Assets/Music/Lepus";
-    public override int Music => MusicLoader.GetMusicSlot(MUSIC_PATH);
+    private readonly string _musicPath = Helper.SoundLoad("Lepus", "Lepus");
+    public override int Music => MusicLoader.GetMusicSlot(_musicPath);
 
     public override bool IsBiomeActive(Player player)
     {

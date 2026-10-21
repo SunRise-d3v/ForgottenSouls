@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class DesertDebuff : ModPlayer
+internal sealed class DesertDebuff : ModPlayer
 {
     public override void PreUpdateBuffs()
     {

@@ -28,6 +28,11 @@ Buffs: {
 		DisplayName: Arachnophobia Debuff
 		Description: Mods.ForgottenSouls.Buffs.ArachnophobiaDebuff.Description
 	}
+
+	Jammed: {
+		// DisplayName: Jammed
+		// Description: Mods.ForgottenSouls.Buffs.Jammed.Description
+	}
 }
 
 Items: {
@@ -75,6 +80,7 @@ NPCs: {
 	}
 
 	// SmallEgg.DisplayName: Small Egg
+	// BonePile.DisplayName: Bone Pile
 }
 
 Projectiles: {

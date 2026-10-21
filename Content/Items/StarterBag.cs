@@ -23,7 +23,7 @@ internal sealed class StarterBag : ModItem
     private static readonly (int Type, int Stack)[] FixedPotions =
     [
         (ItemID.RecallPotion, 10),
-        (ItemID.HealingPotion, 15)
+        (ItemID.LesserHealingPotion, 15)
     ];
 
     private static readonly int[] RandomPotions =
@@ -101,7 +101,7 @@ internal sealed class StarterBag : ModItem
         GiveAll(player, FixedPotions);
 
         foreach (int potion in RandomPotions)
-            Give(player, potion, Main.rand.Next(1, 3));
+            Give(player, potion, Main.rand.Next(1, 3 + 1));
     }
 
     private void GiveOreGear(Player player)

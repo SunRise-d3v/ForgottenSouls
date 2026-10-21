@@ -3,6 +3,7 @@ global using System;
 global using System.Collections.Generic;
 global using System.Linq;
 global using System.Reflection;
+global using System.IO;
 #endregion
 
 #region Terraria
@@ -35,6 +36,7 @@ global using FargowiltasSouls.Core.Systems;
 global using Fargowiltas.NPCs;
 global using FargowiltasSouls;
 global using FargowiltasSouls.Content.NPCs;
+global using FargowiltasSouls.Content.Projectiles;
 
 global using FargowiltasSouls.Content.Bosses.AbomBoss;
 global using FargowiltasSouls.Content.Bosses.BanishedBaron;
@@ -52,6 +54,7 @@ global using FargowiltasSouls.Content.Bosses.DeviBoss;
 global using FargowiltasSouls.Content.Bosses.Lifelight;
 global using FargowiltasSouls.Content.Bosses.MutantBoss;
 global using FargowiltasSouls.Content.Bosses.TrojanSquirrel;
+global using FargowiltasSouls.Content.Items.Weapons.Challengers;
 #endregion
 
 #region Mod

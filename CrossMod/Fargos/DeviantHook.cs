@@ -1,6 +1,6 @@
 ﻿namespace CrossMod;
 
-public class DevianttGift : ModSystem
+public sealed class DevianttGift : ModSystem
 {
     internal static bool SuppressGifts;
 
@@ -75,7 +75,7 @@ public class DevianttGift : ModSystem
     }
 }
 
-public class DevianttGiftSuppress : GlobalItem
+public sealed class DevianttGiftSuppress : GlobalItem
 {
     public override void OnSpawn(Item item, IEntitySource source)
     {

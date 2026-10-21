@@ -6,8 +6,8 @@ internal sealed class Properties : ModPlayer
     public override void PreUpdateMovement()
         => Player.moveSpeed += 0.144f;
 
-    public override void PostUpdateRunSpeeds()
-        => Player.maxRunSpeed *= 1.06f;
+    // public override void PostUpdateRunSpeeds()
+    // => Player.maxRunSpeed *= 1.06f;
 
     public override void PreUpdateBuffs()
     {

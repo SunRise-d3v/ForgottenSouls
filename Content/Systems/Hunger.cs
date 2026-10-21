@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Systems;
 
-internal class HungerPlayer : ModPlayer
+internal sealed class HungerPlayer : ModPlayer
 {
     private const int PeckishDuration = 5 * 60 * 60;
 

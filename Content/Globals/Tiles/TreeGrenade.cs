@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Tiles;
 
-internal class TreeGrenade : ModSystem
+internal sealed class TreeGrenade : ModSystem
 {
     private const float Chance = 0.05f;
     private const int GrenadeDamage = 40;

@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class NPCProperties : GlobalNPC
+internal sealed class NPCProperties : GlobalNPC
 {
     public override void SetDefaults(NPC npc)
     {

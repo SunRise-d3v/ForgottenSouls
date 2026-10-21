@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Buffs;
 
-internal class ObserverBuff : ModBuff
+internal sealed class ObserverBuff : ModBuff
 {
     public override string Texture => Helper.TextureLoad("Buffs", "ObserverBuff");
 

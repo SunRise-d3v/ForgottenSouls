@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Mechanics;
 
-internal class Dash : ModPlayer
+internal sealed class Dash : ModPlayer
 {
     private readonly int _dashCooldown = 120;
     private readonly int _dashDuration = 25;

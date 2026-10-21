@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Tiles;
 
-internal class LifeCrystalTileExplosion : GlobalTile
+internal sealed class LifeCrystalTileExplosion : GlobalTile
 {
     public override void KillTile(int i, int j, int type, ref bool fail, ref bool effectOnly, ref bool noItem)
     {
@@ -31,7 +31,7 @@ internal class LifeCrystalTileExplosion : GlobalTile
     }
 }
 
-internal class LifeCrystalBoulderDropBlocker : GlobalProjectile
+internal sealed class LifeCrystalBoulderDropBlocker : GlobalProjectile
 {
     [Obsolete]
     public override void OnKill(Projectile projectile, int timeLeft)

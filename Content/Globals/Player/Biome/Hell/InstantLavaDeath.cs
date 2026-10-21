@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class InstantLavaDeath : ModPlayer
+internal sealed class InstantLavaDeath : ModPlayer
 {
     public override void PostUpdate()
     {

@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Items;
 
-internal class MirrorManaCost : GlobalItem
+internal sealed class MirrorManaCost : GlobalItem
 {
     private const int MANA_COST = 20;
 

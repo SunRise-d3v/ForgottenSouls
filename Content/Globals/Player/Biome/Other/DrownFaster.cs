@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class DrownFaster : ModPlayer
+internal sealed class DrownFaster : ModPlayer
 {
     public override void PostUpdate()
     {

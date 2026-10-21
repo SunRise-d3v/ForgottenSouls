@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Debuffs;
 
-internal class ArachnophobiaDebuff : ModBuff
+internal sealed class ArachnophobiaDebuff : ModBuff
 {
     public override string Texture => Helper.TextureLoad("Buffs/Debuff", "ArachnophobiaDebuff");
 

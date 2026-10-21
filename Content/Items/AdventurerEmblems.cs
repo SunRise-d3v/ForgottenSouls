@@ -22,7 +22,7 @@ internal abstract class AdventurerEmblems : ModItem
 
     public override void UpdateInventory(Player player)
     {
-        player.AddBuff(Buff, 2);
+        player.AddBuff(Buff, 60);
     }
 }
 

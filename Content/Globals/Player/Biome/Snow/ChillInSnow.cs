@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class ChillInSnow : ModPlayer
+internal sealed class ChillInSnow : ModPlayer
 {
     public override void PreUpdateBuffs()
     {

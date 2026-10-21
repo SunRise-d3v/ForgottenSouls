@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content;
 
-internal class StartingInventory : ModPlayer
+internal sealed class StartingInventory : ModPlayer
 {
     public override IEnumerable<Item> AddStartingItems(bool mediumCoreDeath)
     {

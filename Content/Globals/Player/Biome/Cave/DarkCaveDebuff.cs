@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class DarkCaveDebuff : ModPlayer
+internal sealed class DarkCaveDebuff : ModPlayer
 {
     public override void PostUpdate()
     {

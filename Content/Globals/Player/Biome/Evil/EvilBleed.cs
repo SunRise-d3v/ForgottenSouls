@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class EvilBleed : ModPlayer
+internal sealed class EvilBleed : ModPlayer
 {
     public override void PreUpdateBuffs()
     {

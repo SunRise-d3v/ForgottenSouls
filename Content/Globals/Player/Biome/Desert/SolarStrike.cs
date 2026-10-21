@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class SolarStrike : ModPlayer
+internal sealed class SolarStrike : ModPlayer
 {
 #if false
     private int sunStrikeTimer = 0;

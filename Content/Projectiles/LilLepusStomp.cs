@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Projectiles;
 
-internal class LilLepusStomp : ModProjectile
+internal sealed class LilLepusStomp : ModProjectile
 {
     public override string Texture => Helper.TextureLoad("NPCs/Lepus", "LilLepusStomp");
     

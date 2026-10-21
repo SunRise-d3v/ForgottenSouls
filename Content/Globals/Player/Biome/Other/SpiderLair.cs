@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Biome;
 
-internal class SpiderLair : ModPlayer
+internal sealed class SpiderLair : ModPlayer
 {
     public override void PostUpdate()
     {

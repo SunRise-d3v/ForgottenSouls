@@ -5,3 +5,6 @@ dotnet_style_namespace_match_folder = false
 
 # CA2211: Поля, не являющиеся константами, не должны быть видимыми
 dotnet_diagnostic.CA2211.severity = none
+
+# CS0809: Устаревший член переопределяет неустаревший член
+dotnet_diagnostic.CS0809.severity = none

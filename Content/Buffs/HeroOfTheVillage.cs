@@ -14,7 +14,7 @@ internal abstract class HeroOfTheVillage : ModBuff
     public override void Update(NPC npc, ref int buffIndex) { }
 }
 
-internal class HeroVillage1 : HeroOfTheVillage
+internal sealed class HeroVillage1 : HeroOfTheVillage
 {
     public override string Texture => Helper.TextureLoad("Buffs", "HeroOfTheVillage1");
 
@@ -24,7 +24,7 @@ internal class HeroVillage1 : HeroOfTheVillage
     }
 }
 
-internal class HeroVillage2 : HeroOfTheVillage
+internal sealed class HeroVillage2 : HeroOfTheVillage
 {
     public override string Texture => Helper.TextureLoad("Buffs", "HeroOfTheVillage2");
 
@@ -34,7 +34,7 @@ internal class HeroVillage2 : HeroOfTheVillage
     }
 }
 
-internal class HeroVillage3 : HeroOfTheVillage
+internal sealed class HeroVillage3 : HeroOfTheVillage
 {
     public override string Texture => Helper.TextureLoad("Buffs", "HeroOfTheVillage3");
 
@@ -44,7 +44,7 @@ internal class HeroVillage3 : HeroOfTheVillage
     }
 }
 
-internal class HeroVillage4 : HeroOfTheVillage
+internal sealed class HeroVillage4 : HeroOfTheVillage
 {
     public override string Texture => Helper.TextureLoad("Buffs", "HeroOfTheVillage4");
 
