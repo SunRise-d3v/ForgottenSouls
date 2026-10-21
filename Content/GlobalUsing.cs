@@ -55,6 +55,9 @@ global using FargowiltasSouls.Content.Bosses.Lifelight;
 global using FargowiltasSouls.Content.Bosses.MutantBoss;
 global using FargowiltasSouls.Content.Bosses.TrojanSquirrel;
 global using FargowiltasSouls.Content.Items.Weapons.Challengers;
+global using Fargowiltas.Items.Explosives;
+global using FargowiltasSouls.Content.Items.Accessories.Masomode;
+global using FargowiltasSouls.Content.Items.Misc;
 #endregion
 
 #region Mod

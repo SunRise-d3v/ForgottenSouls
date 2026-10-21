@@ -87,6 +87,7 @@ Projectiles: {
 	LepusStomp.DisplayName: Lepus Stomp
 	LilLepusStomp.DisplayName: Lil Lepus Stomp
 	Stomp.DisplayName: Stomp
+	SporeCloud.DisplayName: Spore Cloud
 }
 
 Biomes: {

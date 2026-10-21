@@ -43,24 +43,10 @@ internal sealed class StarterBag : ModItem
         ItemID.LeadPickaxe, ItemID.LeadAxe, ItemID.LeadBroadsword, ItemID.LeadBow
     ];
 
-    #region Mods Item
-
     #region Magic Storage
     private const string StorageUnit = "StorageUnit";
     private const string StorageHeart = "StorageHeart";
     private const string CraftingAccess = "CraftingAccess";
-    #endregion
-
-    #region Fargowiltas
-    private const string AutoHouse = "AutoHouse";
-    private const string MiniInstaBridge = "MiniInstaBridge";
-    #endregion
-
-    #region FargowiltasSouls
-    private const string PuffInABottle = "PuffInABottle";
-    private const string EternityAdvisor = "EternityAdvisor";
-    #endregion
-
     #endregion
 
     public override void SetStaticDefaults()
@@ -86,9 +72,11 @@ internal sealed class StarterBag : ModItem
     {
         GiveAll(player, Weapons);
         GiveAll(player, Supplies);
+
         GivePotions(player);
         GiveOreGear(player);
         GiveStorage(player);
+
         GiveFargoItems(player);
 
         Give(player, ItemID.ManaCrystal, 1);
@@ -127,19 +115,10 @@ internal sealed class StarterBag : ModItem
 
     private void GiveFargoItems(Player player)
     {
-        GiveFromMods(player, 3, (Mods.Fargowiltas, AutoHouse));
-
-        GiveFromMods(player, 2,
-            (Mods.Fargowiltas, MiniInstaBridge),
-            (Mods.Fargowiltas, MiniInstaBridge));
-
-        GiveFromMods(player, 1,
-            (Mods.FargowiltasSouls, PuffInABottle),
-            (Mods.FargowiltasSouls, PuffInABottle));
-
-        GiveFromMods(player, 1,
-            (Mods.FargowiltasSouls, EternityAdvisor),
-            (Mods.FargowiltasSouls, EternityAdvisor));
+        Give(player, ModContent.ItemType<AutoHouse>());
+        Give(player, ModContent.ItemType<MiniInstaBridge>());
+        Give(player, ModContent.ItemType<PuffInABottle>());
+        Give(player, ModContent.ItemType<EternityAdvisor>());
     }
 
     private void Give(Player player, int type, int stack = 1)
