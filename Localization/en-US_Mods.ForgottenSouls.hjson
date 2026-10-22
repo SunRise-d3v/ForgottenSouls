@@ -86,6 +86,7 @@ NPCs: {
 
 	SmallEgg.DisplayName: Small Egg
 	BonePile.DisplayName: Bone Pile
+	TheSnail.DisplayName: The Snail
 }
 
 Projectiles: {

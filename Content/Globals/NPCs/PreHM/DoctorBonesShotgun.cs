@@ -20,7 +20,7 @@ internal class DoctorBonesShotgun : GlobalNPC
     private enum State
     {
         Walk,
-        Aim,
+        Aim
     }
 
     private State _state;
@@ -150,7 +150,6 @@ internal class DoctorBonesShotgun : GlobalNPC
         Main.instance.LoadItem(GunItem);
         Texture2D texture = TextureAssets.Item[GunItem].Value;
 
-        // В покое ствол смотрит вперёд и чуть вниз, при прицеливании на игрока
         float rotation = _aiming
             ? _aim
             : (npc.direction == 1 ? 0.25f : MathHelper.Pi - 0.25f);

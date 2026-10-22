@@ -3,56 +3,78 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\weddingcouple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\weddingcouple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\thesnail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\thesnail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\sporecloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\sporecloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\goblinhitdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\goblinhitdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\explosivebunny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\explosivebunny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\doctorbonesshotgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\doctorbonesshotgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\bonepile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\bonepile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\batclone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\batclone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\TheSnail_WallPhasing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\TheSnail_Fixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\forgottensouls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:forgottensouls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\weddingcouple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\weddingcouple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\buffs\\warcry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\buffs\\warcry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\warcry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\warcry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\minerpickaxeknockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\minerpickaxeknockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\sporecloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\sporecloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\minerpickaxeknockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\minerpickaxeknockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\granitegolemroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\granitegolemroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\granitegolemroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\granitegolemroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\doctorbonesshotgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\doctorbonesshotgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\tiles\\crucibleshimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\tiles\\crucibleshimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\crucibleshimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\crucibleshimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\bosses\\bosskillcounterplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\bosses\\bosskillcounterplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\bosskillcounterplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\bosskillcounterplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\bosses\\bosskillcounternpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\bosses\\bosskillcounternpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\bosskillcounternpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\bosskillcounternpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\bossfaroneshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\bossfaroneshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\batclone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\batclone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\bosses\\bossfaroneshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\bosses\\bossfaroneshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\player\\biome\\desert\\desertdebuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,10 +106,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\ahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\ahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\bonepile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\bonepile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\items\\adventureremblems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -206,10 +224,6 @@
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\player\\properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\player\\nightchillplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\player\\nightchillplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\player\\lifecrystalhealthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\player\\lifecrystalhealthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -276,14 +290,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\goldcritterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\goldcritterdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\goblinhitdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\goblinhitdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\prehm\\explosivebunny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:content\\globals\\npcs\\prehm\\explosivebunny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globals\\npcs\\hm\\tortoiseoneshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -376,7 +382,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 99,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -412,72 +418,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BossKillCounterNPC.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\BossKillCounterNPC.cs",
-              "RelativeDocumentMoniker": "Content\\BossKillCounterNPC.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\BossKillCounterNPC.cs",
-              "RelativeToolTip": "Content\\BossKillCounterNPC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "TheSnail_WallPhasing.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TheSnail_WallPhasing.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Downloads\\TheSnail_WallPhasing.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TheSnail_WallPhasing.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Downloads\\TheSnail_WallPhasing.cs",
+              "ViewState": "AgIAAJkBAAAAAAAAAAAIwNUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T13:14:31.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T19:36:34.756Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "TheSnail_Fixed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TheSnail_Fixed.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Downloads\\TheSnail_Fixed.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TheSnail_Fixed.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Downloads\\TheSnail_Fixed.cs",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAIwNEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T19:02:11.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TheSnail.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\TheSnail.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\TheSnail.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\TheSnail.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\TheSnail.cs",
+              "ViewState": "AgIAAG0BAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T18:25:44.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BossKillCounterNPC.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\Bosses\\BossKillCounterNPC.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\Bosses\\BossKillCounterNPC.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\Bosses\\BossKillCounterNPC.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\Bosses\\BossKillCounterNPC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T13:14:31.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "BossKillCounterPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\BossKillCounterPlayer.cs",
-              "RelativeDocumentMoniker": "Content\\BossKillCounterPlayer.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\BossKillCounterPlayer.cs",
-              "RelativeToolTip": "Content\\BossKillCounterPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\Bosses\\BossKillCounterPlayer.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\Bosses\\BossKillCounterPlayer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\Bosses\\BossKillCounterPlayer.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\Bosses\\BossKillCounterPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T13:13:57.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T13:13:57.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "CrucibleShimmer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\CrucibleShimmer.cs",
-              "RelativeDocumentMoniker": "Content\\CrucibleShimmer.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\CrucibleShimmer.cs",
-              "RelativeToolTip": "Content\\CrucibleShimmer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Tiles\\CrucibleShimmer.cs",
+              "RelativeDocumentMoniker": "Content\\Tiles\\CrucibleShimmer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Tiles\\CrucibleShimmer.cs",
+              "RelativeToolTip": "Content\\Tiles\\CrucibleShimmer.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T12:55:14.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T12:55:14.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "WarCry.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\WarCry.cs",
-              "RelativeDocumentMoniker": "Content\\WarCry.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\WarCry.cs",
-              "RelativeToolTip": "Content\\WarCry.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Buffs\\WarCry.cs",
+              "RelativeDocumentMoniker": "Content\\Buffs\\WarCry.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Buffs\\WarCry.cs",
+              "RelativeToolTip": "Content\\Buffs\\WarCry.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAANYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T08:42:05.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T08:42:05.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "GraniteGolemRoll.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\GraniteGolemRoll.cs",
-              "RelativeDocumentMoniker": "Content\\GraniteGolemRoll.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\GraniteGolemRoll.cs",
-              "RelativeToolTip": "Content\\GraniteGolemRoll.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\GraniteGolemRoll.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\GraniteGolemRoll.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\GraniteGolemRoll.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\GraniteGolemRoll.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAN4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T08:27:30.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T08:27:30.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "SolarStrike.fx",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Assets\\Effects\\SolarStrike.fx",
               "RelativeDocumentMoniker": "Assets\\Effects\\SolarStrike.fx",
@@ -485,12 +523,11 @@
               "RelativeToolTip": "Assets\\Effects\\SolarStrike.fx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-22T08:24:31.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T08:24:31.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "EasyXnb.exe.config",
               "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\Rar$DIa18192.44521\\EasyXnb.exe.config",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa18192.44521\\EasyXnb.exe.config",
@@ -501,51 +538,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "BossFarOneShot.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\BossFarOneShot.cs",
-              "RelativeDocumentMoniker": "Content\\BossFarOneShot.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\BossFarOneShot.cs",
-              "RelativeToolTip": "Content\\BossFarOneShot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\Bosses\\BossFarOneShot.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\Bosses\\BossFarOneShot.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\Bosses\\BossFarOneShot.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\Bosses\\BossFarOneShot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T07:29:21.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T07:29:21.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "DoctorBonesShotgun.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\DoctorBonesShotgun.cs",
-              "RelativeDocumentMoniker": "Content\\DoctorBonesShotgun.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\DoctorBonesShotgun.cs",
-              "RelativeToolTip": "Content\\DoctorBonesShotgun.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\DoctorBonesShotgun.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\DoctorBonesShotgun.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\DoctorBonesShotgun.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\DoctorBonesShotgun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T07:20:11.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WeddingCouple.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\WeddingCouple.cs",
-              "RelativeDocumentMoniker": "Content\\WeddingCouple.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\WeddingCouple.cs",
-              "RelativeToolTip": "Content\\WeddingCouple.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwIEAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\WeddingCouple.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\WeddingCouple.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\WeddingCouple.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\WeddingCouple.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAgwIEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T21:38:18.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SporeCloud.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\SporeCloud.cs",
-              "RelativeDocumentMoniker": "Content\\SporeCloud.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\SporeCloud.cs",
-              "RelativeToolTip": "Content\\SporeCloud.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\SporeCloud.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\SporeCloud.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\SporeCloud.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\SporeCloud.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAwwFMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T21:10:43.269Z",
@@ -553,45 +589,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "MinerPickaxeKnockout.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\MinerPickaxeKnockout.cs",
-              "RelativeDocumentMoniker": "Content\\MinerPickaxeKnockout.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\MinerPickaxeKnockout.cs",
-              "RelativeToolTip": "Content\\MinerPickaxeKnockout.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\MinerPickaxeKnockout.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\MinerPickaxeKnockout.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\MinerPickaxeKnockout.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\MinerPickaxeKnockout.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T20:34:03.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T20:34:03.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "BatClone.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\BatClone.cs",
-              "RelativeDocumentMoniker": "Content\\BatClone.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\BatClone.cs",
-              "RelativeToolTip": "Content\\BatClone.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAkwDsAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\BatClone.cs",
+              "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\BatClone.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\BatClone.cs",
+              "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\BatClone.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA3wDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T19:35:58.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 6,
               "Title": "BonePile.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\BonePile.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\BonePile.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\BonePile.cs",
               "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\BonePile.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA2wCMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T14:09:35.846Z"
+              "WhenOpened": "2026-10-21T14:09:35.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "RestlessSoul.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Mobs\\RestlessSoul.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Mobs\\RestlessSoul.cs",
@@ -603,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "Mods.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\CrossMod\\Mods.cs",
               "RelativeDocumentMoniker": "CrossMod\\Mods.cs",
@@ -615,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "DeviantHook.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\CrossMod\\Fargos\\DeviantHook.cs",
               "RelativeDocumentMoniker": "CrossMod\\Fargos\\DeviantHook.cs",
@@ -627,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "SadoDifficultySystem.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Systems\\SadoDifficultySystem.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\SadoDifficultySystem.cs",
@@ -639,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "QuickRespawn.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Systems\\QuickRespawn.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\QuickRespawn.cs",
@@ -651,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "Hunger.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Systems\\Hunger.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\Hunger.cs",
@@ -663,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "FastSleep.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Systems\\FastSleep.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\FastSleep.cs",
@@ -671,12 +707,11 @@
               "RelativeToolTip": "Content\\Systems\\FastSleep.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T13:54:46.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T13:54:46.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Darkness.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Systems\\Darkness.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\Darkness.cs",
@@ -688,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "BossTitleSystem.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Systems\\BossTitleSystem.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\BossTitleSystem.cs",
@@ -700,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "CookEnchantment.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Items\\Accessories\\CookEnchantment.cs",
               "RelativeDocumentMoniker": "Content\\Items\\Accessories\\CookEnchantment.cs",
@@ -712,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "Dash.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Mechanics\\Dash.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Mechanics\\Dash.cs",
@@ -724,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "FreezeInSnow.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Snow\\FreezeInSnow.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Snow\\FreezeInSnow.cs",
@@ -736,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "InstantLavaDeath.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Hell\\InstantLavaDeath.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Hell\\InstantLavaDeath.cs",
@@ -748,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "BurnInHellPlayer.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Hell\\BurnInHellPlayer.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Hell\\BurnInHellPlayer.cs",
@@ -760,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 66,
               "Title": "EvilBleed.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Evil\\EvilBleed.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Evil\\EvilBleed.cs",
@@ -772,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "BossAnnounce.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\Bosses\\BossAnnounce.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\Bosses\\BossAnnounce.cs",
@@ -784,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "SpeedingUpItemUsage.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Items\\SpeedingUpItemUsage.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Items\\SpeedingUpItemUsage.cs",
@@ -796,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 79,
               "Title": "MirrorManaCost.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Items\\MirrorManaCost.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Items\\MirrorManaCost.cs",
@@ -808,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 80,
               "Title": "GlobalItems.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Items\\GlobalItems.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Items\\GlobalItems.cs",
@@ -820,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 81,
               "Title": "JungleSpawnRate.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Biomes\\JungleSpawnRate.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Biomes\\JungleSpawnRate.cs",
@@ -832,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 85,
               "Title": "ObserverBuff.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Buffs\\ObserverBuff.cs",
               "RelativeDocumentMoniker": "Content\\Buffs\\ObserverBuff.cs",
@@ -844,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 86,
               "Title": "HeroOfTheVillage.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Buffs\\HeroOfTheVillage.cs",
               "RelativeDocumentMoniker": "Content\\Buffs\\HeroOfTheVillage.cs",
@@ -856,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 88,
               "Title": "ArachnophobiaDebuff.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.cs",
               "RelativeDocumentMoniker": "Content\\Buffs\\Debuffs\\ArachnophobiaDebuff.cs",
@@ -868,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "StartingInventory.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\StartingInventory.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\StartingInventory.cs",
@@ -880,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 72,
               "Title": "GoldCritterDrop.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\GoldCritterDrop.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\GoldCritterDrop.cs",
@@ -892,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "AdventurerEmblems.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Items\\AdventurerEmblems.cs",
               "RelativeDocumentMoniker": "Content\\Items\\AdventurerEmblems.cs",
@@ -904,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 84,
               "Title": "ItemNameDebug.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Debug\\ItemNameDebug.cs",
               "RelativeDocumentMoniker": "Content\\Debug\\ItemNameDebug.cs",
@@ -916,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "HealingPotionNerf.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\HealingPotionNerf.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\HealingPotionNerf.cs",
@@ -928,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "StarterBag.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Items\\StarterBag.cs",
               "RelativeDocumentMoniker": "Content\\Items\\StarterBag.cs",
@@ -940,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "RegenerationNerfPlayer.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\RegenerationNerfPlayer.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\RegenerationNerfPlayer.cs",
@@ -952,31 +987,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 4,
               "Title": "ExplosiveBunny.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\ExplosiveBunny.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\ExplosiveBunny.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\ExplosiveBunny.cs",
               "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\ExplosiveBunny.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywBQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:54:32.031Z"
+              "WhenOpened": "2026-10-21T09:54:32.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 3,
               "Title": "GoblinHitDrop.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\GoblinHitDrop.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\GoblinHitDrop.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\GoblinHitDrop.cs",
               "RelativeToolTip": "Content\\Globals\\NPCs\\PreHM\\GoblinHitDrop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:52:27.754Z"
+              "WhenOpened": "2026-10-21T09:52:27.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 70,
               "Title": "MimicChest.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\MimicChest.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\MimicChest.cs",
@@ -988,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "GunJamPlayer.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\GunJamPlayer.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\GunJamPlayer.cs",
@@ -1000,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 87,
               "Title": "Jammed.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Buffs\\Debuffs\\Jammed.cs",
               "RelativeDocumentMoniker": "Content\\Buffs\\Debuffs\\Jammed.cs",
@@ -1012,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "MutantStatueLightning.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Tiles\\MutantStatueLightning.cs",
               "RelativeDocumentMoniker": "Content\\Tiles\\MutantStatueLightning.cs",
@@ -1024,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 83,
               "Title": "ProjectileNameDebug.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Debug\\ProjectileNameDebug.cs",
               "RelativeDocumentMoniker": "Content\\Debug\\ProjectileNameDebug.cs",
@@ -1036,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "SharkAttacks.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\HM\\SharkAttacks.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\HM\\SharkAttacks.cs",
@@ -1048,19 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "NightChillPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\NightChillPlayer.cs",
-              "RelativeDocumentMoniker": "Content\\Globals\\Player\\NightChillPlayer.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\NightChillPlayer.cs",
-              "RelativeToolTip": "Content\\Globals\\Player\\NightChillPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T23:14:13.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "LifeFruitPlantera.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\HM\\LifeFruitPlantera.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\HM\\LifeFruitPlantera.cs",
@@ -1072,7 +1097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "SniperOneShot.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\HM\\SniperOneShot.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\HM\\SniperOneShot.cs",
@@ -1084,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "LifeCrystalHealthPlayer.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\LifeCrystalHealthPlayer.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\LifeCrystalHealthPlayer.cs",
@@ -1096,7 +1121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 67,
               "Title": "DarkCaveDebuff.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Cave\\DarkCaveDebuff.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Cave\\DarkCaveDebuff.cs",
@@ -1108,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "SolarStrike.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Desert\\SolarStrike.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Desert\\SolarStrike.cs",
@@ -1116,12 +1141,11 @@
               "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Desert\\SolarStrike.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T19:14:25.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T19:14:25.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "DesertDebuff.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Desert\\DesertDebuff.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Desert\\DesertDebuff.cs",
@@ -1129,12 +1153,11 @@
               "RelativeToolTip": "Content\\Globals\\Player\\Biome\\Desert\\DesertDebuff.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T19:14:18.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T19:14:18.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "SpiderLair.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Other\\SpiderLair.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Other\\SpiderLair.cs",
@@ -1146,7 +1169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "DrownFaster.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Other\\DrownFaster.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Other\\DrownFaster.cs",
@@ -1158,7 +1181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 61,
               "Title": "ChillInSnow.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Biome\\Snow\\ChillInSnow.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Biome\\Snow\\ChillInSnow.cs",
@@ -1170,7 +1193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "Properties.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\Properties.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\Properties.cs",
@@ -1182,7 +1205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "TreeGrenade.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Tiles\\TreeGrenade.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Tiles\\TreeGrenade.cs",
@@ -1194,7 +1217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "LifeCrystalTileExplosion.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Tiles\\LifeCrystalTileExplosion.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Tiles\\LifeCrystalTileExplosion.cs",
@@ -1206,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "TortoiseOneShot.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\HM\\TortoiseOneShot.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\HM\\TortoiseOneShot.cs",
@@ -1218,7 +1241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 69,
               "Title": "SlimeSpikes.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\SlimeSpikes.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\SlimeSpikes.cs",
@@ -1230,7 +1253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "NPCProperties.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\NPCProperties.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\NPCProperties.cs",
@@ -1242,7 +1265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 71,
               "Title": "Mimic.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\Mimic.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\Mimic.cs",
@@ -1254,7 +1277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "MobStatsUp.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\MobStatsUp.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\MobStatsUp.cs",
@@ -1266,7 +1289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 82,
               "Title": "EggDust.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Dusts\\EggDust.cs",
               "RelativeDocumentMoniker": "Content\\Dusts\\EggDust.cs",
@@ -1278,7 +1301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 89,
               "Title": "CHEGore.png",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Assets\\Textures\\Gores\\Lepus\\CHEGore.png",
               "RelativeDocumentMoniker": "Assets\\Textures\\Gores\\Lepus\\CHEGore.png",
@@ -1289,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "ZombieLunge.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\NPCs\\PreHM\\ZombieLunge.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\NPCs\\PreHM\\ZombieLunge.cs",
@@ -1301,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "Stomp.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Bosses\\Lepus\\Stomp.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Bosses\\Lepus\\Stomp.cs",
@@ -1313,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "DownedBossSystem.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Systems\\DownedBossSystem.cs",
               "RelativeDocumentMoniker": "Content\\Systems\\DownedBossSystem.cs",
@@ -1325,7 +1348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 90,
               "Title": "ModBoss.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Bosses\\ModBoss.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Bosses\\ModBoss.cs",
@@ -1337,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "AHelper.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\AHelper.cs",
               "RelativeDocumentMoniker": "Content\\AHelper.cs",
@@ -1349,7 +1372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "Content\\GlobalUsing.cs",
@@ -1357,12 +1380,11 @@
               "RelativeToolTip": "Content\\GlobalUsing.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T16:42:15.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T16:42:15.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 91,
               "Title": "BossesStatsUp.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Bosses\\BossesStatsUp.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Bosses\\BossesStatsUp.cs",
@@ -1374,7 +1396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "LepusStomp.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Projectiles\\LepusStomp.cs",
               "RelativeDocumentMoniker": "Content\\Projectiles\\LepusStomp.cs",
@@ -1386,7 +1408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "LilLepusStomp.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Projectiles\\LilLepusStomp.cs",
               "RelativeDocumentMoniker": "Content\\Projectiles\\LilLepusStomp.cs",
@@ -1398,7 +1420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "SmallEgg.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Bosses\\Lepus\\SmallEgg.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Bosses\\Lepus\\SmallEgg.cs",
@@ -1410,7 +1432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "DisasterBunny.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Bosses\\Lepus\\DisasterBunny.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Bosses\\Lepus\\DisasterBunny.cs",
@@ -1422,7 +1444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "ChocolateEgg.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Bosses\\Lepus\\ChocolateEgg.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Bosses\\Lepus\\ChocolateEgg.cs",
@@ -1434,7 +1456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "BigEgg.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Bosses\\Lepus\\BigEgg.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Bosses\\Lepus\\BigEgg.cs",
@@ -1446,7 +1468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "Lepus.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Bosses\\Lepus\\Lepus.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Bosses\\Lepus\\Lepus.cs",
@@ -1458,7 +1480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "build.txt",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\build.txt",
               "RelativeDocumentMoniker": "build.txt",
@@ -1466,12 +1488,11 @@
               "RelativeToolTip": "build.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-10-20T14:43:51.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T14:43:51.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "House.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\WorldGeneration\\House.cs",
               "RelativeDocumentMoniker": "Content\\WorldGeneration\\House.cs",
@@ -1483,7 +1504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "VinesOfTheMartyr.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Tiles\\VinesOfTheMartyr.cs",
               "RelativeDocumentMoniker": "Content\\Tiles\\VinesOfTheMartyr.cs",
@@ -1491,12 +1512,11 @@
               "RelativeToolTip": "Content\\Tiles\\VinesOfTheMartyr.cs",
               "ViewState": "AgIAAJ4AAAAAAAAAAAAzwDkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T14:11:27.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T14:11:27.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 93,
               "Title": "HellHeat.fx",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DyeLab\\input\\HellHeat.fx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DyeLab\\input\\HellHeat.fx",
@@ -1508,7 +1528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 92,
               "Title": "ForgottenSouls.csproj",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\ForgottenSouls.csproj",
               "RelativeDocumentMoniker": "ForgottenSouls.csproj",
@@ -1520,7 +1540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "ForgottenSouls.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\ForgottenSouls.cs",
               "RelativeDocumentMoniker": "ForgottenSouls.cs",
@@ -1528,8 +1548,7 @@
               "RelativeToolTip": "ForgottenSouls.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T14:01:34.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T14:01:34.255Z"
             },
             {
               "$type": "Bookmark",
