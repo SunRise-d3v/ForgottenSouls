@@ -33,6 +33,11 @@ Buffs: {
 		DisplayName: Jammed
 		Description: Mods.ForgottenSouls.Buffs.Jammed.Description
 	}
+
+	WarCry: {
+		DisplayName: War Cry
+		Description: Mods.ForgottenSouls.Buffs.WarCry.Description
+	}
 }
 
 Items: {

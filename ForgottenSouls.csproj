@@ -29,10 +29,4 @@
 	  <Folder Include="Content\Achievements\" />
 	  <Folder Include="CrossMod\BossChecklist\" />
 	</ItemGroup>
-	<ItemGroup>
-	  <EditorConfigFiles Remove="C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\Content\.editorconfig" />
-	</ItemGroup>
-	<ItemGroup>
-	  <None Include="C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\Content\.editorconfig" />
-	</ItemGroup>
 </Project>

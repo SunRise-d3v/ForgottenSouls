@@ -15,6 +15,7 @@ global using Terraria.Audio;
 global using Terraria.UI;
 global using Terraria.Localization;
 global using Terraria.ModLoader.IO;
+global using Terraria.GameContent;
 #endregion
 
 #region ReLogic

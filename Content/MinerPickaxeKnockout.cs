@@ -36,5 +36,5 @@ internal class MinerPickaxeKnockout : GlobalNPC
         target.DropItem(target.GetSource_Misc("MinerKnockout"), target.Center, ref target.inventory[slot]);
     }
 
-    private static bool IsPickaxe(Item item) => !item.IsAir && item.pick > 0 && !item.favorited;
+    private static bool IsPickaxe(Item item) => !item.IsAir && item.pick > 0;
 }
