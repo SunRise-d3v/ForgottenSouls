@@ -2,8 +2,8 @@
 
 internal class DemonEyeBloodShot : GlobalNPC
 {
-    private static readonly HashSet<int> Eyes = new()
-    {
+    private static readonly HashSet<int> Eyes =
+    [
         NPCID.DemonEye,
         NPCID.CataractEye,
         NPCID.SleepyEye,
@@ -12,7 +12,7 @@ internal class DemonEyeBloodShot : GlobalNPC
         NPCID.PurpleEye,
         NPCID.DemonEyeOwl,
         NPCID.DemonEyeSpaceship
-    };
+    ];
 
     private const float MinRange = 200f;             
     private const float MaxRange = 650f;

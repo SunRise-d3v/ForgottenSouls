@@ -8,4 +8,4 @@ modReferences = FargowiltasSouls, Fargowiltas, Luminance@1.0.3
 weakReferences = FargowiltasMusic, MagicStorage, BossChecklist
 sortAfter = Fargowiltas, FargowiltasSouls, FargowiltasMusic, MagicStorage, BossChecklist
 
-languageVersion = 9
+languageVersion = 8
