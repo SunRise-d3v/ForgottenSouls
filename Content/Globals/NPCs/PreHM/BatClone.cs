@@ -17,6 +17,8 @@ internal class BatClone : GlobalNPC
         NPCID.Lavabat,
         NPCID.SporeBat,
         NPCID.VampireBat,
+        NPCID.IlluminantBat,
+        NPCID.GiantFlyingFox
     ];
 
     private int _cloneCooldown;

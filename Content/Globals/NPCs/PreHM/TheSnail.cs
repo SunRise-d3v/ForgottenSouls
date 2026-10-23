@@ -1,11 +1,16 @@
 ﻿namespace ForgottenSouls.Content.NPCs;
 
+//[AutoloadHead]
 internal class TheSnail : ModNPC
 {
     public override string Texture => "Terraria/Images/NPC_" + NPCID.Snail;
 
+    //public override string BossHeadTexture => Helper.TextureLoad("NPCs", "TheSnail_Head_Boss");
+    //public override string HeadTexture => Helper.TextureLoad("NPCs", "TheSnail_Head");
+    //public override void BossHeadRotation(ref float rotation) => rotation = 0f;
+
     private const int SpawnDistanceMin = 15;
-    private const int SpawnDistanceMax = 20;
+    private const int SpawnDistanceMax = 25;
     private const int RelocateDistanceMin = 120;
     private const int RelocateDistanceMax = 200;
 
@@ -13,6 +18,8 @@ internal class TheSnail : ModNPC
     private const int RepathIntervalTicks = 30;
     private const int SearchRadius = 70;
     private const int GridSize = SearchRadius * 2 + 1;
+
+    private static readonly Color OutlineColor = new(255, 175, 90, 0);
 
     private static readonly int[] Parent = new int[GridSize * GridSize];
     private static readonly int[] PathCost = new int[GridSize * GridSize];
@@ -38,8 +45,8 @@ internal class TheSnail : ModNPC
 
     public override void SetDefaults()
     {
-        NPC.width = 24;
-        NPC.height = 16;
+        NPC.width = 21;
+        NPC.height = 15;
         NPC.lifeMax = 1;
         NPC.damage = 0;
         NPC.defense = 0;
@@ -56,6 +63,8 @@ internal class TheSnail : ModNPC
         NPC.value = 0f;
         NPC.HitSound = null;
         NPC.DeathSound = null;
+        NPC.boss = false;
+
         AnimationType = NPCID.Snail;
 
         for (int i = 0; i < NPC.buffImmune.Length; i++)
@@ -70,15 +79,10 @@ internal class TheSnail : ModNPC
         return false;
     }
 
-    public override Color? GetAlpha(Color drawColor) => Color.Lerp(drawColor, Color.White, 0.55f);
-
     public override void AI()
     {
         NPC.timeLeft = NPC.activeTime;
         NPC.velocity = Vector2.Zero;
-
-        if (!Main.dedServ)
-            Lighting.AddLight(NPC.Center, 0.35f, 0.32f, 0.2f);
 
         Player target = Main.player[Player.FindClosest(NPC.position, NPC.width, NPC.height)];
 
@@ -130,6 +134,8 @@ internal class TheSnail : ModNPC
 
             if (_pathIndex < _path.Count)
                 _moveTarget = _path[_pathIndex++];
+            else if (_pathBlocked)
+                _moveTarget = StepToward(current, goal);  
 
             if (_moveTarget is null || _moveTarget == current)
             {
@@ -267,6 +273,19 @@ internal class TheSnail : ModNPC
 
     private static int Manhattan(Point a, Point b) => Math.Abs(a.X - b.X) + Math.Abs(a.Y - b.Y);
 
+    private static Point StepToward(Point current, Point goal)
+    {
+        int dx = goal.X - current.X;
+        int dy = goal.Y - current.Y;
+
+        if (dx == 0 && dy == 0)
+            return current;
+
+        return Math.Abs(dx) >= Math.Abs(dy)
+            ? new Point(current.X + Math.Sign(dx), current.Y)
+            : new Point(current.X, current.Y + Math.Sign(dy));
+    }
+
     private static bool IsPassable(int x, int y)
     {
         if (!WorldGen.InWorld(x, y, 10))
@@ -315,6 +334,33 @@ internal class TheSnail : ModNPC
         NPC.direction = _facing;
     }
 
+    public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
+    {
+        if (NPC.IsABestiaryIconDummy)
+            return true;
+
+        Texture2D texture = TextureAssets.Npc[Type].Value;
+        Rectangle frame = NPC.frame;
+        Vector2 origin = frame.Size() / 2f;
+
+        Vector2 position = NPC.position - screenPos
+            + new Vector2(NPC.width / 2f, NPC.height - frame.Height * NPC.scale / 2f + 4f + NPC.gfxOffY);
+
+        SpriteEffects effects = NPC.spriteDirection == 1 ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
+
+        float pulse = 0.75f + 0.25f * (float)Math.Sin(Main.GlobalTimeWrappedHourly * 2.5f);
+
+        for (int i = 0; i < 8; i++)
+        {
+            Vector2 direction = (i * MathHelper.PiOver4).ToRotationVector2();
+
+            Main.EntitySpriteDraw(texture, position + direction * 4f, frame, OutlineColor * (0.18f * pulse), NPC.rotation, origin, NPC.scale, effects, 0);
+            Main.EntitySpriteDraw(texture, position + direction * 2f, frame, OutlineColor * (0.40f * pulse), NPC.rotation, origin, NPC.scale, effects, 0);
+        }
+
+        return true;
+    }
+
     internal static void SpawnNear(Player player)
     {
         int type = ModContent.NPCType<TheSnail>();
@@ -348,7 +394,6 @@ internal class TheSnail : ModNPC
         int distance = Main.rand.Next(RelocateDistanceMin, RelocateDistanceMax + 1);
         int x = spawn.X + side * distance;
 
-        // Не выходим за границы мира
         if (x < 60 || x > Main.maxTilesX - 60)
             x = spawn.X - side * distance;
 
