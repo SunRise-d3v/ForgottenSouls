@@ -1,8 +1,16 @@
 ﻿namespace ForgottenSouls.Content.NPCs;
 
+[AutoloadBossHead]
 internal class TheSnail : ModNPC
 {
     public override string Texture => "Terraria/Images/NPC_" + NPCID.Snail;
+
+    // Иконка улитки на полной карте и миникарте: файл Content/NPCs/TheSnail_Head_Boss.png (около 20x20).
+    // Путь строится так же, как у текстуры лоз, через ваш ForgottenHelper
+    public override string BossHeadTexture => Helper.TextureLoad("NPCs", "TheSnail_Head_Boss");
+
+    // Иконка не поворачивается вместе со спрайтом, чтобы на карте она не кувыркалась
+    public override void BossHeadRotation(ref float rotation) => rotation = 0f;
 
     private const int SpawnDistanceMin = 15;
     private const int SpawnDistanceMax = 20;
@@ -13,6 +21,9 @@ internal class TheSnail : ModNPC
     private const int RepathIntervalTicks = 30;
     private const int SearchRadius = 70;
     private const int GridSize = SearchRadius * 2 + 1;
+
+    // Мягкий тёплый оттенок контура (альфа 0 даёт аддитивное свечение)
+    private static readonly Color OutlineColor = new(255, 175, 90, 0);
 
     private static readonly int[] Parent = new int[GridSize * GridSize];
     private static readonly int[] PathCost = new int[GridSize * GridSize];
@@ -56,6 +67,9 @@ internal class TheSnail : ModNPC
         NPC.value = 0f;
         NPC.HitSound = null;
         NPC.DeathSound = null;
+        NPC.boss = false;
+        NPC.BossBar = ModContent.GetInstance<SnailBossBar>();
+
         AnimationType = NPCID.Snail;
 
         for (int i = 0; i < NPC.buffImmune.Length; i++)
@@ -70,15 +84,12 @@ internal class TheSnail : ModNPC
         return false;
     }
 
-    public override Color? GetAlpha(Color drawColor) => Color.Lerp(drawColor, Color.White, 0.55f);
+    public override void BossHeadSlot(ref int index) => Helper.TextureLoad("NPCs", "TheSnail_Head_Boss");
 
     public override void AI()
     {
         NPC.timeLeft = NPC.activeTime;
         NPC.velocity = Vector2.Zero;
-
-        if (!Main.dedServ)
-            Lighting.AddLight(NPC.Center, 0.35f, 0.32f, 0.2f);
 
         Player target = Main.player[Player.FindClosest(NPC.position, NPC.width, NPC.height)];
 
@@ -130,6 +141,8 @@ internal class TheSnail : ModNPC
 
             if (_pathIndex < _path.Count)
                 _moveTarget = _path[_pathIndex++];
+            else if (_pathBlocked)
+                _moveTarget = StepToward(current, goal);   // подобраться по проходимым клеткам нельзя (игрок замурован): идёт сквозь блоки
 
             if (_moveTarget is null || _moveTarget == current)
             {
@@ -267,6 +280,20 @@ internal class TheSnail : ModNPC
 
     private static int Manhattan(Point a, Point b) => Math.Abs(a.X - b.X) + Math.Abs(a.Y - b.Y);
 
+    /// <summary>Один шаг в сторону цели по той оси, где расстояние больше (без учёта блоков).</summary>
+    private static Point StepToward(Point current, Point goal)
+    {
+        int dx = goal.X - current.X;
+        int dy = goal.Y - current.Y;
+
+        if (dx == 0 && dy == 0)
+            return current;
+
+        return Math.Abs(dx) >= Math.Abs(dy)
+            ? new Point(current.X + Math.Sign(dx), current.Y)
+            : new Point(current.X, current.Y + Math.Sign(dy));
+    }
+
     private static bool IsPassable(int x, int y)
     {
         if (!WorldGen.InWorld(x, y, 10))
@@ -313,6 +340,38 @@ internal class TheSnail : ModNPC
 
         NPC.spriteDirection = _facing;
         NPC.direction = _facing;
+    }
+
+    // ---------- Подсветка силуэта ----------
+
+    public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
+    {
+        if (NPC.IsABestiaryIconDummy)
+            return true;
+
+        Texture2D texture = TextureAssets.Npc[Type].Value;
+        Rectangle frame = NPC.frame;
+        Vector2 origin = frame.Size() / 2f;
+
+        // Ровно та же точка, в которой ваниль рисует спрайт NPC, чтобы контур совпал с ним
+        Vector2 position = NPC.position - screenPos
+            + new Vector2(NPC.width / 2f, NPC.height - frame.Height * NPC.scale / 2f + 4f + NPC.gfxOffY);
+
+        SpriteEffects effects = NPC.spriteDirection == 1 ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
+
+        float pulse = 0.75f + 0.25f * (float)Math.Sin(Main.GlobalTimeWrappedHourly * 2.5f);
+
+        // Широкое слабое кольцо даёт мягкость, узкое чуть ярче определяет силуэт
+        for (int i = 0; i < 8; i++)
+        {
+            Vector2 direction = (i * MathHelper.PiOver4).ToRotationVector2();
+
+            Main.EntitySpriteDraw(texture, position + direction * 4f, frame, OutlineColor * (0.18f * pulse), NPC.rotation, origin, NPC.scale, effects, 0);
+            Main.EntitySpriteDraw(texture, position + direction * 2f, frame, OutlineColor * (0.40f * pulse), NPC.rotation, origin, NPC.scale, effects, 0);
+        }
+
+        // Сама улитка рисуется поверх обычным путём
+        return true;
     }
 
     internal static void SpawnNear(Player player)

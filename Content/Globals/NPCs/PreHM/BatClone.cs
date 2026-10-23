@@ -17,6 +17,8 @@ internal class BatClone : GlobalNPC
         NPCID.Lavabat,
         NPCID.SporeBat,
         NPCID.VampireBat,
+        NPCID.IlluminantBat,
+        NPCID.GiantFlyingFox
     ];
 
     private int _cloneCooldown;
@@ -34,7 +36,7 @@ internal class BatClone : GlobalNPC
     public override void OnHitPlayer(NPC npc, Player target, Player.HurtInfo hurtInfo)
     {
         if (Main.rand.NextFloat() < BlindChance)
-            target.AddBuff(BuffID.Darkness, BlindTicks);
+            target.AddBuff(BuffID.Obstructed, BlindTicks);
 
         if (_cloneCooldown > 0 || Main.netMode == NetmodeID.MultiplayerClient)
             return;

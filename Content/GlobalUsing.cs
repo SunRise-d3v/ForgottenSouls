@@ -16,6 +16,9 @@ global using Terraria.UI;
 global using Terraria.Localization;
 global using Terraria.ModLoader.IO;
 global using Terraria.GameContent;
+global using Terraria.GameContent.Achievements;
+global using Terraria.GameContent.ItemDropRules;
+global using Terraria.Chat;
 #endregion
 
 #region ReLogic

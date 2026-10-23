@@ -29,8 +29,8 @@ internal sealed class SlimeSpikes : GlobalNPC
             return;
 
         int count = LargeSlimes.Contains(npc.type)
-            ? Main.rand.Next(5, 11)   // 5-10
-            : Main.rand.Next(3, 6);  // 3-5
+            ? Main.rand.Next(5, 12)   // 5-11
+            : Main.rand.Next(3, 8);  // 3-7
 
         float startAngle = Main.rand.NextFloat(MathHelper.TwoPi);
 
