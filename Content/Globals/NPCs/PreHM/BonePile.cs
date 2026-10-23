@@ -17,14 +17,14 @@ internal class BonePile : ModNPC
 
     public override void SetDefaults()
     {
-        NPC.width = 36;     
+        NPC.width = 36;
         NPC.height = 28;
         NPC.lifeMax = 100;
-        NPC.damage = 0;    
+        NPC.damage = 0;
         NPC.defense = 0;
         NPC.knockBackResist = 0f;
         NPC.aiStyle = -1;
-        NPC.dontCountMe = true;   
+        NPC.dontCountMe = true;
         NPC.value = 0f;
         NPC.HitSound = SoundID.NPCHit2;
         NPC.DeathSound = SoundID.NPCDeath2;

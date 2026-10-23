@@ -38,6 +38,11 @@ Buffs: {
 		// DisplayName: War Cry
 		// Description: Mods.ForgottenSouls.Buffs.WarCry.Description
 	}
+
+	PotionFatigueBuff: {
+		// DisplayName: Potion Fatigue Buff
+		// Description: Mods.ForgottenSouls.Buffs.PotionFatigueBuff.Description
+	}
 }
 
 Items: {

@@ -5,24 +5,20 @@ internal class TheSnail : ModNPC
 {
     public override string Texture => "Terraria/Images/NPC_" + NPCID.Snail;
 
-    // Иконка улитки на полной карте и миникарте: файл Content/NPCs/TheSnail_Head_Boss.png (около 20x20).
-    // Путь строится так же, как у текстуры лоз, через ваш ForgottenHelper
     public override string BossHeadTexture => Helper.TextureLoad("NPCs", "TheSnail_Head_Boss");
 
-    // Иконка не поворачивается вместе со спрайтом, чтобы на карте она не кувыркалась
     public override void BossHeadRotation(ref float rotation) => rotation = 0f;
 
-    private const int SpawnDistanceMin = 15;
-    private const int SpawnDistanceMax = 20;
-    private const int RelocateDistanceMin = 120;
+    private const int SpawnDistanceMin = 45;
+    private const int SpawnDistanceMax = 100;
+    private const int RelocateDistanceMin = 150;
     private const int RelocateDistanceMax = 200;
 
-    private const float CrawlSpeed = 0.9f;
+    private const float CrawlSpeed = 0.55f;
     private const int RepathIntervalTicks = 30;
     private const int SearchRadius = 70;
     private const int GridSize = SearchRadius * 2 + 1;
 
-    // Мягкий тёплый оттенок контура (альфа 0 даёт аддитивное свечение)
     private static readonly Color OutlineColor = new(255, 175, 90, 0);
 
     private static readonly int[] Parent = new int[GridSize * GridSize];
@@ -142,7 +138,7 @@ internal class TheSnail : ModNPC
             if (_pathIndex < _path.Count)
                 _moveTarget = _path[_pathIndex++];
             else if (_pathBlocked)
-                _moveTarget = StepToward(current, goal);   // подобраться по проходимым клеткам нельзя (игрок замурован): идёт сквозь блоки
+                _moveTarget = StepToward(current, goal);  
 
             if (_moveTarget is null || _moveTarget == current)
             {
@@ -280,7 +276,6 @@ internal class TheSnail : ModNPC
 
     private static int Manhattan(Point a, Point b) => Math.Abs(a.X - b.X) + Math.Abs(a.Y - b.Y);
 
-    /// <summary>Один шаг в сторону цели по той оси, где расстояние больше (без учёта блоков).</summary>
     private static Point StepToward(Point current, Point goal)
     {
         int dx = goal.X - current.X;
@@ -342,8 +337,6 @@ internal class TheSnail : ModNPC
         NPC.direction = _facing;
     }
 
-    // ---------- Подсветка силуэта ----------
-
     public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
     {
         if (NPC.IsABestiaryIconDummy)
@@ -353,7 +346,6 @@ internal class TheSnail : ModNPC
         Rectangle frame = NPC.frame;
         Vector2 origin = frame.Size() / 2f;
 
-        // Ровно та же точка, в которой ваниль рисует спрайт NPC, чтобы контур совпал с ним
         Vector2 position = NPC.position - screenPos
             + new Vector2(NPC.width / 2f, NPC.height - frame.Height * NPC.scale / 2f + 4f + NPC.gfxOffY);
 
@@ -361,7 +353,6 @@ internal class TheSnail : ModNPC
 
         float pulse = 0.75f + 0.25f * (float)Math.Sin(Main.GlobalTimeWrappedHourly * 2.5f);
 
-        // Широкое слабое кольцо даёт мягкость, узкое чуть ярче определяет силуэт
         for (int i = 0; i < 8; i++)
         {
             Vector2 direction = (i * MathHelper.PiOver4).ToRotationVector2();
@@ -370,7 +361,6 @@ internal class TheSnail : ModNPC
             Main.EntitySpriteDraw(texture, position + direction * 2f, frame, OutlineColor * (0.40f * pulse), NPC.rotation, origin, NPC.scale, effects, 0);
         }
 
-        // Сама улитка рисуется поверх обычным путём
         return true;
     }
 
@@ -407,7 +397,6 @@ internal class TheSnail : ModNPC
         int distance = Main.rand.Next(RelocateDistanceMin, RelocateDistanceMax + 1);
         int x = spawn.X + side * distance;
 
-        // Не выходим за границы мира
         if (x < 60 || x > Main.maxTilesX - 60)
             x = spawn.X - side * distance;
 
