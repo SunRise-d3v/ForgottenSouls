@@ -1,12 +1,12 @@
-﻿namespace ForgottenSouls.Content.Entities;
+﻿namespace ForgottenSouls.Content.Globals;
 
-internal sealed class SlimeSpikes : GlobalNPC
+internal class SlimeDeathSpikes : GlobalNPC
 {
     private const int SpikeDamage = 20;
     private const float MinSpeed = 4f;
     private const float MaxSpeed = 8f;
 
-    private static readonly HashSet<int> LargeSlimes =
+    internal static readonly HashSet<int> LargeSlimes =
     [
         NPCID.UmbrellaSlime,
         NPCID.ToxicSludge,
@@ -17,20 +17,21 @@ internal sealed class SlimeSpikes : GlobalNPC
         NPCID.CorruptSlime,
         NPCID.Crimslime,
         NPCID.IlluminantSlime,
-        NPCID.RainbowSlime,
+        NPCID.RainbowSlime
     ];
+
+    internal static bool IsHostileSlime(NPC npc)
+        => npc.aiStyle == NPCAIStyleID.Slime && !npc.friendly && !npc.townNPC;
 
     public override void OnKill(NPC npc)
     {
-        if (Main.netMode == NetmodeID.MultiplayerClient)
-            return;
-
-        if (npc.aiStyle != NPCAIStyleID.Slime || npc.friendly || npc.townNPC)
+        // Снаряды создаёт сервер (или одиночная игра)
+        if (Main.netMode == NetmodeID.MultiplayerClient || !IsHostileSlime(npc))
             return;
 
         int count = LargeSlimes.Contains(npc.type)
-            ? Main.rand.Next(5, 12)   // 5-11
-            : Main.rand.Next(3, 8);  // 3-7
+            ? Main.rand.Next(5, 11)   // 5-10
+            : Main.rand.Next(3, 6);  // 3-5
 
         float startAngle = Main.rand.NextFloat(MathHelper.TwoPi);
 

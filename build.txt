@@ -1,6 +1,6 @@
 displayName = Forgotten Souls Mod [ALPHA]
 author = SunRise-d3v
-version = 0.1.3
+version = 0.1.4
 
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.gif, lib\*
 

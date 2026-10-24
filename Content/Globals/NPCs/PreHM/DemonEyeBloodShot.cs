@@ -18,8 +18,8 @@ internal class DemonEyeBloodShot : GlobalNPC
     private const float MaxRange = 650f;
     private const int AttemptChance = 45;     
     private const int AimTicks = 30;          
-    private const int CooldownMin = 240;      
-    private const int CooldownMax = 420;
+    private const int CooldownMin = 290;      
+    private const int CooldownMax = 500;
     private const float ShotSpeed = 15f;
     private const int ShotDamage = 45;
     private const float DashSpeedThreshold = 6f;

@@ -1,6 +1,5 @@
 ﻿namespace ForgottenSouls.Content.Globals;
 
-
 public class BossMemory
 {
     public const int SampleTicks = 10;

@@ -62,6 +62,7 @@ global using FargowiltasSouls.Content.Items.Weapons.Challengers;
 global using Fargowiltas.Items.Explosives;
 global using FargowiltasSouls.Content.Items.Accessories.Masomode;
 global using FargowiltasSouls.Content.Items.Misc;
+global using FargowiltasSouls.Content.Projectiles.Masomode;
 #endregion
 
 #region Mod
