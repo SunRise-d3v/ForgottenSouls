@@ -15,12 +15,12 @@ internal class WarCryNpc : GlobalNPC
     // Кто может издавать клич
     private static readonly HashSet<int> Criers =
     [
-        NPCID.Zombie,
-        NPCID.BaldZombie,
-        NPCID.Skeleton,
-        NPCID.AngryBones,
-        NPCID.GoblinWarrior,
-        NPCID.GoblinPeon,
+        //NPCID.Zombie,
+        //NPCID.BaldZombie,
+        //NPCID.Skeleton,
+        //NPCID.AngryBones,
+        //NPCID.GoblinWarrior,
+        //NPCID.GoblinPeon,
     ];
 
     private const int CryChanceDenominator = 600;
