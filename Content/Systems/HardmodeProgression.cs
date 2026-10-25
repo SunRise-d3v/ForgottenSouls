@@ -1,4 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿using Conditions = Terraria.GameContent.ItemDropRules.Conditions;
+
+namespace ForgottenSouls.Content.Globals;
 
 public class HardmodeProgression : ModSystem
 {

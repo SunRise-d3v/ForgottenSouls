@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content;
 
-internal sealed class RegenerationNerfPlayer : ModPlayer
+internal sealed class RegenerationNerf : ModPlayer
 {
     private const float Reduction = 0.10f;
     private const int VanillaBonus = 4;   

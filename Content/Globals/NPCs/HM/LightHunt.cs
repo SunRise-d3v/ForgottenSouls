@@ -11,7 +11,7 @@ internal class LightHunt
 
     public const int HuntRangeX = 60;
     public const int HuntRangeY = 40;
-    public const int SpawnLightThreshold = 12;
+    public const int SpawnLightThreshold = 20;
     public const bool TorchDropsItem = true;
 
     public static bool IsTorchItem(Item item)

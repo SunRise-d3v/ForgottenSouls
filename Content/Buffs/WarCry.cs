@@ -12,15 +12,14 @@ internal class WarCry : ModBuff
 
 internal class WarCryNpc : GlobalNPC
 {
-    // Кто может издавать клич
     private static readonly HashSet<int> Criers =
     [
-        NPCID.Zombie,
-        NPCID.BaldZombie,
-        NPCID.Skeleton,
-        NPCID.AngryBones,
-        NPCID.GoblinWarrior,
-        NPCID.GoblinPeon,
+        NPCID.GreekSkeleton,
+        NPCID.LostGirl,
+        NPCID.HellArmoredBones,
+        NPCID.Paladin,
+        NPCID.Necromancer,
+        NPCID.Moth
     ];
 
     private const int CryChanceDenominator = 600;

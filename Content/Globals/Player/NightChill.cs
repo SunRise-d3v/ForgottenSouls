@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Globals;
 
-internal sealed class NightChillPlayer : ModPlayer
+internal sealed class NightChill : ModPlayer
 {
     private const int DebuffTicks = 60;
     private const float LightThreshold = 0.55f;
