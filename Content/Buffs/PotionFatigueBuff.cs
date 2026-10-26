@@ -1,18 +1,14 @@
-﻿using FargowiltasSouls.Core.AccessoryEffectSystem;
+﻿namespace ForgottenSouls.Content;
 
-namespace ForgottenSouls.Content;
-
-/// <summary>Баффу-индикатор: показывает усталость и таймер до сброса.</summary>
 internal class PotionFatigueBuff : ModBuff
 {
-    // Берём иконку у ванильного «Зельной болезни», своей текстуры не нужно
     public override string Texture => "Terraria/Images/Buff_" + BuffID.PotionSickness;
 
     public override void SetStaticDefaults()
     {
-        Main.debuff[Type] = true;                          // нельзя снять правым кликом
+        Main.debuff[Type] = true;
         Main.buffNoSave[Type] = true;
-        BuffID.Sets.NurseCannotRemoveDebuff[Type] = true;  // медсестра не снимает
+        BuffID.Sets.NurseCannotRemoveDebuff[Type] = true;
     }
 
     public override void ModifyBuffText(ref string buffName, ref string tip, ref int rare)
@@ -29,22 +25,19 @@ internal class PotionFatigueBuff : ModBuff
 internal class PotionFatiguePlayer : ModPlayer
 {
     public const int MaxStacks = 10;
-    public const int FreeUses = 2;             // первые зелья усталости не дают эффекта
-    public const float ReducePerStack = 0.10f; // -10% лечения за каждое зелье сверх бесплатных
-    public const float MaxReduce = 0.70f;      // потолок штрафа
-    public const int ResetTicks = 90 * 60;     // 45 секунд без зелий - усталость сбрасывается
+    public const int FreeUses = 2;
+    public const float ReducePerStack = 0.10f;
+    public const float MaxReduce = 0.70f;
+    public const int ResetTicks = 90 * 60;
 
     public int Stacks;
     private int idleTimer;
-    private int halveSicknessTicks; // сколько тиков ещё ждём появления зельной болезни, чтобы сократить её вдвое
+    private int halveSicknessTicks;
 
-    /// <summary>Множитель эффективности зелий (1 = без штрафа).</summary>
-    public float Efficiency
-        => 1f - Math.Min(MaxReduce, Math.Max(0, Stacks - FreeUses) * ReducePerStack);
+    public float Efficiency => 1f - Math.Min(MaxReduce, Math.Max(0, Stacks - FreeUses) * ReducePerStack);
 
     public void OnPotionUsed()
     {
-        // Ископаемое зачарование: 25% шанс - без усталости и с вдвое более короткой зельной болезнью
         if (Player.HasEffect<FossilPotions>() && Main.rand.NextFloat() < FossilPotions.Chance)
         {
             Reset();
@@ -55,7 +48,7 @@ internal class PotionFatiguePlayer : ModPlayer
 
         Stacks = Math.Min(MaxStacks, Stacks + 1);
         idleTimer = 0;
-        // Время баффа = время до сброса усталости (обновляется при каждом зелье)
+
         Player.AddBuff(ModContent.BuffType<PotionFatigueBuff>(), ResetTicks);
     }
 
@@ -68,7 +61,6 @@ internal class PotionFatiguePlayer : ModPlayer
 
     public override void PostUpdate()
     {
-        // Зельная болезнь появляется в тот же тик, что и использование зелья: сокращаем её вдвое
         if (halveSicknessTicks > 0)
         {
             halveSicknessTicks--;
@@ -96,16 +88,15 @@ internal class PotionFatiguePlayer : ModPlayer
         halveSicknessTicks = 0;
     }
 
-    // Ослабляем лечение и восстановление маны
     public override void GetHealLife(Item item, bool quickHeal, ref int healValue)
     {
         healValue = (int)(healValue * Efficiency);
     }
 
-    public override void GetHealMana(Item item, bool quickHeal, ref int healValue)
+    /*public override void GetHealMana(Item item, bool quickHeal, ref int healValue)
     {
         healValue = (int)(healValue * Efficiency);
-    }
+    }*/
 }
 
 internal class PotionFatigueItem : GlobalItem

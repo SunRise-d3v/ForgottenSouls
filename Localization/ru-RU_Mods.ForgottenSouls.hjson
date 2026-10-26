@@ -48,6 +48,11 @@ Buffs: {
 		// DisplayName: Crab Grab Buff
 		// Description: Mods.ForgottenSouls.Buffs.CrabGrabBuff.Description
 	}
+
+	ShatteredArmorBuff: {
+		// DisplayName: Shattered Armor Buff
+		// Description: Mods.ForgottenSouls.Buffs.ShatteredArmorBuff.Description
+	}
 }
 
 Items: {
@@ -140,6 +145,21 @@ Items: {
 		// DisplayName: True Dagger Fish
 		// Tooltip: ""
 	}
+
+	Multitool: {
+		// DisplayName: Multitool
+		// Tooltip: ""
+	}
+
+	ClassChoiceItem: {
+		// DisplayName: Class Choice Item
+		// Tooltip: ""
+	}
+
+	TrueCopperDagger: {
+		// DisplayName: True Copper Dagger
+		// Tooltip: ""
+	}
 }
 
 NPCs: {
@@ -180,6 +200,8 @@ Projectiles: {
 	// SporeCloud.DisplayName: Spore Cloud
 	// VampireDagger.DisplayName: Vampire Dagger
 	// GraniteSapphireBolt.DisplayName: Granite Sapphire Bolt
+	// GraniteElementalProjectile.DisplayName: Granite Elemental Projectile
+	// TrueCopperDaggerProjectile.DisplayName: True Copper Dagger Projectile
 }
 
 Biomes: {

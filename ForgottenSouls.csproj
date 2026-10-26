@@ -7,6 +7,12 @@
 	<PropertyGroup>
 
 	</PropertyGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="Content\Achievements\**" />
+	  <Compile Remove="Content\Achievements\**" />
+	  <EmbeddedResource Remove="Content\Achievements\**" />
+	  <None Remove="Content\Achievements\**" />
+	</ItemGroup>
 
 	<!-- References -->
 	<ItemGroup>
@@ -26,7 +32,11 @@
 	<ItemGroup>
 	  <Folder Include="Content\NPCs\Bosses\Ocram\" />
 	  <Folder Include="Content\NPCs\Bosses\Turkor\" />
-	  <Folder Include="Content\Achievements\" />
 	  <Folder Include="CrossMod\BossChecklist\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include=".lib\Fargowiltas.dll" />
+	  <None Include=".lib\FargowiltasSouls.dll" />
+	  <None Include=".lib\Luminance.dll" />
 	</ItemGroup>
 </Project>

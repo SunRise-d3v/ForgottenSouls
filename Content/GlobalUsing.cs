@@ -22,6 +22,8 @@ global using Terraria.Chat;
 global using Terraria.GameContent.Generation;
 global using Terraria.IO;
 global using Terraria.WorldBuilding;
+global using Terraria.GameContent.UI.Elements;
+global using Terraria.GameContent.Events;
 #endregion
 
 #region ReLogic
@@ -44,7 +46,9 @@ global using Fargowiltas.NPCs;
 global using FargowiltasSouls;
 global using FargowiltasSouls.Content.NPCs;
 global using FargowiltasSouls.Content.Projectiles;
+global using FargowiltasSouls.Core.AccessoryEffectSystem;
 
+global using Fargowiltas.Items.Explosives;
 global using FargowiltasSouls.Content.Bosses.AbomBoss;
 global using FargowiltasSouls.Content.Bosses.BanishedBaron;
 global using FargowiltasSouls.Content.Bosses.Champions.Cosmos;
@@ -62,7 +66,6 @@ global using FargowiltasSouls.Content.Bosses.Lifelight;
 global using FargowiltasSouls.Content.Bosses.MutantBoss;
 global using FargowiltasSouls.Content.Bosses.TrojanSquirrel;
 global using FargowiltasSouls.Content.Items.Weapons.Challengers;
-global using Fargowiltas.Items.Explosives;
 global using FargowiltasSouls.Content.Items.Accessories.Masomode;
 global using FargowiltasSouls.Content.Items.Misc;
 global using FargowiltasSouls.Content.Projectiles.Masomode;

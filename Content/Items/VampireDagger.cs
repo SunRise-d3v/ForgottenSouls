@@ -62,7 +62,7 @@ internal class VampireDagger : ModProjectile
     }
 }
 
-internal class VampireDagger : GlobalNPC
+internal class VampireDaggerNPC : GlobalNPC
 {
     private const float AttackRange = 700f;
     private const float Speed = 9f;

@@ -1,54 +1,37 @@
-﻿namespace ForgottenSouls.Content;
+﻿using Terraria.DataStructures;
+
+namespace ForgottenSouls.Content;
 
 internal static class TrueThrowables
 {
-    public const int CraftCost = 500;  
+    public const int CraftCost = 500;
     public const float DamageMult = 1.25f;
-
-    public static readonly (string Name, int BaseType, string RuName)[] List =
-    [
-        ("TrueSnowball",       ItemID.Snowball,       "Истинный снежок"),
-        ("TrueShuriken",       ItemID.Shuriken,       "Истинный сюрикен"),
-        ("TrueRottenEgg",      ItemID.RottenEgg,      "Истинное тухлое яйцо"),
-        ("TrueThrowingKnife",  ItemID.ThrowingKnife,  "Истинный метательный нож"),
-        ("TruePoisonedKnife",  ItemID.PoisonedKnife,  "Истинный отравленный нож"),
-        ("TrueBoneDagger",     ItemID.BoneDagger,     "Истинный костяной метательный нож"),
-        ("TrueStarAnise",      ItemID.StarAnise,      "Истинный бадьян"),
-        ("TrueJavelin",        ItemID.Javelin,        "Истинное метательное копьё"),
-        ("TrueBone",           ItemID.Bone,           "Истинная кость"),
-        ("TrueMolotovCocktail",ItemID.MolotovCocktail,"Истинный коктейль Молотова"),
-        ("TrueBoneJavelin",    ItemID.BoneJavelin,    "Истинное костяное метательное копьё"),
-        ("TrueDaggerFish",     ItemID.FrostDaggerfish,"Истинная метательная рыба-кинжал")
-    ];
+    public const float EffectChance = 0.5f; // шанс эффекта при попадании (можно переопределить у предмета)
 }
 
-internal class TrueThrowableLoader : ILoadable
+/// <summary>Эффект «истинного» предмета: дебафф (тип + время в тиках) или двойной урон.</summary>
+internal readonly record struct ThrowEffect(int Buff, int Ticks, bool DoubleDamage = false);
+
+/// <summary>
+/// Общая основа для всех «истинных» метательных предметов.
+/// Наследнику достаточно указать ванильный предмет и русское название.
+/// </summary>
+internal abstract class TrueThrowableBase : ModItem
 {
-    public void Load(Mod mod)
-    {
-        foreach (var (name, baseType, ruName) in TrueThrowables.List)
-            mod.AddContent(new TrueThrowable(name, baseType, ruName));
-    }
+    protected abstract int BaseType { get; }
+    protected abstract string RuName { get; }
 
-    public void Unload() { }
-}
+    // Эффект именно этого предмета и его описание для подсказки
+    protected abstract ThrowEffect Effect { get; }
+    protected abstract string EffectDescription { get; }
+    protected virtual float EffectChance => TrueThrowables.EffectChance;
 
-[Autoload(false)]
-internal class TrueThrowable(string internalName, int baseType, string ruName) : ModItem
-{
-    private readonly string internalName = internalName;
-    private readonly int baseType = baseType;
-    private readonly string ruName = ruName;
-
-    protected override bool CloneNewInstances => true;
-
-    public override string Name => internalName;
-
-    public override string Texture => "Terraria/Images/Item_" + baseType;
+    // Текстура ванильного предмета
+    public override string Texture => "Terraria/Images/Item_" + BaseType;
 
     public override void SetDefaults()
     {
-        Item.CloneDefaults(baseType);
+        Item.CloneDefaults(BaseType);
 
         Item.consumable = false;
         Item.maxStack = 1;
@@ -59,18 +42,38 @@ internal class TrueThrowable(string internalName, int baseType, string ruName) :
         Item.rare = Math.Max(Item.rare, ItemRarityID.Orange);
         Item.value = Item.sellPrice(gold: 1);
 
-        Item.SetNameOverride(ruName);
+        Item.SetNameOverride(RuName);
     }
 
     public override void ModifyTooltips(List<TooltipLine> tooltips)
     {
         tooltips.Add(new TooltipLine(Mod, "TrueThrowable", "Не расходуется"));
+        tooltips.Add(new TooltipLine(Mod, "TrueThrowableEffect", $"{(int)(EffectChance * 100)}% шанс при попадании: {EffectDescription}"));
+    }
+
+    // Бросаем ванильный снаряд и помечаем его эффектом этого предмета
+    public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
+    {
+        int index = Projectile.NewProjectile(source, position, velocity, type, damage, knockback, player.whoAmI);
+
+        if (index >= 0 && index < Main.maxProjectiles
+            && Main.projectile[index].TryGetGlobalProjectile(out TrueThrowableProjectile data))
+        {
+            ThrowEffect effect = Effect;
+            data.Active = true;
+            data.Buff = effect.Buff;
+            data.Ticks = effect.Ticks;
+            data.DoubleDamage = effect.DoubleDamage;
+            data.Chance = EffectChance;
+        }
+
+        return false; // обычный снаряд уже создан выше
     }
 
     public override void AddRecipes()
     {
         CreateRecipe()
-            .AddIngredient(baseType, TrueThrowables.CraftCost)
+            .AddIngredient(BaseType, TrueThrowables.CraftCost)
             .AddTile(TileID.Anvils)
             .Register();
     }
@@ -97,6 +100,104 @@ internal class TrueThrowable(string internalName, int baseType, string ruName) :
 
         return true;
     }
+}
+
+// ---- 12 предметов ----
+
+internal class TrueSnowball : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.Snowball;
+    protected override string RuName => "Истинный снежок";
+    protected override ThrowEffect Effect => new(BuffID.Chilled, 300);
+    protected override string EffectDescription => "окоченелость";
+}
+
+internal class TrueShuriken : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.Shuriken;
+    protected override string RuName => "Истинный сюрикен";
+    protected override ThrowEffect Effect => new(BuffID.Bleeding, 360);
+    protected override string EffectDescription => "кровотечение";
+}
+
+internal class TrueRottenEgg : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.RottenEgg;
+    protected override string RuName => "Истинное тухлое яйцо";
+    protected override ThrowEffect Effect => new(0, 0, true);
+    protected override string EffectDescription => "двойной урон";
+}
+
+internal class TrueThrowingKnife : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.ThrowingKnife;
+    protected override string RuName => "Истинный метательный нож";
+    protected override ThrowEffect Effect => new(ModContent.BuffType<ShatteredArmorBuff>(), 360);
+    protected override string EffectDescription => "расколотая броня (защита врага ниже)";
+}
+
+internal class TruePoisonedKnife : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.PoisonedKnife;
+    protected override string RuName => "Истинный отравленный нож";
+    protected override ThrowEffect Effect => new(BuffID.Poisoned, 360);
+    protected override string EffectDescription => "отравление";
+}
+
+internal class TrueBoneDagger : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.BoneDagger;
+    protected override string RuName => "Истинный костяной метательный нож";
+    protected override ThrowEffect Effect => new(BuffID.Confused, 240);
+    protected override string EffectDescription => "смятение: враг теряет направление";
+}
+
+internal class TrueStarAnise : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.StarAnise;
+    protected override string RuName => "Истинный бадьян";
+    protected override ThrowEffect Effect => new(BuffID.Midas, 600);
+    protected override string EffectDescription => "Мидас: с врага падает больше монет";
+}
+
+internal class TrueJavelin : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.Javelin;
+    protected override string RuName => "Истинное метательное копьё";
+    protected override ThrowEffect Effect => new(BuffID.Slow, 300);
+    protected override string EffectDescription => "замедление";
+}
+
+internal class TrueBone : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.Bone;
+    protected override string RuName => "Истинная кость";
+    protected override ThrowEffect Effect => new(BuffID.ShadowFlame, 300);
+    protected override string EffectDescription => "теневое пламя";
+}
+
+internal class TrueMolotovCocktail : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.MolotovCocktail;
+    protected override string RuName => "Истинный коктейль Молотова";
+    protected override ThrowEffect Effect => new(BuffID.Oiled, 360);
+    protected override string EffectDescription => "масло: враг получает больше урона от огня";
+}
+
+internal class TrueBoneJavelin : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.BoneJavelin;
+    protected override string RuName => "Истинное костяное метательное копьё";
+    protected override ThrowEffect Effect => new(BuffID.Venom, 300);
+    protected override string EffectDescription => "яд";
+}
+
+internal class TrueDaggerFish : TrueThrowableBase
+{
+    protected override int BaseType => ItemID.FrostDaggerfish;
+    protected override string RuName => "Истинная метательная рыба-кинжал";
+    protected override ThrowEffect Effect => new(BuffID.Frostburn, 360);
+    protected override string EffectDescription => "обжигающий холод";
 }
 
 internal class TrueThrowableSilhouettes : ModSystem
@@ -131,5 +232,40 @@ internal class TrueThrowableSilhouettes : ModSystem
                 tex.Dispose();
             cache.Clear();
         });
+    }
+}
+
+/// <summary>Применяет эффект «истинного» предмета к снаряду, который этот предмет бросил.</summary>
+internal class TrueThrowableProjectile : GlobalProjectile
+{
+    public override bool InstancePerEntity => true;
+
+    public override bool AppliesToEntity(Projectile entity, bool lateInstantiation)
+        => lateInstantiation && entity.friendly;
+
+    public bool Active;
+    public int Buff;
+    public int Ticks;
+    public bool DoubleDamage;
+    public float Chance;
+
+    // Двойной урон (с шансом)
+    public override void ModifyHitNPC(Projectile projectile, NPC target, ref NPC.HitModifiers modifiers)
+    {
+        if (!Active || !DoubleDamage || projectile.owner != Main.myPlayer)
+            return;
+
+        if (Main.rand.NextFloat() < Chance)
+            modifiers.FinalDamage *= 2f;
+    }
+
+    // Дебафф (с шансом); применяет клиент владельца снаряда
+    public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
+    {
+        if (!Active || Buff <= 0 || projectile.owner != Main.myPlayer)
+            return;
+
+        if (Main.rand.NextFloat() < Chance)
+            target.AddBuff(Buff, Ticks);
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content;
 
-internal class GraniteElemental : ModProjectile
+internal class GraniteElementalProjectile : ModProjectile
 {
     public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.SapphireBolt;
 
@@ -245,7 +245,7 @@ internal class GraniteElemental : GlobalNPC
             npc.GetSource_FromAI(),
             npc.Center,
             dir * BoltSpeed,
-            ModContent.ProjectileType<GraniteElemental>(),
+            ModContent.ProjectileType<GraniteElementalProjectile>(),
             damage,
             1f,
             Main.myPlayer);
