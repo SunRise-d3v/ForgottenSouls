@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
-internal class NightTownNPCArrival : ModSystem
+internal sealed class NightTownNPCArrival : ModSystem
 {
     private static Action _spawnTownNPCs;
 

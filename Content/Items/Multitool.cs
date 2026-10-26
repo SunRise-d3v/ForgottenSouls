@@ -1,8 +1,8 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Items;
 
-internal class Multitool : ModItem
+internal sealed class Multitool : ModItem
 {
-    public override string Texture => Helper.TextureLoad("Items", "Multitool");
+    public override string Texture => Helper.TextureLoadItem("Multitool");
 
     private const float SpreadDegrees = 15f;
 
@@ -200,7 +200,7 @@ internal class MultitoolProjectile : GlobalProjectile
         }
     }
 }
-internal class ShatteredArmorBuff : ModBuff
+internal sealed class ShatteredArmorBuff : ModBuff
 {
     public const int DefenseLoss = 12;
 
@@ -218,7 +218,7 @@ internal class ShatteredArmorBuff : ModBuff
     }
 }
 
-internal class ShatteredArmorNPC : GlobalNPC
+internal sealed class ShatteredArmorNPC : GlobalNPC
 {
     public override bool InstancePerEntity => true;
 

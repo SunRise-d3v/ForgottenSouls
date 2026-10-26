@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Projectiles;
 
-internal class DandelionSeed : GlobalProjectile
+internal sealed class DandelionSeed : GlobalProjectile
 {
     public override bool InstancePerEntity => true;
 

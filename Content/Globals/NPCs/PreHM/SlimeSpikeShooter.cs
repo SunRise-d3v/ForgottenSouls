@@ -1,8 +1,6 @@
-﻿using ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-namespace ForgottenSouls.Content;
-
-internal class SlimeSpikeShooter : GlobalNPC
+internal sealed class SlimeSpikeShooter : GlobalNPC
 {
     private const float MinRange = 150f;
     private const float MaxRange = 600f;
@@ -97,7 +95,7 @@ internal class SlimeSpikeShooter : GlobalNPC
     }
 }
 
-internal class StickySlimeSpike : GlobalProjectile
+internal sealed class StickySlimeSpike : GlobalProjectile
 {
     private const int SlimedTicks = 5 * 60;
 

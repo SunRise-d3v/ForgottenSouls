@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.NPCs;
+﻿namespace ForgottenSouls.Content.Globals;
 
 internal sealed class NPCProperties : GlobalNPC
 {

@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Entities;
+﻿namespace ForgottenSouls.Content.NPCs;
 
 internal sealed class ExplosiveBunny : GlobalNPC
 {

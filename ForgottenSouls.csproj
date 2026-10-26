@@ -9,9 +9,17 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <AdditionalFiles Remove="Content\Achievements\**" />
+	  <AdditionalFiles Remove="Content\NPCs\Bosses\Ocram\**" />
+	  <AdditionalFiles Remove="Content\NPCs\Bosses\Turkor\**" />
 	  <Compile Remove="Content\Achievements\**" />
+	  <Compile Remove="Content\NPCs\Bosses\Ocram\**" />
+	  <Compile Remove="Content\NPCs\Bosses\Turkor\**" />
 	  <EmbeddedResource Remove="Content\Achievements\**" />
+	  <EmbeddedResource Remove="Content\NPCs\Bosses\Ocram\**" />
+	  <EmbeddedResource Remove="Content\NPCs\Bosses\Turkor\**" />
 	  <None Remove="Content\Achievements\**" />
+	  <None Remove="Content\NPCs\Bosses\Ocram\**" />
+	  <None Remove="Content\NPCs\Bosses\Turkor\**" />
 	</ItemGroup>
 
 	<!-- References -->
@@ -30,8 +38,6 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Content\NPCs\Bosses\Ocram\" />
-	  <Folder Include="Content\NPCs\Bosses\Turkor\" />
 	  <Folder Include="CrossMod\BossChecklist\" />
 	</ItemGroup>
 	<ItemGroup>

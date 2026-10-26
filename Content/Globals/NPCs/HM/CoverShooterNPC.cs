@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
 public struct ShooterConfig
 {
@@ -24,7 +24,7 @@ public static class CoverConfig
     public const int MinDistanceToPlayer = 112;
 }
 
-public class CoverShooterNPC : GlobalNPC
+public sealed class CoverShooterNPC : GlobalNPC
 {
     private enum State { Normal, MoveToCover, Hide, Peek }
 

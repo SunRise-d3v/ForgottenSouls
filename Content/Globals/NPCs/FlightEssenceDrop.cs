@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Globals;
 
-internal class FlightEssenceDrop : GlobalNPC
+internal sealed class FlightEssenceDrop : GlobalNPC
 {
     public override void OnKill(NPC npc)
     {

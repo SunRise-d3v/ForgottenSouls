@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
-internal class GnomeThief : GlobalNPC
+internal sealed class GnomeThief : GlobalNPC
 {
     public const float StealFraction = 0.25f;
     public const int MinSteal = 100;       
@@ -111,7 +111,7 @@ internal class GnomeThief : GlobalNPC
     }
 }
 
-internal class GnomeThiefPlayer : ModPlayer
+internal sealed class GnomeThiefPlayer : ModPlayer
 {
     public override void PostUpdate()
     {

@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class MinerPickaxeKnockout : GlobalNPC
+internal sealed class MinerPickaxeKnockout : GlobalNPC
 {
     public override bool AppliesToEntity(NPC npc, bool lateInstantiation) => npc.type == NPCID.UndeadMiner;
 

@@ -1,8 +1,8 @@
 ﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class BonePile : ModNPC
+internal sealed class BonePile : ModNPC
 {
-    public override string Texture => Helper.TextureLoad("NPCs", "BonePile");
+    public override string Texture => Helper.TextureLoadNPC("BonePile");
 
     private const int ReviveTicks = 6 * 60;
 
@@ -82,7 +82,7 @@ internal class BonePile : ModNPC
     }
 }
 
-internal class SecondLifeNPC : GlobalNPC
+internal sealed class SecondLifeNPC : GlobalNPC
 {
     private static readonly HashSet<int> Excluded =
     [

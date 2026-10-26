@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace CrossMod;
 
-using FargowiltasSouls.Content.Items.Accessories.Enchantments;
-using FargowiltasSouls.Core.AccessoryEffectSystem;
-using FargowiltasSouls.Core.Toggler;
-using FargowiltasSouls.Core.Toggler.Content;
-
-namespace ForgottenSouls.Content;
-
-internal class FossilEnchantHook : ModSystem
+internal sealed class FossilEnchantHook : ModSystem
 {
     private delegate void OrigUpdateAccessory(FossilEnchant self, Player player, bool hideVisual);
 
@@ -39,7 +28,6 @@ internal class FossilEnchantHook : ModSystem
     }
 }
 
-/// <summary>Короткий иммунитет после получения урона (то, что делал FossilEffect, но без возрождения).</summary>
 internal class FossilGuard : AccessoryEffect
 {
     public override Header ToggleHeader => null;
@@ -51,11 +39,7 @@ internal class FossilGuard : AccessoryEffect
     }
 }
 
-/// <summary>
-/// При использовании зелья восстановления шанс 25% сократить зельную болезнь вдвое и убрать усталость от зелий.
-/// Логика - в PotionFatiguePlayer (PotionFatigue.cs).
-/// </summary>
-internal class FossilPotions : AccessoryEffect
+internal sealed class FossilPotions : AccessoryEffect
 {
     public const float Chance = 0.15f;
 

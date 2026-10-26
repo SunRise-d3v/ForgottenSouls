@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Tiles;
 
-internal class CrucibleShimmer : GlobalItem
+internal sealed class CrucibleShimmer : GlobalItem
 {
 #if false
     private const string CrucibleMod = "Fargowiltas";

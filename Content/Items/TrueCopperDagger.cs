@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Items;
 
-internal class TrueCopperDagger : ModItem
+internal sealed class TrueCopperDagger : ModItem
 {
     public override string Texture => "Terraria/Images/Item_" + ItemID.CopperShortsword;
 #if false

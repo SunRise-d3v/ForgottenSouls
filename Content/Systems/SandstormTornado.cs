@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Systems;
 
-internal class SandstormTornado : ModSystem
+internal sealed class SandstormTornado : ModSystem
 {
     private const int MinInterval = 480;
     private const int MaxInterval = 900;

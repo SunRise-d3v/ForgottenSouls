@@ -1,8 +1,8 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Globals;
 
 internal sealed class MimicChest : ModSystem
 {
-    private static readonly HashSet<Point16> SafeChests = new();
+    private static readonly HashSet<Point16> SafeChests = [];
     internal static bool MarkSafe(Point16 origin) => SafeChests.Add(origin);
 
     public override void ClearWorld() => SafeChests.Clear();

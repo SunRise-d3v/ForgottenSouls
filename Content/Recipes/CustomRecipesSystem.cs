@@ -1,7 +1,7 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Recipes;
 
-internal record CustomRecipe(int Result, (int Type, int Stack)[] Items, (string Group, int Stack)[] Groups, int Tile);
-internal partial class CustomRecipes : ModSystem
+internal sealed record CustomRecipe(int Result, (int Type, int Stack)[] Items, (string Group, int Stack)[] Groups, int Tile);
+internal sealed partial class CustomRecipes : ModSystem
 {
     public override void AddRecipes()
     {

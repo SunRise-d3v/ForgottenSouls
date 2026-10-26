@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Items;
 
 internal sealed class HealingPotionNerf : GlobalItem
 {

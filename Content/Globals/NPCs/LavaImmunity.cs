@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Globals;
 
-internal class LavaImmunity : GlobalNPC
+internal sealed class LavaImmunity : GlobalNPC
 {
     public override void SetDefaults(NPC npc)
     {

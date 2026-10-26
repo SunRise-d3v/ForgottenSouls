@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
 internal sealed class SharkAttacks : GlobalNPC
 {

@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Biome;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
 internal sealed class DrownFaster : ModPlayer
 {

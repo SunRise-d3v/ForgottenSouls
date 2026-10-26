@@ -38,17 +38,17 @@ global using Microsoft.Xna.Framework.Graphics;
 #endregion
 
 #region Fargo's
+global using Fargowiltas.NPCs;
+global using Fargowiltas.Items.Explosives;
+
 global using FargowiltasSouls.Content.Items;
 global using FargowiltasSouls.Content.UI;
 global using FargowiltasSouls.Content.UI.Elements;
 global using FargowiltasSouls.Core.Systems;
-global using Fargowiltas.NPCs;
 global using FargowiltasSouls;
 global using FargowiltasSouls.Content.NPCs;
 global using FargowiltasSouls.Content.Projectiles;
 global using FargowiltasSouls.Core.AccessoryEffectSystem;
-
-global using Fargowiltas.Items.Explosives;
 global using FargowiltasSouls.Content.Bosses.AbomBoss;
 global using FargowiltasSouls.Content.Bosses.BanishedBaron;
 global using FargowiltasSouls.Content.Bosses.Champions.Cosmos;
@@ -69,23 +69,31 @@ global using FargowiltasSouls.Content.Items.Weapons.Challengers;
 global using FargowiltasSouls.Content.Items.Accessories.Masomode;
 global using FargowiltasSouls.Content.Items.Misc;
 global using FargowiltasSouls.Content.Projectiles.Masomode;
+global using FargowiltasSouls.Content.Buffs.Masomode;
+global using FargowiltasSouls.Content.Items.Accessories.Enchantments;
+global using FargowiltasSouls.Core.Toggler;
+global using FargowiltasSouls.Core.Toggler.Content;
+
 #endregion
 
 #region Mod
 global using ForgottenSouls;
-global using ForgottenSouls.Content;
 global using ForgottenSouls.Debug;
-global using ForgottenSouls.Content.Biome;
+global using ForgottenSouls.Content;
+global using ForgottenSouls.Content.Biomes;
 global using ForgottenSouls.Content.Buffs;
 global using ForgottenSouls.Content.Debuffs;
-global using ForgottenSouls.Content.Entities;
 global using ForgottenSouls.Content.Items;
 global using ForgottenSouls.Content.Mechanics;
 global using ForgottenSouls.Content.NPCs;
-global using ForgottenSouls.Content.NPCs.Shops;
 global using ForgottenSouls.Content.Systems;
 global using ForgottenSouls.Content.Tiles;
 global using ForgottenSouls.Content.Projectiles;
+global using ForgottenSouls.Content.Globals;
+global using ForgottenSouls.Content.UI;
+global using ForgottenSouls.Content.ModPlayers;
+global using ForgottenSouls.Content.Recipes;
+global using ForgottenSouls.Content.Difficulty;
 
 global using CrossMod;
 #endregion

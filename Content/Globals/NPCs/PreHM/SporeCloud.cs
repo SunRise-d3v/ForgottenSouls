@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class SporeCloud : ModProjectile
+internal sealed class SporeCloud : ModProjectile
 {
     private const int PoisonTicks = 5 * 60;
 
@@ -96,7 +96,7 @@ internal class SporeCloud : ModProjectile
     }
 }
 
-internal class MushroomSpores : GlobalNPC
+internal sealed class MushroomSpores : GlobalNPC
 {
     private const int CloudIntervalTicks = 24;
     private const int MaxClouds = 60;

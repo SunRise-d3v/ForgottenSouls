@@ -1,8 +1,8 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
-internal class StartingHealth : ModPlayer
+internal sealed class StartingHealth : ModPlayer
 {
-    public const int HealthPenalty = 50;
+    internal const int HealthPenalty = 50;
 
     public override void ModifyMaxStats(out StatModifier health, out StatModifier mana)
     {

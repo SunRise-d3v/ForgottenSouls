@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Difficulty;
 
-internal class SadoDifficultySystem : ModSystem
+internal sealed class SadoDifficultySystem : ModSystem
 {
     public static bool Sadomasochist;
 
@@ -36,7 +36,7 @@ internal class SadoDifficultySystem : ModSystem
     }
 }
 
-public class SadomasochistOption : DifficultyOption
+internal sealed class SadomasochistOption : DifficultyOption
 {
     private const string LocPath = "Mods.NoCompromises.UI.";
     private static Asset<Texture2D> _icon;
@@ -69,7 +69,7 @@ public class SadomasochistOption : DifficultyOption
 
     public override void PostDraw(SpriteBatch spriteBatch, Vector2 position, float scale)
     {
-        _icon ??= ModContent.Request<Texture2D>(Helper.TextureLoad("UI", "Sadomasochist"));
+        _icon ??= ModContent.Request<Texture2D>(Helper.TextureLoadUI("Sadomasochist"));
         Texture2D texture = _icon.Value;
 
         Vector2 center = position + new Vector2(Width.Pixels / 2, Height.Pixels / 2) - scale * texture.Size() / 2;
@@ -77,7 +77,7 @@ public class SadomasochistOption : DifficultyOption
     }
 }
 
-public class DifficultyMenuHook : ModSystem
+internal sealed class DifficultyMenuHook : ModSystem
 {
     private const float Spacing = 60f;
     private const float OptionSize = 40f;

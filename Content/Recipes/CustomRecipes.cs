@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Recipes;
 
-internal partial class CustomRecipes
+internal sealed partial class CustomRecipes
 {
     private static readonly CustomRecipe[] Recipes =
     [

@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class LightHunt
+internal sealed class LightHunt
 {
     public static readonly HashSet<int> Hunters =
     [
@@ -68,7 +68,7 @@ internal class LightHunt
     }
 }
 
-public class LightHunterNPC : GlobalNPC
+public sealed class LightHunterNPC : GlobalNPC
 {
     public override bool InstancePerEntity => true;
 
@@ -178,7 +178,7 @@ public class LightHunterNPC : GlobalNPC
         => false;
 }
 
-public class LightSpawnNPC : GlobalNPC
+public sealed class LightSpawnNPC : GlobalNPC
 {
     public override void EditSpawnRate(Player player, ref int spawnRate, ref int maxSpawns)
     {

@@ -1,8 +1,8 @@
 ﻿using Conditions = Terraria.GameContent.ItemDropRules.Conditions;
 
-namespace ForgottenSouls.Content.Globals;
+namespace ForgottenSouls.Content.Mechanics;
 
-public class HardmodeProgression : ModSystem
+internal sealed class HardmodeProgression : ModSystem
 {
     private static int oreStage;
     private static int[] oreTypes = new int[3];
@@ -122,7 +122,7 @@ public class HardmodeProgression : ModSystem
     }
 }
 
-public class AllMechsDefeatedCondition : IItemDropRuleCondition
+internal sealed class AllMechsDefeatedCondition : IItemDropRuleCondition
 {
     public bool CanDrop(DropAttemptInfo info)
     {
@@ -152,7 +152,7 @@ public static class MechLootHelper
         => rule is CommonDrop drop && drop.itemId == ItemID.HallowedBar;
 }
 
-public class MechBossLootNPC : GlobalNPC
+internal sealed class MechBossLootNPC : GlobalNPC
 {
     public override void ModifyNPCLoot(NPC npc, NPCLoot npcLoot)
     {
@@ -178,7 +178,7 @@ public class MechBossLootNPC : GlobalNPC
     }
 }
 
-public class MechBossBagLootItem : GlobalItem
+internal sealed class MechBossBagLootItem : GlobalItem
 {
     public override void ModifyItemLoot(Item item, ItemLoot itemLoot)
     {

@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
 internal sealed class NightChill : ModPlayer
 {

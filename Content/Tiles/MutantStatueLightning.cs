@@ -1,13 +1,13 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Tiles;
 
 internal sealed class MutantStatueLightning : GlobalItem
 {
+#if false
     private const int LightningDamage = 60;
-    private const float StartHeight = 100f;       // на сколько выше статуи начинается молния
+    private const float StartHeight = 100f;   
     private const float StartSpeed = 12f;
-    private const int SearchRadius = 10;          // в каких пределах от игрока ищем статую (в блоках)
+    private const int SearchRadius = 10;     
 
-    // Внутренние имена тайлов статуи во Fargo: с подарком и пустая (после того как подарок забрали)
     private static readonly string[] StatueTiles = ["MutantStatueGift", "MutantStatue"];
 
     public override bool OnPickup(Item item, Player player)
@@ -20,7 +20,6 @@ internal sealed class MutantStatueLightning : GlobalItem
 
     private void StrikeStatue(Player player)
     {
-        // Молния бьёт только если подарок подобрали у статуи (а не получили, например, с босса Мутанта)
         if (!TryFindStatue(player, out Vector2 statueCenter))
             return;
 
@@ -38,7 +37,6 @@ internal sealed class MutantStatueLightning : GlobalItem
             ai1: Main.rand.Next(100));
     }
 
-    /// <summary>Ищет ближайшую статую Мутанта (3x3 тайла) рядом с игроком и возвращает её центр.</summary>
     private bool TryFindStatue(Player player, out Vector2 center)
     {
         center = default;
@@ -65,7 +63,6 @@ internal sealed class MutantStatueLightning : GlobalItem
                 if (!tile.HasTile || !types.Contains(tile.TileType))
                     continue;
 
-                // Верхний левый тайл статуи 3x3 по кадру текущего тайла, затем её центр
                 int left = x - tile.TileFrameX % 54 / 18;
                 int top = y - tile.TileFrameY % 54 / 18;
                 Vector2 candidate = new((left + 1.5f) * 16f, (top + 1.5f) * 16f);
@@ -82,4 +79,5 @@ internal sealed class MutantStatueLightning : GlobalItem
 
         return best < float.MaxValue;
     }
+#endif
 }

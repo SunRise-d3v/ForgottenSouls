@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class WyvernGlobalNPC : GlobalNPC
+internal sealed class WyvernGlobalNPC : GlobalNPC
 {
     public override void EditSpawnPool(
         IDictionary<int, float> pool,

@@ -1,8 +1,8 @@
 ﻿namespace ForgottenSouls.Content.Buffs;
 
-internal class WarCry : ModBuff
+internal sealed class WarCryBuff : ModBuff
 {
-    public override string Texture => Helper.TextureLoad("Buffs", "WarCry");
+    public override string Texture => Helper.TextureLoadBuff("WarCry");
 
     public override void SetStaticDefaults()
     {
@@ -10,7 +10,7 @@ internal class WarCry : ModBuff
     }
 }
 
-internal class WarCryNpc : GlobalNPC
+internal sealed class WarCryNpc : GlobalNPC
 {
     private static readonly HashSet<int> Criers =
     [
@@ -56,7 +56,7 @@ internal class WarCryNpc : GlobalNPC
         if (!IsAffectable(npc) || Main.netMode == NetmodeID.MultiplayerClient)
             return;
 
-        bool empowered = npc.HasBuff<WarCry>();
+        bool empowered = npc.HasBuff<WarCryBuff>();
 
         if (Criers.Contains(npc.type))
         {
@@ -105,7 +105,7 @@ internal class WarCryNpc : GlobalNPC
             return;
 
         _crying = true;
-        npc.AddBuff(ModContent.BuffType<WarCry>(), CryDurationTicks);
+        npc.AddBuff(ModContent.BuffType<WarCryBuff>(), CryDurationTicks);
 
         SoundEngine.PlaySound(SoundID.Roar with { Pitch = 0.3f }, npc.Center);
 
@@ -150,7 +150,7 @@ internal class WarCryNpc : GlobalNPC
                 if (!IsAffectable(other) || npc.Distance(other.Center) > AuraRadius)
                     continue;
 
-                other.AddBuff(ModContent.BuffType<WarCry>(), AuraBuffTicks);
+                other.AddBuff(ModContent.BuffType<WarCryBuff>(), AuraBuffTicks);
             }
         }
 
@@ -189,13 +189,13 @@ internal class WarCryNpc : GlobalNPC
 
     public override void ModifyHitPlayer(NPC npc, Player target, ref Player.HurtModifiers modifiers)
     {
-        if (npc.HasBuff<WarCry>())
+        if (npc.HasBuff<WarCryBuff>())
             modifiers.SourceDamage *= DamageMultiplier;
     }
 
     public override void ModifyIncomingHit(NPC npc, ref NPC.HitModifiers modifiers)
     {
-        if (npc.HasBuff<WarCry>())
+        if (npc.HasBuff<WarCryBuff>())
             modifiers.FinalDamage *= 1f - DamageReduction;
     }
 

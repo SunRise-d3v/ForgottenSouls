@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class VampireDagger : ModProjectile
+internal sealed class VampireDagger : ModProjectile
 {
     public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.VampireKnife;
 
@@ -62,7 +62,7 @@ internal class VampireDagger : ModProjectile
     }
 }
 
-internal class VampireDaggerNPC : GlobalNPC
+internal sealed class VampireDaggerNPC : GlobalNPC
 {
     private const float AttackRange = 700f;
     private const float Speed = 9f;

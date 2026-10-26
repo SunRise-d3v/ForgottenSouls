@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Globals;
 
-internal class GrenadeNerfItem : GlobalItem
+internal sealed class GrenadeNerfItem : GlobalItem
 {
 #if true
     public const float DamageMultiplier = 0.4f;

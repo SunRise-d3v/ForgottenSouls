@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Globals;
 
 internal sealed class LifeFruitPlantera : GlobalItem
 {

@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Globals;
 
-internal class BossKillCounterPlayer : ModPlayer
+internal sealed class BossKillCounterPlayer : ModPlayer
 {
     public int EyeOfCthulhuKills = 0;
 

@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class WeddingCouple : GlobalNPC
+internal sealed class WeddingCouple : GlobalNPC
 {
     private const float PairSpawnDistance = 50f;
 

@@ -1,8 +1,8 @@
 ﻿namespace ForgottenSouls.Content.Debuffs;
 
-internal sealed class Jammed : ModBuff
+internal sealed class JammedDebuff : ModBuff
 {
-    public override string Texture => Helper.TextureLoad("Buffs/Debuff", "Jammed");
+    public override string Texture => Helper.TextureLoadBuff("Debuffs", "Jammed");
 
     public override void SetStaticDefaults()
     {

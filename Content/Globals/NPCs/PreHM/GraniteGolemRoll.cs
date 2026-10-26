@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class GraniteGolemRoll : GlobalNPC
+internal sealed class GraniteGolemRoll : GlobalNPC
 {
     private const float MinRange = 120f;
     private const float MaxRange = 600f;

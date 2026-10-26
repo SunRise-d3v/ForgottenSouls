@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.Projectiles;
 
-internal class FallingStarKill : GlobalProjectile
+internal sealed class FallingStarKill : GlobalProjectile
 {
     private const int MinDamage = 666;
 

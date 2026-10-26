@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Biomes;
 
-internal class HardmodeBlizzard : ModPlayer
+internal sealed class HardmodeBlizzard : ModPlayer
 {
     private bool forcing;
     private bool savedRaining;

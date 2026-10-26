@@ -1,7 +1,7 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Items;
 
 internal enum ChosenClass { None, Melee, Ranged, Magic, Summoner }
-internal class ClassChoicePlayer : ModPlayer
+internal sealed class ClassChoicePlayer : ModPlayer
 {
     private const float BonusDamage = 0.20f;  
     private const float BonusCrit = 8f;       
@@ -69,7 +69,7 @@ internal class ClassChoicePlayer : ModPlayer
     }
 }
 
-internal class ClassChoiceItem : ModItem
+internal sealed class ClassChoiceItem : ModItem
 {
     public override string Texture => "Terraria/Images/Item_" + ItemID.AvengerEmblem;
 
@@ -104,7 +104,7 @@ internal class ClassChoiceDrop : GlobalNPC
     }
 }
 
-internal class ClassChoiceSystem : ModSystem
+internal sealed class ClassChoiceSystem : ModSystem
 {
     private static UserInterface _interface;
     private static ClassChoiceUI _state;
@@ -164,7 +164,7 @@ internal class ClassChoiceSystem : ModSystem
     }
 }
 
-internal class ClassChoiceUI : UIState
+internal sealed class ClassChoiceUI : UIState
 {
     private UIPanel _panel;
 
@@ -240,7 +240,7 @@ internal class ClassChoiceUI : UIState
     }
 }
 
-internal class ClassButton : UIElement
+internal sealed class ClassButton : UIElement
 {
     internal const float Size = 56f;
 

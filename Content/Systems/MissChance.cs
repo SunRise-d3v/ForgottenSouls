@@ -1,27 +1,14 @@
-﻿using FargowiltasSouls.Content.Buffs.Masomode;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
-namespace ForgottenSouls.Content;
-
-/// <summary>
-/// Шанс уклониться от атаки игрока есть только у того монстра, которого реально задело оружие или снаряд игрока:
-///  - статичные существа (стоят без движения / манекен / турели) - попадание 100%;
-///  - ловкие существа (Тим и подобные) на 100% уклоняются от ПЕРВОЙ атаки игрока;
-///  - остальные уклоняются с шансом из ваших значений (BaseMissChance ... MaxMissChance).
-/// Дебаффы атакующего игрока по-прежнему повышают шанс монстра увернуться.
-/// </summary>
-internal class EnemyDodgeNPC : GlobalNPC
+internal sealed class EnemyDodgeNPC : GlobalNPC
 {
     public const float BaseMissChance = 0.02f;
     public const float BossMultiplier = 0.1f;
     public const float MaxMissChance = 0.13f;
     public const bool AffectMinions = false;
 
-    private const int StaticTicks = 45; // тиков без движения, после которых существо считается статичным
+    private const int StaticTicks = 45;
 
-    /// <summary>
-    /// Ловкие существа: 100% уклонение от первой атаки.
-    /// Значение - дополнительный шанс уклонения после первой атаки (прибавляется к базовому, потом общий потолок MaxMissChance).
-    /// </summary>
     public static readonly Dictionary<int, float> Evasive = new()
     {
         { NPCID.Tim,         0.05f },
@@ -30,7 +17,6 @@ internal class EnemyDodgeNPC : GlobalNPC
         { NPCID.Necromancer, 0.03f }
     };
 
-    /// <summary>Всегда статичные: в них попадаешь на 100%, даже если они «ловкие».</summary>
     public static readonly HashSet<int> AlwaysStatic =
     [
         NPCID.TargetDummy,
@@ -44,7 +30,7 @@ internal class EnemyDodgeNPC : GlobalNPC
 
     private int stillTicks;
     private bool firstAttackDodged;
-    private bool dodgedThisHit;   // текущее попадание превращено в промах, его урон потом возвращается
+    private bool dodgedThisHit; 
 
     public bool IsStatic(NPC npc)
         => AlwaysStatic.Contains(npc.type) || stillTicks >= StaticTicks;
@@ -62,7 +48,7 @@ internal class EnemyDodgeNPC : GlobalNPC
         }
     }
 
-    public float GetDodgeChance(NPC npc, Player attacker)
+    public static float GetDodgeChance(NPC npc, Player attacker)
     {
         float chance = BaseMissChance;
 
@@ -94,7 +80,6 @@ internal class EnemyDodgeNPC : GlobalNPC
 
         if (Evasive.ContainsKey(npc.type) && !firstAttackDodged)
         {
-            // Первая атака по ловкому существу: уклонение 100%
             firstAttackDodged = true;
             return true;
         }
@@ -102,13 +87,8 @@ internal class EnemyDodgeNPC : GlobalNPC
         return Main.rand.NextFloat() < GetDodgeChance(npc, attacker);
     }
 
-    /// <summary>
-    /// Вызывается только когда удар уже засчитан (оружие реально задело именно этого моба).
-    /// Если моб уклонился, превращаем удар в промах: убираем урон, откидывание, крит и числа, показываем «Miss!».
-    /// </summary>
     private void TryDodge(NPC npc, Player attacker, ref NPC.HitModifiers modifiers)
     {
-        // Существо с 1 здоровья не трогаем: минимальный урон в игре 1 и он бы его убил
         if (npc.dontTakeDamage || npc.life <= 1 || !RollDodge(npc, attacker))
             return;
 
@@ -121,7 +101,6 @@ internal class EnemyDodgeNPC : GlobalNPC
         CombatText.NewText(npc.Hitbox, Color.LightGray, "Miss!");
     }
 
-    // Минимальный урон в игре 1, возвращаем его, чтобы промах действительно ничего не отнимал
     private void RestoreIfDodged(NPC npc, int damageDone)
     {
         if (!dodgedThisHit)
@@ -156,9 +135,8 @@ internal class EnemyDodgeNPC : GlobalNPC
         => RestoreIfDodged(npc, damageDone);
 }
 
-internal class MissChancePlayer : ModPlayer
+internal sealed class MissChancePlayer : ModPlayer
 {
-    /// <summary>Вычитается из шанса монстра уклониться от атаки игрока.</summary>
     public float AccuracyBonus;
 
     public override void ResetEffects()

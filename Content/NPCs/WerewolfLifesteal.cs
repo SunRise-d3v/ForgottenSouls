@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class WerewolfLifesteal : GlobalNPC
+internal sealed class WerewolfLifesteal : GlobalNPC
 {
     private const float HealFraction = 0.10f;
 

@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Biome;
+﻿namespace ForgottenSouls.Content.Biomes;
 
-internal sealed class BurnInHellPlayer : ModPlayer
+internal sealed class BurnInHell : ModPlayer
 {
     public override void PreUpdateBuffs()
     {

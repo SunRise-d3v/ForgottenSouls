@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class DemonEyeBloodShot : GlobalNPC
+internal sealed class DemonEyeBloodShot : GlobalNPC
 {
     private static readonly HashSet<int> Eyes =
     [
@@ -158,7 +158,7 @@ internal class DemonEyeBloodShot : GlobalNPC
     }
 }
 
-internal class StraightEyeShot : GlobalProjectile
+internal sealed class StraightEyeShot : GlobalProjectile
 {
     private bool _locked;
     private Vector2 _velocity;

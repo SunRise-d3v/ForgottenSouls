@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Recipes;
 
-internal class CustomRecipeGroups : ModSystem
+internal sealed class CustomRecipeGroups : ModSystem
 {
     public const string EvilSwordGroup = "EvilSwordGroup";
 

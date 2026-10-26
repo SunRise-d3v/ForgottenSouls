@@ -1,24 +1,28 @@
-﻿namespace ForgottenSouls.Content.NPCs;
+﻿namespace ForgottenSouls.Content.Globals;
 
 internal sealed class GoldCritterDrop : GlobalNPC
 {
+    private static readonly HashSet<int> GoldCritters =
+    [
+        NPCID.GoldBird,
+        NPCID.GoldBunny,
+        NPCID.GoldButterfly,
+        NPCID.GoldDragonfly,
+        NPCID.GoldFrog,
+        NPCID.GoldGoldfish,
+        NPCID.GoldGrasshopper,
+        NPCID.GoldLadyBug,
+        NPCID.GoldMouse,
+        NPCID.GoldSeahorse,
+        NPCID.SquirrelGold,
+        NPCID.GoldWorm,
+    ];
+
     public override void OnKill(NPC npc)
     {
-        if (npc.type == NPCID.GoldBird ||
-            npc.type == NPCID.GoldBunny ||
-            npc.type == NPCID.GoldButterfly ||
-            npc.type == NPCID.GoldDragonfly ||
-            npc.type == NPCID.GoldFrog ||
-            npc.type == NPCID.GoldGoldfish ||
-            npc.type == NPCID.GoldGrasshopper ||
-            npc.type == NPCID.GoldLadyBug ||
-            npc.type == NPCID.GoldMouse ||
-            npc.type == NPCID.GoldSeahorse ||
-            npc.type == NPCID.SquirrelGold ||
-            npc.type == NPCID.GoldWorm)
-        {
-            int amount = Main.rand.Next(10, 15 + 1);
-            Item.NewItem(npc.GetSource_Loot(), npc.getRect(), ItemID.GoldCoin, amount);
-        }
+        if (!GoldCritters.Contains(npc.type))
+            return;
+
+        Item.NewItem(npc.GetSource_Loot(), npc.getRect(), ItemID.GoldCoin, Main.rand.Next(10, 15 + 1));
     }
 }

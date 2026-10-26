@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class BatClone : GlobalNPC
+internal sealed class BatClone : GlobalNPC
 {
     private const int CloneCooldownTicks = 120;
     private const int MaxBats = 20;

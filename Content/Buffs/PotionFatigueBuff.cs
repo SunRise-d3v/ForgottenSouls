@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Buffs;
 
-internal class PotionFatigueBuff : ModBuff
+internal sealed class PotionFatigueBuff : ModBuff
 {
     public override string Texture => "Terraria/Images/Buff_" + BuffID.PotionSickness;
 
@@ -22,7 +22,7 @@ internal class PotionFatigueBuff : ModBuff
     }
 }
 
-internal class PotionFatiguePlayer : ModPlayer
+internal sealed class PotionFatiguePlayer : ModPlayer
 {
     public const int MaxStacks = 10;
     public const int FreeUses = 2;
@@ -99,7 +99,7 @@ internal class PotionFatiguePlayer : ModPlayer
     }*/
 }
 
-internal class PotionFatigueItem : GlobalItem
+internal sealed class PotionFatigueItem : GlobalItem
 {
     public override bool AppliesToEntity(Item entity, bool lateInstantiation)
         => lateInstantiation && (entity.healLife > 0 || entity.healMana > 0);

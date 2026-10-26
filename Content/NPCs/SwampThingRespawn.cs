@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class SwampThingRespawn : GlobalNPC
+internal sealed class SwampThingRespawn : GlobalNPC
 {
     private const int MaxRespawns = 1;
 

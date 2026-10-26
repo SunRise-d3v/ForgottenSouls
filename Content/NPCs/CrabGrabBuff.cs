@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class CrabGrabBuff : ModBuff
+internal sealed class CrabGrabBuff : ModBuff
 {
     public override string Texture => "Terraria/Images/Buff_" + BuffID.Webbed;
 
@@ -31,7 +31,7 @@ internal class CrabGrabBuff : ModBuff
     }
 }
 
-internal class CrabGrabNPC : GlobalNPC
+internal sealed class CrabGrabNPC : GlobalNPC
 {
     public const int GrabTicks = 120;
     private const int CooldownTicks = 8 * 60;

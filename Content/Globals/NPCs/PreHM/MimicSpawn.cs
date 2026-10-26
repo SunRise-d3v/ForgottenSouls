@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.NPCs;
+﻿namespace ForgottenSouls.Content.Globals;
 
-internal sealed class Mimic : GlobalNPC
+internal sealed class MimicSpawn : GlobalNPC
 {
     /*public override void EditSpawnPool(IDictionary<int, float> pool, NPCSpawnInfo spawnInfo)
     {

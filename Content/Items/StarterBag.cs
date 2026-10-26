@@ -2,7 +2,7 @@
 
 internal sealed class StarterBag : ModItem
 {
-    public override string Texture => Helper.TextureLoad("Items", "StarterBag");
+    public override string Texture => Helper.TextureLoadItem("StarterBag");
 
     private static readonly (int Type, int Stack)[] Weapons =
     [

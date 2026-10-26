@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.ModPlayers;
 
 internal sealed class StartingInventory : ModPlayer
 {

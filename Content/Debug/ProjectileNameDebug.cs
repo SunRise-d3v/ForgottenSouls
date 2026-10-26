@@ -2,7 +2,7 @@
 
 internal sealed class ProjectileNameDebug : GlobalProjectile
 {
-#if true
+#if false
     public override void OnSpawn(Projectile projectile, IEntitySource source)
     {
         if (projectile.ModProjectile != null)

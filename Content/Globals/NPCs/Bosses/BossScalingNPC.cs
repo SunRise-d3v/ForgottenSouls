@@ -1,6 +1,4 @@
-﻿using ForgottenSouls.Content.Globals;
-
-namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Globals;
 
 internal class BossScalingNPC : GlobalNPC
 {

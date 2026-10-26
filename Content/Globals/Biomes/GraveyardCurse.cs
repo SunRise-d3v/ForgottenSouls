@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Biomes;
 
-internal class GraveyardCurse : ModPlayer
+internal sealed class GraveyardCurse : ModPlayer
 {
     public const float SpawnBonus = 0.15f;
 
@@ -11,7 +11,7 @@ internal class GraveyardCurse : ModPlayer
     }
 }
 
-internal class GraveyardSpawnNPC : GlobalNPC
+internal sealed class GraveyardSpawnNPC : GlobalNPC
 {
     public override void EditSpawnRate(Player player, ref int spawnRate, ref int maxSpawns)
     {

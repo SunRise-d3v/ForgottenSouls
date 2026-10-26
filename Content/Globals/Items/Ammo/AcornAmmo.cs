@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.Items;
 
-internal class AcornAmmoSystem : ModSystem
+internal sealed class AcornAmmoSystem : ModSystem
 {
     public override void Load()
     {

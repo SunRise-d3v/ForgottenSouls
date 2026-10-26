@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Globals;
 
-public class BossMemory
+public sealed class BossMemory
 {
     public const int SampleTicks = 10;
     public const int Bins = 9;
@@ -88,7 +88,7 @@ public class BossMemory
     }
 }
 
-public class BossMemorySystem : ModSystem
+public sealed class BossMemorySystem : ModSystem
 {
     public static Dictionary<string, BossMemory> Memories = new Dictionary<string, BossMemory>();
     private static readonly Dictionary<int, int> lastState = new Dictionary<int, int>();
@@ -214,7 +214,7 @@ public class BossMemorySystem : ModSystem
     }
 }
 
-public class BossMemoryNPC : GlobalNPC
+public sealed class BossMemoryNPC : GlobalNPC
 {
     private const int MasteryKills = 8;
 

@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
-internal class HouseRaid : ModSystem
+internal sealed class HouseRaid : ModSystem
 {
     public const int RaidIntervalDays = 7; 
     private const int BaseMobs = 6;     
@@ -208,7 +208,7 @@ internal class HouseRaid : ModSystem
     }
 }
 
-internal class HouseRaidNPC : GlobalNPC
+internal sealed class HouseRaidNPC : GlobalNPC
 {
     private const float LifePerLevel = 0.12f;
     private const float MaxLifeMult = 2.2f;

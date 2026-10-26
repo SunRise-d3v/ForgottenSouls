@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Biome;
+﻿namespace ForgottenSouls.Content.Biomes;
 
 internal sealed class ChillInSnow : ModPlayer
 {

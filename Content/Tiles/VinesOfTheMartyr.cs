@@ -2,7 +2,7 @@
 
 internal sealed class VinesOfTheMartyr : ModNPC
 {
-    public override string Texture => Helper.TextureLoad("NPCs", "VinesOfTheMartyr");
+    public override string Texture => Helper.TextureLoadNPC("VinesOfTheMartyr");
 
     private const int MaxStage = 8;
     private const int TicksPerStage = 22 * 60;
@@ -317,7 +317,7 @@ internal sealed class VinePlayer : ModPlayer
     }
 }
 
-internal class VinesSpawn : GlobalNPC
+internal sealed class VinesSpawn : GlobalNPC
 {
     private const float Weight = 0.2f;
 

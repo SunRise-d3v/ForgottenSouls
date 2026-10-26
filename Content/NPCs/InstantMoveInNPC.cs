@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
-internal class InstantMoveInNPC : GlobalNPC
+internal sealed class InstantMoveInNPC : GlobalNPC
 {
     public override bool InstancePerEntity => true;
 

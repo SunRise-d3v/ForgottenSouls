@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Globals;
 
-internal class InstantDrowningPlayer : ModPlayer
+internal sealed class InstantDrowningPlayer : ModPlayer
 {
     public override void PostUpdate()
     {

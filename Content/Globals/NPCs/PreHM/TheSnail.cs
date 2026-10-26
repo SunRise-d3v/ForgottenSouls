@@ -1,11 +1,11 @@
 ﻿namespace ForgottenSouls.Content.NPCs;
 
 [AutoloadBossHead]
-internal class TheSnail : ModNPC
+internal sealed class TheSnail : ModNPC
 {
     public override string Texture => "Terraria/Images/NPC_" + NPCID.Snail;
 
-    public override string BossHeadTexture => Helper.TextureLoad("NPCs", "TheSnail_Head_Boss");
+    public override string BossHeadTexture => Helper.TextureLoadNPC("TheSnail_Head_Boss");
 
     public override void BossHeadRotation(ref float rotation) => rotation = 0f;
 
@@ -80,7 +80,7 @@ internal class TheSnail : ModNPC
         return false;
     }
 
-    public override void BossHeadSlot(ref int index) => Helper.TextureLoad("NPCs", "TheSnail_Head_Boss");
+    public override void BossHeadSlot(ref int index) => Helper.TextureLoadNPC("TheSnail_Head_Boss");
 
     public override void AI()
     {
@@ -138,7 +138,7 @@ internal class TheSnail : ModNPC
             if (_pathIndex < _path.Count)
                 _moveTarget = _path[_pathIndex++];
             else if (_pathBlocked)
-                _moveTarget = StepToward(current, goal);  
+                _moveTarget = StepToward(current, goal);
 
             if (_moveTarget is null || _moveTarget == current)
             {
@@ -439,7 +439,7 @@ internal class TheSnail : ModNPC
     }
 }
 
-internal class SnailPlayer : ModPlayer
+internal sealed class SnailPlayer : ModPlayer
 {
     public override void OnEnterWorld()
     {

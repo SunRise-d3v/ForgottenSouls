@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
 internal sealed class SniperOneShot : GlobalProjectile
 {

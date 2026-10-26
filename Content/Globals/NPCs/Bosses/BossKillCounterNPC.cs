@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.Globals;
 
-internal class BossKillCounterNPC : GlobalNPC
+internal sealed class BossKillCounterNPC : GlobalNPC
 {
     public override void OnKill(NPC npc)
     {

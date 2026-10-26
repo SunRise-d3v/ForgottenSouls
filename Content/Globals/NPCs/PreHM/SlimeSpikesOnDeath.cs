@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class SlimeDeathSpikes : GlobalNPC
+internal sealed class SlimeDeathSpikes : GlobalNPC
 {
     private const int SpikeDamage = 20;
     private const float MinSpeed = 4f;
@@ -25,7 +25,6 @@ internal class SlimeDeathSpikes : GlobalNPC
 
     public override void OnKill(NPC npc)
     {
-        // Снаряды создаёт сервер (или одиночная игра)
         if (Main.netMode == NetmodeID.MultiplayerClient || !IsHostileSlime(npc))
             return;
 

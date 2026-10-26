@@ -1,6 +1,4 @@
-﻿using Terraria.DataStructures;
-
-namespace NoCompromises.Content.Entities.Bosses.Bosses;
+﻿namespace NoCompromises.Content.Global;
 
 internal class BossDeathStrike : GlobalNPC
 {
@@ -13,7 +11,7 @@ internal class BossDeathStrike : GlobalNPC
             int fatalDamage = target.statLife + target.statDefense * 2;
             target.Hurt(PlayerDeathReason.ByCustomReason($"{target.name} был уничтожен мощью босса {npc.FullName}!"), fatalDamage, 0);
 
-            //Terraria.Audio.SoundEngine.PlaySound(SoundID.NPCDeath6, target.Center);
+            SoundEngine.PlaySound(SoundID.NPCDeath6, target.Center);
         }
     }
 }

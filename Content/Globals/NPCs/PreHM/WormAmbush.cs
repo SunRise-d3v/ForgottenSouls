@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class WormAmbushNPC : GlobalNPC
+internal sealed class WormAmbush : GlobalNPC
 {
     public static readonly HashSet<int> Heads =
         [

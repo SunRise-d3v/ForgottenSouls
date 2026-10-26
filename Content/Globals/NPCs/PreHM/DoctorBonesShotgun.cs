@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Globals;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class DoctorBonesShotgun : GlobalNPC
+internal sealed class DoctorBonesShotgun : GlobalNPC
 {
     private const int GunItem = ItemID.Boomstick;
 

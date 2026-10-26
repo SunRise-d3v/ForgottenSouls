@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content.Systems;
+﻿namespace ForgottenSouls.Content.Mechanics;
 
-internal class PotionShuffleSystem : ModSystem
+internal sealed class PotionShuffle : ModSystem
 {
     private static readonly Dictionary<int, int> Map = [];
 
@@ -87,13 +87,13 @@ internal class PotionShuffleSystem : ModSystem
     }
 }
 
-internal class PotionShufflePlayer : ModPlayer
+internal sealed class PotionShufflePlayer : ModPlayer
 {
     public override void PreUpdate()
     {
         foreach (Item item in Player.inventory.Append(Main.mouseItem))
         {
-            if (!item.IsAir && PotionShuffleSystem.TryGetBuff(item.type, out int buff))
+            if (!item.IsAir && PotionShuffle.TryGetBuff(item.type, out int buff))
                 item.buffType = buff;
         }
     }

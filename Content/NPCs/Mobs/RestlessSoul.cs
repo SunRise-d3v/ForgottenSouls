@@ -2,7 +2,7 @@
 
 internal sealed class RestlessSoul : ModNPC
 {
-    public override string Texture => Helper.TextureLoad("NPCs", "RestlessSoul");
+    public override string Texture => Helper.TextureLoadNPC("RestlessSoul");
 #if false
 
     private const float InitialSpeed = 4f;

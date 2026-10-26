@@ -2,7 +2,7 @@
 
 internal sealed class ObserverBuff : ModBuff
 {
-    public override string Texture => Helper.TextureLoad("Buffs", "ObserverBuff0");
+    public override string Texture => Helper.TextureLoadBuff("ObserverBuff0");
 
     public override void SetStaticDefaults()
     {

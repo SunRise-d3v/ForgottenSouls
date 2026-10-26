@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class GraniteElementalProjectile : ModProjectile
+internal sealed class GraniteElementalProjectile : ModProjectile
 {
     public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.SapphireBolt;
 
@@ -36,7 +36,7 @@ internal class GraniteElementalProjectile : ModProjectile
     }
 }
 
-internal class GraniteElemental : GlobalNPC
+internal sealed class GraniteElemental : GlobalNPC
 {
     private enum State : byte { Normal, Telegraph, Curling, Falling, Uncurling }
 
@@ -49,7 +49,7 @@ internal class GraniteElemental : GlobalNPC
     private const int GroundHoldTicks = 60;
     private const int MaxFallTicks = 360;
 
-    private readonly string TexturePath = Helper.TextureLoad("NPCs", "GraniteElementalInvulnerable");
+    private readonly string TexturePath = Helper.TextureLoadNPC("GraniteElementalInvulnerable");
     private const int FrameW = 20;
     private const int FrameH = 32;
     private const int FrameGap = 2;
@@ -273,7 +273,6 @@ internal class GraniteElemental : GlobalNPC
         if (timer == 1)
             SoundEngine.PlaySound(SoundID.Item29, npc.Center);
 
-        // Сходящееся кольцо вокруг элементаля
         for (int i = 0; i < 2; i++)
         {
             float angle = Main.rand.NextFloat(MathHelper.TwoPi);

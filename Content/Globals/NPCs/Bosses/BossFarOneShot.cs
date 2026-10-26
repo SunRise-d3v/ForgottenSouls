@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Globals;
 
-internal class BossFarOneShot : GlobalProjectile
+internal sealed class BossFarOneShot : GlobalProjectile
 {
     private const float FarDistance = 100f * 16f;
 

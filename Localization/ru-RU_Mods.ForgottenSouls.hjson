@@ -53,6 +53,16 @@ Buffs: {
 		// DisplayName: Shattered Armor Buff
 		// Description: Mods.ForgottenSouls.Buffs.ShatteredArmorBuff.Description
 	}
+
+	WarCryBuff: {
+		// DisplayName: War Cry Buff
+		// Description: Mods.ForgottenSouls.Buffs.WarCryBuff.Description
+	}
+
+	JammedDebuff: {
+		// DisplayName: Jammed Debuff
+		// Description: Mods.ForgottenSouls.Buffs.JammedDebuff.Description
+	}
 }
 
 Items: {

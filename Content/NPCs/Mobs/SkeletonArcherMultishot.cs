@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.NPCs;
 
-internal class SkeletonArcherMultishot : GlobalProjectile
+internal sealed class SkeletonArcherMultishot : GlobalProjectile
 {
     private const float SpreadDegrees = 8f;
 

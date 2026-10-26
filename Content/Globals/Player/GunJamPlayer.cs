@@ -1,6 +1,6 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.ModPlayers;
 
-internal class GunJamPlayer : ModPlayer
+internal sealed class GunJamPlayer : ModPlayer
 {
     private const int ClickIntervalTicks = 20;
 
@@ -16,16 +16,16 @@ internal class GunJamPlayer : ModPlayer
         if (_clickCooldown > 0)
             _clickCooldown--;
 
-        if (JammedItemType != -1 && !Player.HasBuff<Jammed>())
+        if (JammedItemType != -1 && !Player.HasBuff<JammedDebuff>())
             JammedItemType = -1;
     }
 
-    internal bool IsJammed(Item item) => JammedItemType == item.type && Player.HasBuff<Jammed>();
+    internal bool IsJammed(Item item) => JammedItemType == item.type && Player.HasBuff<JammedDebuff>();
 
     internal void Jam(Item item, int ticks)
     {
         JammedItemType = item.type;
-        Player.AddBuff(ModContent.BuffType<Jammed>(), ticks);
+        Player.AddBuff(ModContent.BuffType<JammedDebuff>(), ticks);
         SoundEngine.PlaySound(JamSound, Player.Center);
     }
 
@@ -66,7 +66,7 @@ internal sealed class GunJamItem : GlobalItem
         if (player.HeldItem.type == ModContent.ItemType<NavalRustrifle>() || !UsesBullets(item))
             return true;
 
-        if (player.HasBuff<Jammed>())
+        if (player.HasBuff<JammedDebuff>())
             return true;
 
         if (Main.rand.NextFloat() >= JamChance)

@@ -1,10 +1,10 @@
-﻿namespace ForgottenSouls.Content;
+﻿namespace ForgottenSouls.Content.ModPlayers;
 
 internal sealed class Properties : ModPlayer
 {
 #if true
     public override void PreUpdateMovement()
-        => Player.moveSpeed += 0.144f;
+        => Player.moveSpeed += 0.125f;
 
     // public override void PostUpdateRunSpeeds()
     // => Player.maxRunSpeed *= 1.06f;
