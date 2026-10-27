@@ -1,1 +1,9 @@
-Modify this file with a description of your mod.
+Forgotten Souls Mod is a global modification that reworks classic Terraria. It was made as a companion to Fargo's Souls Mod and is built almost entirely (99%) on top of it.
+
+It changes the content of Fargo's Souls Mod itself and adds a little of its own. The AI of almost every creature has been reworked, and unique buffs and debuffs, game mechanics and rule changes have been added for different biomes and different creatures.
+
+The mod adds a new difficulty level that is harder than Fargo's Souls' Masochist Mode. It is a real challenge for experienced players.
+
+(The mod does not work with Calamity Mod or in multiplayer)
+[THIS MOD IS IN AN UNFINISHED STATE]
+GitHub: https://github.com/SunRise-d3v/ForgottenSouls
