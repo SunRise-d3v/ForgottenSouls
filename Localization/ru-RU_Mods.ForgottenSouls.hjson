@@ -1,222 +1,248 @@
 Buffs: {
 	HeroVillage1: {
-		DisplayName: Hero Village1
-		Description: Mods.ForgottenSouls.Buffs.HeroVillage1.Description
+		DisplayName: Герой деревни
+		Description: Жители благодарны вам за защиту
 	}
 
 	HeroVillage2: {
-		DisplayName: Hero Village2
-		Description: Mods.ForgottenSouls.Buffs.HeroVillage2.Description
+		DisplayName: Герой деревни
+		Description: Жители благодарны вам за защиту
 	}
 
 	HeroVillage3: {
-		DisplayName: Hero Village3
-		Description: Mods.ForgottenSouls.Buffs.HeroVillage3.Description
+		DisplayName: Герой деревни
+		Description: Жители благодарны вам за защиту
 	}
 
 	HeroVillage4: {
-		DisplayName: Hero Village4
-		Description: Mods.ForgottenSouls.Buffs.HeroVillage4.Description
+		DisplayName: Герой деревни
+		Description: Жители благодарны вам за защиту
 	}
 
 	ObserverBuff: {
-		DisplayName: Observer Buff
-		Description: Mods.ForgottenSouls.Buffs.ObserverBuff.Description
+		DisplayName: Наблюдатель
+		Description: Верховная сущность наблюдает за вами
 	}
 
 	ArachnophobiaDebuff: {
-		DisplayName: Arachnophobia Debuff
-		Description: Mods.ForgottenSouls.Buffs.ArachnophobiaDebuff.Description
+		DisplayName: Арахнофобия
+		Description: Вы испытываете страх перед членистоногими
 	}
 
 	Jammed: {
-		// DisplayName: Jammed
-		// Description: Mods.ForgottenSouls.Buffs.Jammed.Description
+		DisplayName: Заедание
+		Description: Ваше оружие заклинило
 	}
 
 	WarCry: {
-		// DisplayName: War Cry
-		// Description: Mods.ForgottenSouls.Buffs.WarCry.Description
+		DisplayName: Боевой клич
+		Description:
+			'''
+			Существо издаёт рёв.
+			Другие существа чувствуют прилив сил
+			'''
 	}
 
 	PotionFatigueBuff: {
-		// DisplayName: Potion Fatigue Buff
-		// Description: Mods.ForgottenSouls.Buffs.PotionFatigueBuff.Description
+		DisplayName: Усталость от зелий
+		Description: Зелья лечат слабее
 	}
 
 	CrabGrabBuff: {
-		// DisplayName: Crab Grab Buff
-		// Description: Mods.ForgottenSouls.Buffs.CrabGrabBuff.Description
+		DisplayName: Крепкая хватка
+		Description: Вас схватил краб
 	}
 
 	ShatteredArmorBuff: {
-		// DisplayName: Shattered Armor Buff
-		// Description: Mods.ForgottenSouls.Buffs.ShatteredArmorBuff.Description
+		DisplayName: Расколотая броня
+		Description: Защита снижена
 	}
 
 	WarCryBuff: {
-		// DisplayName: War Cry Buff
-		// Description: Mods.ForgottenSouls.Buffs.WarCryBuff.Description
+		DisplayName: Боевой клич
+		Description:
+			'''
+			Существо издаёт рёв.
+			Другие существа чувствуют прилив сил
+			'''
 	}
 
 	JammedDebuff: {
-		// DisplayName: Jammed Debuff
-		// Description: Mods.ForgottenSouls.Buffs.JammedDebuff.Description
+		DisplayName: Заедание
+		Description: Ваше оружие заклинило
 	}
 }
 
 Items: {
 	ARankAdventurerEmblem: {
-		DisplayName: A Rank Adventurer Emblem
-		Tooltip: ""
+		DisplayName: Эмблема авантюриста (ранг A)
+		Tooltip: Жители дают вам скидку 20%
 	}
 
 	BRankAdventurerEmblem: {
-		DisplayName: B Rank Adventurer Emblem
-		Tooltip: ""
+		DisplayName: Эмблема авантюриста (ранг B)
+		Tooltip: Жители дают вам скидку 13%
 	}
 
 	CRankAdventurerEmblem: {
-		DisplayName: C Rank Adventurer Emblem
-		Tooltip: ""
+		DisplayName: Эмблема авантюриста (ранг C)
+		Tooltip: Жители дают вам скидку 8%
 	}
 
 	FRankAdventurerEmblem: {
-		DisplayName: F Rank Adventurer Emblem
-		Tooltip: ""
+		DisplayName: Эмблема авантюриста (ранг F)
+		Tooltip: Жители дают вам скидку 5%
 	}
 
 	StarterBag: {
-		DisplayName: Starter Bag
-		Tooltip: ""
+		DisplayName: Стартовый мешок
+		Tooltip:
+			'''
+			Даёт начинающим авантюристам всё необходимое для старта
+			Не потеряйте его: он у вас один
+			'''
 	}
 
 	CookEnchantment: {
-		DisplayName: Cook Enchantment
-		Tooltip: ""
+		DisplayName: Зачарование повара
+		Tooltip:
+			'''
+			Вы больше не испытываете голода
+			Вы получаете бафф «Сытость»
+			Вместе с атакой может вылететь пара ингредиентов для торта
+			Регенерация здоровья увеличена на 1
+			'''
 	}
 
 	TrueSnowball: {
-		// DisplayName: True Snowball
-		// Tooltip: ""
+		DisplayName: Истинный снежок
+		Tooltip: ""
 	}
 
 	TrueShuriken: {
-		// DisplayName: True Shuriken
-		// Tooltip: ""
+		DisplayName: Истинный сюрикен
+		Tooltip: ""
 	}
 
 	TrueRottenEgg: {
-		// DisplayName: True Rotten Egg
-		// Tooltip: ""
+		DisplayName: Истинное тухлое яйцо
+		Tooltip: ""
 	}
 
 	TrueThrowingKnife: {
-		// DisplayName: True Throwing Knife
-		// Tooltip: ""
+		DisplayName: Истинный метательный нож
+		Tooltip: ""
 	}
 
 	TruePoisonedKnife: {
-		// DisplayName: True Poisoned Knife
-		// Tooltip: ""
+		DisplayName: Истинный отравленный нож
+		Tooltip: ""
 	}
 
 	TrueBoneDagger: {
-		// DisplayName: True Bone Dagger
-		// Tooltip: ""
+		DisplayName: Истинный костяной метательный нож
+		Tooltip: ""
 	}
 
 	TrueBone: {
-		// DisplayName: True Bone
-		// Tooltip: ""
+		DisplayName: Истинная кость
+		Tooltip: ""
 	}
 
 	TrueStarAnise: {
-		// DisplayName: True Star Anise
-		// Tooltip: ""
+		DisplayName: Истинный бадьян
+		Tooltip: ""
 	}
 
 	TrueJavelin: {
-		// DisplayName: True Javelin
-		// Tooltip: ""
+		DisplayName: Истинное метательное копьё
+		Tooltip: ""
 	}
 
 	TrueMolotovCocktail: {
-		// DisplayName: True Molotov Cocktail
-		// Tooltip: ""
+		DisplayName: Истинный коктейль Молотова
+		Tooltip: ""
 	}
 
 	TrueBoneJavelin: {
-		// DisplayName: True Bone Javelin
-		// Tooltip: ""
+		DisplayName: Истинное костяное метательное копьё
+		Tooltip: ""
 	}
 
 	TrueDaggerFish: {
-		// DisplayName: True Dagger Fish
-		// Tooltip: ""
+		DisplayName: Истинная метательная рыба-кинжал
+		Tooltip: ""
 	}
 
 	Multitool: {
-		// DisplayName: Multitool
-		// Tooltip: ""
+		DisplayName: Универсальный инструмент
+		Tooltip:
+			'''
+			Выпускает 4–5 случайных метательных снарядов
+			При попадании с шансом 50% накладывает эффект
+			'''
 	}
 
 	ClassChoiceItem: {
-		// DisplayName: Class Choice Item
-		// Tooltip: ""
+		DisplayName: Выбор мастера
+		Tooltip:
+			'''
+			Позволяет выбрать класс
+			Исчезает после выбора
+			'''
 	}
 
 	TrueCopperDagger: {
-		// DisplayName: True Copper Dagger
-		// Tooltip: ""
+		DisplayName: Истинный медный кинжал
+		Tooltip: ""
 	}
 }
 
 NPCs: {
-	RestlessSoul.DisplayName: Restless Soul
-	// VinesOfTheMartyr.DisplayName: Vines Of The Martyr
+	// RestlessSoul.DisplayName: Restless Soul
+	VinesOfTheMartyr.DisplayName: Лозы мученика
 	// BigEgg.DisplayName: Big Egg
 	// ChocolateEgg.DisplayName: Chocolate Egg
-	// DisasterBunny.DisplayName: Disaster Bunny
+	DisasterBunny.DisplayName: Кролик-катастрофа
 
 	Lepus: {
-		// DisplayName: Lepus
-		// Bestiary: Mods.ForgottenSouls.NPCs.Lepus.Bestiary
 	}
 
 	// SmallEgg.DisplayName: Small Egg
-	// BonePile.DisplayName: Bone Pile
+	BonePile.DisplayName: Куча костей
 
 	TheSnail: {
-		// DisplayName: The Snail
+		DisplayName: Улитка
 
 		TownNPCMood: {
-			// Content: I am content.
-			// NoHome: I hate not having a home.
-			// FarFromHome: I am too far from home.
-			// LoveSpace: I love having so much space.
-			// DislikeCrowded: I dislike how crowded I am.
-			// HateCrowded: I hate how crowded I am.
-			// LikeNPC_Princess: I like {NPCName}.
-			// Princess_LovesNPC: I like {NPCName}.
+			Content: Я доволен.
+			NoHome: Ненавижу жить без дома.
+			FarFromHome: Я слишком далеко от дома.
+			LoveSpace: Обожаю, когда вокруг так много места.
+			DislikeCrowded: Мне не нравится такая теснота.
+			HateCrowded: Ненавижу такую тесноту.
+			LikeNPC_Princess: Мне нравится {NPCName}.
+			Princess_LovesNPC: Мне нравится {NPCName}.
 		}
 	}
+
+	// RestlessSoul.DisplayName: Restless Soul
 }
 
 Projectiles: {
 	// LepusStomp.DisplayName: Lepus Stomp
 	// LilLepusStomp.DisplayName: Lil Lepus Stomp
 	// Stomp.DisplayName: Stomp
-	// SporeCloud.DisplayName: Spore Cloud
-	// VampireDagger.DisplayName: Vampire Dagger
-	// GraniteSapphireBolt.DisplayName: Granite Sapphire Bolt
-	// GraniteElementalProjectile.DisplayName: Granite Elemental Projectile
-	// TrueCopperDaggerProjectile.DisplayName: True Copper Dagger Projectile
+	SporeCloud.DisplayName: Облако спор
+	VampireDagger.DisplayName: Вампирский кинжал
+	GraniteSapphireBolt.DisplayName: Гранитный сапфировый заряд
+	GraniteElementalProjectile.DisplayName: Снаряд гранитного элементаля
+	TrueCopperDaggerProjectile.DisplayName: Снаряд истинного медного кинжала
 }
 
 Biomes: {
 	RabbitInvasionBiome: {
-		// DisplayName: Rabbit Invasion Biome
-		// TownNPCDialogueName: the Rabbit Invasion Biome
+		DisplayName: Биом нашествия кроликов
+		TownNPCDialogueName: биом нашествия кроликов
 	}
 }

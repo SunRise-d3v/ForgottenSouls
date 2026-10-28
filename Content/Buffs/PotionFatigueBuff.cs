@@ -14,11 +14,9 @@ internal sealed class PotionFatigueBuff : ModBuff
     public override void ModifyBuffText(ref string buffName, ref string tip, ref int rare)
     {
         var fatigue = Main.LocalPlayer.GetModPlayer<PotionFatiguePlayer>();
-        buffName = "Усталость от зелий";
-
         int penalty = (int)Math.Round((1f - fatigue.Efficiency) * 100f);
-        tip = $"Накоплено: {fatigue.Stacks}. Зелья лечат на {penalty}% слабее.\n" +
-              "Не пейте зелья, и усталость сбросится.";
+
+        tip = Language.GetTextValue("Mods.ForgottenSouls.Buffs.PotionFatigueBuff.Tip", fatigue.Stacks, penalty);
     }
 }
 

@@ -6,20 +6,6 @@ internal sealed class SlimeDeathSpikes : GlobalNPC
     private const float MinSpeed = 4f;
     private const float MaxSpeed = 8f;
 
-    internal static readonly HashSet<int> LargeSlimes =
-    [
-        NPCID.UmbrellaSlime,
-        NPCID.ToxicSludge,
-        NPCID.SpikedJungleSlime,
-        NPCID.SpikedIceSlime,
-        NPCID.MotherSlime,
-        NPCID.DungeonSlime,
-        NPCID.CorruptSlime,
-        NPCID.Crimslime,
-        NPCID.IlluminantSlime,
-        NPCID.RainbowSlime
-    ];
-
     internal static bool IsHostileSlime(NPC npc)
         => npc.aiStyle == NPCAIStyleID.Slime && !npc.friendly && !npc.townNPC;
 
@@ -28,7 +14,7 @@ internal sealed class SlimeDeathSpikes : GlobalNPC
         if (Main.netMode == NetmodeID.MultiplayerClient || !IsHostileSlime(npc))
             return;
 
-        int count = LargeSlimes.Contains(npc.type)
+        int count = Pool.LargeSlimes.Contains(npc.type)
             ? Main.rand.Next(5, 11)   // 5-10
             : Main.rand.Next(3, 6);  // 3-5
 

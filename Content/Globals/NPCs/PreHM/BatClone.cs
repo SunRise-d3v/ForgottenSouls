@@ -7,25 +7,11 @@ internal sealed class BatClone : GlobalNPC
     private const float BlindChance = 0.20f;
     private const int BlindTicks = 3 * 60;
 
-    private static readonly HashSet<int> Bats =
-    [
-        NPCID.CaveBat,
-        NPCID.GiantBat,
-        NPCID.JungleBat,
-        NPCID.IceBat,
-        NPCID.Hellbat,
-        NPCID.Lavabat,
-        NPCID.SporeBat,
-        NPCID.VampireBat,
-        NPCID.IlluminantBat,
-        NPCID.GiantFlyingFox
-    ];
-
     private int _cloneCooldown;
 
     public override bool InstancePerEntity => true;
 
-    public override bool AppliesToEntity(NPC npc, bool lateInstantiation) => Bats.Contains(npc.type);
+    public override bool AppliesToEntity(NPC npc, bool lateInstantiation) => Pool.Bats.Contains(npc.type);
 
     public override void PostAI(NPC npc)
     {
@@ -73,7 +59,7 @@ internal sealed class BatClone : GlobalNPC
         {
             NPC npc = Main.npc[i];
 
-            if (npc.active && Bats.Contains(npc.type))
+            if (npc.active && Pool.Bats.Contains(npc.type))
                 count++;
         }
 

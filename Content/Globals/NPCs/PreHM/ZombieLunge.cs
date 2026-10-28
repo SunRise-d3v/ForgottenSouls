@@ -13,53 +13,6 @@ internal sealed class ZombieLunge : GlobalNPC
     private const int CooldownMax = 500;
     private const int AttemptChance = 30;
 
-    private static readonly HashSet<int> Zombies =
-    [
-        NPCID.Zombie,
-        NPCID.BaldZombie,
-        NPCID.PincushionZombie,
-        NPCID.SlimedZombie,
-        NPCID.SwampZombie,
-        NPCID.TwiggyZombie,
-        NPCID.FemaleZombie,
-        NPCID.ZombieDoctor,
-        NPCID.ZombieSuperman,
-        NPCID.ZombiePixie,
-        NPCID.ZombieSweater,
-        NPCID.BaldZombie,
-        NPCID.BigBaldZombie,
-        NPCID.SmallBaldZombie,
-        NPCID.BigFemaleZombie,
-        NPCID.BigPincushionZombie,
-        NPCID.BigSlimedZombie,
-        NPCID.BigRainZombie,
-        NPCID.MaggotZombie,
-
-        NPCID.BloodZombie,
-        NPCID.ZombieRaincoat,
-        NPCID.ZombieMushroom,
-        NPCID.ZombieMushroomHat,
-        NPCID.ZombieEskimo,
-        NPCID.ZombieMerman,
-
-        NPCID.ZombieElf,
-        NPCID.ZombieElfBeard,
-        NPCID.ZombieElfGirl,
-        NPCID.ZombieXmas,
-
-        /*NPCID.ArmedZombie,
-        NPCID.ArmedZombieCenx,
-        NPCID.ArmedZombiePinstripe,
-        NPCID.ArmedZombieSlim,
-        NPCID.ArmedZombieSwamp,
-        NPCID.ArmedZombieTwiggy,
-        NPCID.ArmedTorchZombie,*/
-
-        //NPCID.ArmedZombieEskimo,
-        //NPCID.ArmedZombieRaincoat,
-    ];
-
-
     private enum State
     {
         Walk,
@@ -74,7 +27,7 @@ internal sealed class ZombieLunge : GlobalNPC
 
     public override bool InstancePerEntity => true;
 
-    public override bool AppliesToEntity(NPC npc, bool lateInstantiation) => Zombies.Contains(npc.type);
+    public override bool AppliesToEntity(NPC npc, bool lateInstantiation) => Pool.Zombies.Contains(npc.type);
 
     public override void PostAI(NPC npc)
     {

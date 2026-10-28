@@ -12,11 +12,12 @@ internal readonly record struct ThrowEffect(int Buff, int Ticks, bool DoubleDama
 internal abstract class TrueThrowableBase : ModItem
 {
     protected abstract int BaseType { get; }
-    protected abstract string RuName { get; }
 
     protected abstract ThrowEffect Effect { get; }
-    protected abstract string EffectDescription { get; }
     protected virtual float EffectChance => TrueThrowables.EffectChance;
+
+    // Key: Mods.ForgottenSouls.Items.<ClassName>.EffectDescription
+    protected string EffectDescription => this.GetLocalization("EffectDescription").Value;
 
     public override string Texture => "Terraria/Images/Item_" + BaseType;
 
@@ -32,14 +33,15 @@ internal abstract class TrueThrowableBase : ModItem
         Item.damage = (int)(Item.damage * TrueThrowables.DamageMult);
         Item.rare = Math.Max(Item.rare, ItemRarityID.Orange);
         Item.value = Item.sellPrice(gold: 1);
-
-        Item.SetNameOverride(RuName);
     }
 
     public override void ModifyTooltips(List<TooltipLine> tooltips)
     {
-        tooltips.Add(new TooltipLine(Mod, "TrueThrowable", "Не расходуется"));
-        tooltips.Add(new TooltipLine(Mod, "TrueThrowableEffect", $"{(int)(EffectChance * 100)}% шанс при попадании: {EffectDescription}"));
+        tooltips.Add(new TooltipLine(Mod, "TrueThrowable",
+            Language.GetTextValue("Mods.ForgottenSouls.Tooltips.TrueThrowable.NotConsumed")));
+
+        tooltips.Add(new TooltipLine(Mod, "TrueThrowableEffect",
+            Language.GetTextValue("Mods.ForgottenSouls.Tooltips.TrueThrowable.EffectLine", (int)(EffectChance * 100), EffectDescription)));
     }
 
     public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
@@ -95,97 +97,73 @@ internal abstract class TrueThrowableBase : ModItem
 internal sealed class TrueSnowball : TrueThrowableBase
 {
     protected override int BaseType => ItemID.Snowball;
-    protected override string RuName => "Истинный снежок";
     protected override ThrowEffect Effect => new(BuffID.Chilled, 300);
-    protected override string EffectDescription => "окоченелость";
 }
 
 internal sealed class TrueShuriken : TrueThrowableBase
 {
     protected override int BaseType => ItemID.Shuriken;
-    protected override string RuName => "Истинный сюрикен";
     protected override ThrowEffect Effect => new(BuffID.Bleeding, 360);
-    protected override string EffectDescription => "кровотечение";
 }
 
 internal sealed class TrueRottenEgg : TrueThrowableBase
 {
     protected override int BaseType => ItemID.RottenEgg;
-    protected override string RuName => "Истинное тухлое яйцо";
     protected override ThrowEffect Effect => new(0, 0, true);
-    protected override string EffectDescription => "двойной урон";
 }
 
 internal sealed class TrueThrowingKnife : TrueThrowableBase
 {
     protected override int BaseType => ItemID.ThrowingKnife;
-    protected override string RuName => "Истинный метательный нож";
     protected override ThrowEffect Effect => new(ModContent.BuffType<ShatteredArmorBuff>(), 360);
-    protected override string EffectDescription => "расколотая броня (защита врага ниже)";
 }
 
 internal sealed class TruePoisonedKnife : TrueThrowableBase
 {
     protected override int BaseType => ItemID.PoisonedKnife;
-    protected override string RuName => "Истинный отравленный нож";
     protected override ThrowEffect Effect => new(BuffID.Poisoned, 360);
-    protected override string EffectDescription => "отравление";
 }
 
 internal sealed class TrueBoneDagger : TrueThrowableBase
 {
     protected override int BaseType => ItemID.BoneDagger;
-    protected override string RuName => "Истинный костяной метательный нож";
     protected override ThrowEffect Effect => new(BuffID.Confused, 240);
-    protected override string EffectDescription => "смятение: враг теряет направление";
 }
 
 internal sealed class TrueStarAnise : TrueThrowableBase
 {
     protected override int BaseType => ItemID.StarAnise;
-    protected override string RuName => "Истинный бадьян";
     protected override ThrowEffect Effect => new(BuffID.Midas, 600);
-    protected override string EffectDescription => "Мидас: с врага падает больше монет";
 }
 
 internal sealed class TrueJavelin : TrueThrowableBase
 {
     protected override int BaseType => ItemID.Javelin;
-    protected override string RuName => "Истинное метательное копьё";
     protected override ThrowEffect Effect => new(BuffID.Slow, 300);
-    protected override string EffectDescription => "замедление";
 }
 
 internal sealed class TrueBone : TrueThrowableBase
 {
     protected override int BaseType => ItemID.Bone;
-    protected override string RuName => "Истинная кость";
     protected override ThrowEffect Effect => new(BuffID.ShadowFlame, 300);
-    protected override string EffectDescription => "теневое пламя";
 }
 
 internal sealed class TrueMolotovCocktail : TrueThrowableBase
 {
     protected override int BaseType => ItemID.MolotovCocktail;
-    protected override string RuName => "Истинный коктейль Молотова";
     protected override ThrowEffect Effect => new(BuffID.Oiled, 360);
-    protected override string EffectDescription => "масло: враг получает больше урона от огня";
 }
 
 internal sealed class TrueBoneJavelin : TrueThrowableBase
 {
     protected override int BaseType => ItemID.BoneJavelin;
-    protected override string RuName => "Истинное костяное метательное копьё";
     protected override ThrowEffect Effect => new(BuffID.Venom, 300);
-    protected override string EffectDescription => "яд";
 }
 
 internal sealed class TrueDaggerFish : TrueThrowableBase
 {
     protected override int BaseType => ItemID.FrostDaggerfish;
-    protected override string RuName => "Истинная метательная рыба-кинжал";
     protected override ThrowEffect Effect => new(BuffID.Frostburn, 360);
-    protected override string EffectDescription => "обжигающий холод";
 }
 
 internal sealed class TrueThrowableSilhouettes : ModSystem

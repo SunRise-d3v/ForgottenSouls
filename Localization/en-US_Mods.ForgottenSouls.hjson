@@ -1,99 +1,117 @@
 Buffs: {
 	HeroVillage1: {
-		DisplayName: Hero Village1
-		Description: Mods.ForgottenSouls.Buffs.HeroVillage1.Description
+		DisplayName: Village Hero
+		Description: The villagers are grateful for your protection
 	}
 
 	HeroVillage2: {
-		DisplayName: Hero Village2
-		Description: Mods.ForgottenSouls.Buffs.HeroVillage2.Description
+		DisplayName: Village Hero
+		Description: The villagers are grateful for your protection
 	}
 
 	HeroVillage3: {
-		DisplayName: Hero Village3
-		Description: Mods.ForgottenSouls.Buffs.HeroVillage3.Description
+		DisplayName: Village Hero
+		Description: The villagers are grateful for your protection
 	}
 
 	HeroVillage4: {
-		DisplayName: Hero Village4
-		Description: Mods.ForgottenSouls.Buffs.HeroVillage4.Description
+		DisplayName: Village Hero
+		Description: The villagers are grateful for your protection
 	}
 
 	ObserverBuff: {
-		DisplayName: Observer Buff
-		Description: Mods.ForgottenSouls.Buffs.ObserverBuff.Description
+		DisplayName: Observer
+		Description: A supreme entity is watching you
 	}
 
 	ArachnophobiaDebuff: {
-		DisplayName: Arachnophobia Debuff
-		Description: Mods.ForgottenSouls.Buffs.ArachnophobiaDebuff.Description
+		DisplayName: Arachnophobia
+		Description: You are afraid of arthropods
 	}
 
 	Jammed: {
 		DisplayName: Jammed
-		Description: Mods.ForgottenSouls.Buffs.Jammed.Description
+		Description: Your weapon is jammed
 	}
 
 	WarCry: {
 		DisplayName: War Cry
-		Description: Mods.ForgottenSouls.Buffs.WarCry.Description
+		Description:
+			'''
+			A creature lets out a roar.
+			Other creatures feel a surge of strength
+			'''
 	}
 
 	PotionFatigueBuff: {
-		DisplayName: Potion Fatigue Buff
-		Description: Mods.ForgottenSouls.Buffs.PotionFatigueBuff.Description
+		DisplayName: Potion Fatigue
+		Description: Potions heal less
 	}
 
 	CrabGrabBuff: {
-		DisplayName: Crab Grab Buff
-		Description: Mods.ForgottenSouls.Buffs.CrabGrabBuff.Description
+		DisplayName: Firm Grip
+		Description: A crab has grabbed you
 	}
 
 	ShatteredArmorBuff: {
-		DisplayName: Shattered Armor Buff
-		Description: Mods.ForgottenSouls.Buffs.ShatteredArmorBuff.Description
+		DisplayName: Shattered Armor
+		Description: Defense is reduced
 	}
 
 	WarCryBuff: {
-		DisplayName: War Cry Buff
-		Description: Mods.ForgottenSouls.Buffs.WarCryBuff.Description
+		DisplayName: War Cry
+		Description:
+			'''
+			A creature lets out a roar.
+			Other creatures feel a surge of strength
+			'''
 	}
 
 	JammedDebuff: {
-		DisplayName: Jammed Debuff
-		Description: Mods.ForgottenSouls.Buffs.JammedDebuff.Description
+		DisplayName: Jammed
+		Description: Your weapon is jammed
 	}
 }
 
 Items: {
 	ARankAdventurerEmblem: {
-		DisplayName: A Rank Adventurer Emblem
-		Tooltip: ""
+		DisplayName: Adventurer's Emblem (Rank A)
+		Tooltip: Townsfolk give you a 20% discount
 	}
 
 	BRankAdventurerEmblem: {
-		DisplayName: B Rank Adventurer Emblem
-		Tooltip: ""
+		DisplayName: Adventurer's Emblem (Rank B)
+		Tooltip: Townsfolk give you a 13% discount
 	}
 
 	CRankAdventurerEmblem: {
-		DisplayName: C Rank Adventurer Emblem
-		Tooltip: ""
+		DisplayName: Adventurer's Emblem (Rank C)
+		Tooltip: Townsfolk give you an 8% discount
 	}
 
 	FRankAdventurerEmblem: {
-		DisplayName: F Rank Adventurer Emblem
-		Tooltip: ""
+		DisplayName: Adventurer's Emblem (Rank F)
+		Tooltip: Townsfolk give you a 5% discount
 	}
 
 	StarterBag: {
 		DisplayName: Starter Bag
-		Tooltip: ""
+		Tooltip:
+			'''
+			Gives novice adventurers everything they need to get started
+			Don't lose it: you only get one
+			'''
 	}
 
 	CookEnchantment: {
 		DisplayName: Cook Enchantment
-		Tooltip: ""
+		Tooltip:
+			'''
+			You no longer feel hunger
+			You gain the Well Fed buff
+			Your attacks may fire a couple of cake ingredients
+			Health regeneration is increased by 1
+			'''
 	}
 
 	TrueSnowball: {
@@ -158,12 +176,20 @@ Items: {
 
 	Multitool: {
 		DisplayName: Multitool
-		Tooltip: ""
+		Tooltip:
+			'''
+			Fires 4-5 random throwing projectiles
+			On hit, has a 50% chance to apply an effect
+			'''
 	}
 
 	ClassChoiceItem: {
-		DisplayName: Class Choice Item
-		Tooltip: ""
+		DisplayName: Master's Choice
+		Tooltip:
+			'''
+			Lets you choose a class
+			Disappears after choosing
+			'''
 	}
 
 	TrueCopperDagger: {
@@ -173,40 +199,40 @@ Items: {
 }
 
 NPCs: {
-	RestlessSoul.DisplayName: Restless Soul
-	VinesOfTheMartyr.DisplayName: Vines Of The Martyr
-	BigEgg.DisplayName: Big Egg
-	ChocolateEgg.DisplayName: Chocolate Egg
+	// RestlessSoul.DisplayName: Restless Soul
+	VinesOfTheMartyr.DisplayName: Vines of the Martyr
+	// BigEgg.DisplayName: Big Egg
+	// ChocolateEgg.DisplayName: Chocolate Egg
 	DisasterBunny.DisplayName: Disaster Bunny
 
 	Lepus: {
-		DisplayName: Lepus
-		Bestiary: Mods.ForgottenSouls.NPCs.Lepus.Bestiary
 	}
 
-	SmallEgg.DisplayName: Small Egg
+	// SmallEgg.DisplayName: Small Egg
 	BonePile.DisplayName: Bone Pile
 
 	TheSnail: {
 		DisplayName: The Snail
 
 		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
+			Content: I'm content.
+			NoHome: I hate living without a home.
+			FarFromHome: I'm too far from home.
+			LoveSpace: I love having so much space around me.
+			DislikeCrowded: I don't like how crowded it is here.
+			HateCrowded: I hate how crowded it is here.
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
 	}
+
+	RestlessSoul.DisplayName: Restless Soul
 }
 
 Projectiles: {
-	LepusStomp.DisplayName: Lepus Stomp
-	LilLepusStomp.DisplayName: Lil Lepus Stomp
-	Stomp.DisplayName: Stomp
+	// LepusStomp.DisplayName: Lepus Stomp
+	// LilLepusStomp.DisplayName: Lil Lepus Stomp
+	// Stomp.DisplayName: Stomp
 	SporeCloud.DisplayName: Spore Cloud
 	VampireDagger.DisplayName: Vampire Dagger
 	GraniteSapphireBolt.DisplayName: Granite Sapphire Bolt
@@ -217,6 +243,6 @@ Projectiles: {
 Biomes: {
 	RabbitInvasionBiome: {
 		DisplayName: Rabbit Invasion Biome
-		TownNPCDialogueName: the Rabbit Invasion Biome
+		TownNPCDialogueName: rabbit invasion biome
 	}
 }

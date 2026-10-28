@@ -2,18 +2,7 @@
 
 internal sealed class DemonEyeBloodShot : GlobalNPC
 {
-    private static readonly HashSet<int> Eyes =
-    [
-        NPCID.DemonEye,
-        NPCID.CataractEye,
-        NPCID.SleepyEye,
-        NPCID.DialatedEye,
-        NPCID.GreenEye,
-        NPCID.PurpleEye,
-        NPCID.DemonEyeOwl,
-        NPCID.DemonEyeSpaceship
-    ];
-
+ 
     private const float MinRange = 200f;             
     private const float MaxRange = 650f;
     private const int AttemptChance = 45;     
@@ -33,7 +22,7 @@ internal sealed class DemonEyeBloodShot : GlobalNPC
 
     public override bool InstancePerEntity => true;
 
-    public override bool AppliesToEntity(NPC npc, bool lateInstantiation) => Eyes.Contains(npc.type);
+    public override bool AppliesToEntity(NPC npc, bool lateInstantiation) => Pool.Eyes.Contains(npc.type);
 
     public override void PostAI(NPC npc)
     {

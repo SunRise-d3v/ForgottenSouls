@@ -77,7 +77,7 @@ internal sealed class SlimeSpikeShooter : GlobalNPC
     private static void Fire(NPC npc, Player target)
     {
         Vector2 direction = (target.Center - npc.Center).SafeNormalize(Vector2.UnitY);
-        int count = SlimeDeathSpikes.LargeSlimes.Contains(npc.type) ? 3 : 1;
+        int count = Pool.LargeSlimes.Contains(npc.type) ? 3 : 1;
 
         for (int i = 0; i < count; i++)
         {

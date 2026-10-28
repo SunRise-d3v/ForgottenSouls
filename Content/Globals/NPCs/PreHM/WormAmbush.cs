@@ -2,19 +2,6 @@
 
 internal sealed class WormAmbush : GlobalNPC
 {
-    public static readonly HashSet<int> Heads =
-        [
-            NPCID.GiantWormHead,
-            NPCID.DiggerHead,
-            NPCID.DevourerHead,
-            NPCID.SeekerHead,
-            NPCID.TombCrawlerHead,
-            NPCID.LeechHead,
-            NPCID.BoneSerpentHead,
-            NPCID.DuneSplicerHead
-            //NPCID.StardustWormHead,
-        ];
-
     private const float MaxRange = 1600f;
     private const float Depth = 260f;
     private const float SideOffset = 280f;
@@ -25,7 +12,7 @@ internal sealed class WormAmbush : GlobalNPC
     public override bool InstancePerEntity => true;
 
     public override bool AppliesToEntity(NPC entity, bool lateInstantiation)
-        => Heads.Contains(entity.type);
+        => Pool.Worms.Contains(entity.type);
 
     private bool charging;
     private int chargeTimer;

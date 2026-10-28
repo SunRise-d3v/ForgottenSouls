@@ -9,7 +9,7 @@ internal sealed class TheSnail : ModNPC
 
     public override void BossHeadRotation(ref float rotation) => rotation = 0f;
 
-    private const int SpawnDistanceMin = 45;
+    private const int SpawnDistanceMin = 75;
     private const int SpawnDistanceMax = 100;
     private const int RelocateDistanceMin = 150;
     private const int RelocateDistanceMax = 200;

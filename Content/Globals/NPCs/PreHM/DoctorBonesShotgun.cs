@@ -17,7 +17,7 @@ internal sealed class DoctorBonesShotgun : GlobalNPC
     private const int PelletDamage = 14;
     private const float Recoil = 2.5f;
 
-    private enum State
+    internal enum State
     {
         Walk,
         Aim

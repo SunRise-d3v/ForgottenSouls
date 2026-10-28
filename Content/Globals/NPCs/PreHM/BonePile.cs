@@ -84,50 +84,6 @@ internal sealed class BonePile : ModNPC
 
 internal sealed class SecondLifeNPC : GlobalNPC
 {
-    private static readonly HashSet<int> Excluded =
-    [
-        NPCID.DungeonGuardian,
-        NPCID.Tim,
-        NPCID.RuneWizard,
-        NPCID.SkeletonMerchant,
-        NPCID.SkeletronHand,
-        NPCID.SkeletronHead,
-        NPCID.SkeletronPrime
-    ];
-
-    private static readonly HashSet<int> ExtraSkeletons =
-    [
-        NPCID.Skeleton,
-        NPCID.SkeletonAlien,
-        NPCID.SkeletonArcher,
-        NPCID.SkeletonAstonaut,
-        NPCID.SkeletonCommando,
-        NPCID.SkeletonSniper,
-        NPCID.SkeletonTopHat,
-        NPCID.ArmoredSkeleton,
-        NPCID.BigHeadacheSkeleton,
-        NPCID.BigMisassembledSkeleton,
-        NPCID.BigPantlessSkeleton,
-        NPCID.BigSkeleton,
-        NPCID.BoneThrowingSkeleton,
-        NPCID.BoneThrowingSkeleton2,
-        NPCID.BoneThrowingSkeleton3,
-        NPCID.BoneThrowingSkeleton4,
-        NPCID.DD2SkeletonT1,
-        NPCID.DD2SkeletonT3,
-        NPCID.GreekSkeleton,
-        NPCID.HeadacheSkeleton,
-        NPCID.HeavySkeleton,
-        NPCID.MisassembledSkeleton,
-        NPCID.PantlessSkeleton,
-        NPCID.SmallHeadacheSkeleton,
-        NPCID.SmallMisassembledSkeleton,
-        NPCID.SmallPantlessSkeleton,
-        NPCID.SmallSkeleton,
-        NPCID.SporeSkeleton,
-        NPCID.TacticalSkeleton
-    ];
-
     internal bool Revived;
 
     public override bool InstancePerEntity => true;
@@ -153,10 +109,10 @@ internal sealed class SecondLifeNPC : GlobalNPC
 
     private static bool IsSkeletonType(int type)
     {
-        if (Excluded.Contains(type))
+        if (Pool.Excluded.Contains(type))
             return false;
 
-        if (ExtraSkeletons.Contains(type))
+        if (Pool.ExtraSkeletons.Contains(type))
             return true;
 
         if (type >= NPCID.Count || !NPCID.Search.TryGetName(type, out string name))

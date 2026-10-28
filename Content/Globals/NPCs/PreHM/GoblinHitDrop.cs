@@ -5,21 +5,10 @@ internal sealed class GoblinHitDrop : GlobalNPC
     //private const float Chance = 0.44f;
     private const bool DropWholeStack = false;
 
-    private static readonly HashSet<int> Goblins =
-    [
-        NPCID.GoblinPeon,
-        NPCID.GoblinThief,
-        NPCID.GoblinWarrior,
-        NPCID.GoblinSorcerer,
-        NPCID.GoblinArcher,
-        NPCID.GoblinSummoner,
-        NPCID.GoblinScout
-    ];
-
     [Obsolete]
     public override void OnHitPlayer(NPC npc, Player target, Player.HurtInfo hurtInfo)
     {
-        if (!Goblins.Contains(npc.type) || target.dead)
+        if (!Pool.Goblins.Contains(npc.type) || target.dead)
             return;
 
         float chance = npc.type == NPCID.GoblinThief
