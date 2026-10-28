@@ -71,6 +71,11 @@ Buffs: {
 		DisplayName: Jammed
 		Description: Your weapon is jammed
 	}
+
+	PotionFatigueDebuff: {
+		Description: Mods.ForgottenSouls.Buffs.PotionFatigueDebuff.Description
+		DisplayName: Potion Fatigue Debuff
+	}
 }
 
 Items: {
@@ -238,6 +243,8 @@ Projectiles: {
 	GraniteSapphireBolt.DisplayName: Granite Sapphire Bolt
 	GraniteElementalProjectile.DisplayName: Granite Elemental Projectile
 	TrueCopperDaggerProjectile.DisplayName: True Copper Dagger Projectile
+	ObserverLightning.DisplayName: Observer Lightning
+	ObserverGrenade.DisplayName: Observer Grenade
 }
 
 Biomes: {

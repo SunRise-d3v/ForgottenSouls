@@ -1,6 +1,6 @@
 displayName = [c/36454F:Forgotten] [c/305CDE:Souls] [c/C0C0C0:Mod] [ALPHA]
 author = [c/D4AF37:SunRise-d3v]
-version = 0.1.7
+version = 0.1.8
 
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.gif, .lib\*
 

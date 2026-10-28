@@ -171,4 +171,22 @@ internal static partial class Pool
         //NPCID.ArmedZombieEskimo,
         //NPCID.ArmedZombieRaincoat,
     ];
+
+    public static (bool Beaten, int Type)[] Bosses =
+        [
+            (NPC.downedSlimeKing, NPCID.KingSlime),
+            (NPC.downedBoss1, NPCID.EyeofCthulhu),
+            (NPC.downedQueenBee, NPCID.QueenBee),
+            (NPC.downedBoss3, NPCID.SkeletronHead),
+            (NPC.downedDeerclops, NPCID.Deerclops),
+
+            (Main.hardMode && NPC.downedQueenSlime, NPCID.QueenSlimeBoss),
+            (Main.hardMode && NPC.downedMechBoss1, NPCID.TheDestroyer),
+            (Main.hardMode && NPC.downedMechBoss3, NPCID.SkeletronPrime),
+            (Main.hardMode && NPC.downedPlantBoss, NPCID.Plantera),
+            (Main.hardMode && NPC.downedGolemBoss, NPCID.Golem),
+            (Main.hardMode && NPC.downedFishron, NPCID.DukeFishron),
+            (Main.hardMode && NPC.downedEmpressOfLight, NPCID.EmpressButterfly),
+            (Main.hardMode && NPC.downedMoonlord, NPCID.MoonLordCore)
+    ];
 }

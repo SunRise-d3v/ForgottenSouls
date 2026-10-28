@@ -21,7 +21,7 @@ internal sealed class FossilEnchantHook : ModSystem
 
     private static void UpdateAccessoryHook(OrigUpdateAccessory orig, FossilEnchant self, Player player, bool hideVisual)
     {
-        // orig() намеренно не вызываем: без FossilEffect возрождения нет
+        // orig()
         player.AddEffect<FossilBones>(self.Item);
         player.AddEffect<FossilGuard>(self.Item);
         player.AddEffect<FossilPotions>(self.Item);

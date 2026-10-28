@@ -9,7 +9,7 @@ internal sealed class Darkness : ModPlayer
     private const int WarningStartTick = HitTick - PauseBeforeHitTicks - WarningLengthTicks;
 
     private const float DarknessThreshold = 0.08f;
-    private const float Damage = 0.51f;
+    private const float Damage = 0.75f;
     private const int FadeOutTicks = 30;
 
     private int _darkTicks;

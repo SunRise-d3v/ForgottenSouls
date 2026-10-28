@@ -1,8 +1,8 @@
 ﻿namespace ForgottenSouls.Content.Buffs;
 
-internal sealed class PotionFatigueBuff : ModBuff
+internal sealed class PotionFatigueDebuff : ModBuff
 {
-    public override string Texture => "Terraria/Images/Buff_" + BuffID.PotionSickness;
+    public override string Texture => Helper.TextureLoadBuff("Debuffs", "PotionFatigue");
 
     public override void SetStaticDefaults()
     {
@@ -16,7 +16,7 @@ internal sealed class PotionFatigueBuff : ModBuff
         var fatigue = Main.LocalPlayer.GetModPlayer<PotionFatiguePlayer>();
         int penalty = (int)Math.Round((1f - fatigue.Efficiency) * 100f);
 
-        tip = Language.GetTextValue("Mods.ForgottenSouls.Buffs.PotionFatigueBuff.Tip", fatigue.Stacks, penalty);
+        tip = Language.GetTextValue("Mods.ForgottenSouls.Buffs.PotionFatigueDebuff.Tip", fatigue.Stacks, penalty);
     }
 }
 
@@ -47,14 +47,14 @@ internal sealed class PotionFatiguePlayer : ModPlayer
         Stacks = Math.Min(MaxStacks, Stacks + 1);
         idleTimer = 0;
 
-        Player.AddBuff(ModContent.BuffType<PotionFatigueBuff>(), ResetTicks);
+        Player.AddBuff(ModContent.BuffType<PotionFatigueDebuff>(), ResetTicks);
     }
 
     private void Reset()
     {
         Stacks = 0;
         idleTimer = 0;
-        Player.ClearBuff(ModContent.BuffType<PotionFatigueBuff>());
+        Player.ClearBuff(ModContent.BuffType<PotionFatigueDebuff>());
     }
 
     public override void PostUpdate()

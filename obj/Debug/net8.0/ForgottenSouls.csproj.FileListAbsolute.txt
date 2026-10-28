@@ -3,3 +3,10 @@ C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSource
 C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\obj\Debug\net8.0\ForgottenSouls.AssemblyInfoInputs.cache
 C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\obj\Debug\net8.0\ForgottenSouls.AssemblyInfo.cs
 C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\obj\Debug\net8.0\ForgottenSouls.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\bin\Debug\net8.0\ForgottenSouls.deps.json
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\bin\Debug\net8.0\ForgottenSouls.dll
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\bin\Debug\net8.0\ForgottenSouls.pdb
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\obj\Debug\net8.0\ForgottenSouls.dll
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\obj\Debug\net8.0\refint\ForgottenSouls.dll
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\obj\Debug\net8.0\ForgottenSouls.pdb
+C:\Users\User\OneDrive\Документы\My Games\Terraria\tModLoader\ModSources\ForgottenSouls\obj\Debug\net8.0\ref\ForgottenSouls.dll

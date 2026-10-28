@@ -20,8 +20,8 @@ Buffs: {
 	}
 
 	ObserverBuff: {
-		DisplayName: Наблюдатель
-		Description: Верховная сущность наблюдает за вами
+		// DisplayName: Observer
+		// Description: A supreme entity is watching you
 	}
 
 	ArachnophobiaDebuff: {
@@ -44,8 +44,8 @@ Buffs: {
 	}
 
 	PotionFatigueBuff: {
-		DisplayName: Усталость от зелий
-		Description: Зелья лечат слабее
+		// DisplayName: Potion Fatigue
+		// Description: Potions heal less
 	}
 
 	CrabGrabBuff: {
@@ -70,6 +70,11 @@ Buffs: {
 	JammedDebuff: {
 		DisplayName: Заедание
 		Description: Ваше оружие заклинило
+	}
+
+	PotionFatigueDebuff: {
+		Description: Зелья лечат слабее
+		DisplayName: Усталость от зелий
 	}
 }
 
@@ -238,6 +243,8 @@ Projectiles: {
 	GraniteSapphireBolt.DisplayName: Гранитный сапфировый заряд
 	GraniteElementalProjectile.DisplayName: Снаряд гранитного элементаля
 	TrueCopperDaggerProjectile.DisplayName: Снаряд истинного медного кинжала
+	// ObserverLightning.DisplayName: Observer Lightning
+	// ObserverGrenade.DisplayName: Observer Grenade
 }
 
 Biomes: {
