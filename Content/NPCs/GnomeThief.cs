@@ -32,6 +32,9 @@ internal sealed class GnomeThief : GlobalNPC
 
     public override bool PreAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         if (Stolen <= 0)
             return true;
 
@@ -115,6 +118,9 @@ internal sealed class GnomeThiefPlayer : ModPlayer
 {
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.whoAmI != Main.myPlayer || Player.dead)
             return;
 

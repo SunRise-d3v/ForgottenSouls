@@ -4,6 +4,9 @@ internal sealed class EvilBleed : ModPlayer
 {
     public override void PreUpdateBuffs()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.ZoneCorrupt || Player.ZoneCrimson)
         {
             Player.AddBuff(BuffID.Bleeding, 60);

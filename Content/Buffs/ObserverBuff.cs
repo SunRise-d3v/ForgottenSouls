@@ -356,6 +356,9 @@ internal sealed class ObserverPlayer : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         Player.AddBuff(ModContent.BuffType<ObserverBuff>(), 6, true);
         ObserverBuff.RefreshIcon(ModContent.BuffType<ObserverBuff>());
 
@@ -368,6 +371,9 @@ internal sealed class ObserverPlayer : ModPlayer
 
     public override void PostUpdateEquips()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         int level = ObserverSystem.Level;
 
         if (level > 0)
@@ -392,6 +398,9 @@ internal sealed class ObserverPlayer : ModPlayer
 
     public override void ModifyLuck(ref float luck)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         int level = ObserverSystem.Level;
         luck += level > 0 ? 0.1f * level : 0.15f * level;
     }

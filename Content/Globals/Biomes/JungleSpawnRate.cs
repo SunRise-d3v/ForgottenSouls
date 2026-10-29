@@ -4,6 +4,9 @@ internal sealed class JungleSpawnRate : GlobalNPC
 {
     public override void EditSpawnRate(Player player, ref int spawnRate, ref int maxSpawns)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (player.ZoneJungle)
         {
             spawnRate = (int)(spawnRate / 3f);

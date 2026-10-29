@@ -92,6 +92,9 @@ internal sealed class SecondLifeNPC : GlobalNPC
 
     public override void OnKill(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Revived || Main.netMode == NetmodeID.MultiplayerClient)
             return;
 

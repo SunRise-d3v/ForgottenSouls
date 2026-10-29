@@ -4,6 +4,9 @@ internal sealed class ChillInSnow : ModPlayer
 {
     public override void PreUpdateBuffs()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.ZoneSnow)
         {
             Player.AddBuff(BuffID.Chilled, 60);

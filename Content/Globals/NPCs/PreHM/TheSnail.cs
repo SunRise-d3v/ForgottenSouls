@@ -80,7 +80,7 @@ internal sealed class TheSnail : ModNPC
         return false;
     }
 
-    public override void BossHeadSlot(ref int index) => Helper.TextureLoadNPC("TheSnail_Head_Boss");
+    //public override void BossHeadSlot(ref int index) => Helper.TextureLoadNPC("TheSnail_Head_Boss");
 
     public override void AI()
     {
@@ -441,15 +441,106 @@ internal sealed class TheSnail : ModNPC
 
 internal sealed class SnailPlayer : ModPlayer
 {
-    public override void OnEnterWorld()
+    /*public override void OnEnterWorld()
     {
         if (Main.netMode == NetmodeID.SinglePlayer)
             TheSnail.SpawnNear(Player);
-    }
+    }*/
 
     public override void Kill(double damage, int hitDirection, bool pvp, PlayerDeathReason damageSource)
     {
         if (Main.netMode == NetmodeID.SinglePlayer)
             TheSnail.Relocate(Player);
+    }
+}
+
+/// <summary>
+/// The snail exists only while Sadomasochist.Active is on. When the mode is switched off the snail is removed,
+/// and when it is switched on again the snail comes back at the place where it vanished.
+/// The position is also saved with the world, so it survives reloads.
+/// </summary>
+internal sealed class SnailSystem : ModSystem
+{
+    private const int CheckInterval = 10; // ticks between checks
+
+    private static Vector2? lastCenter;
+    private int timer;
+
+    public override void ClearWorld() => lastCenter = null;
+
+    public override void SaveWorldData(TagCompound tag)
+    {
+        // Remember where the snail is right now (if it exists)
+        int index = NPC.FindFirstNPC(ModContent.NPCType<TheSnail>());
+
+        if (index >= 0)
+            lastCenter = Main.npc[index].Center;
+
+        if (lastCenter is Vector2 center)
+        {
+            tag["snailX"] = center.X;
+            tag["snailY"] = center.Y;
+        }
+    }
+
+    public override void LoadWorldData(TagCompound tag)
+    {
+        if (tag.ContainsKey("snailX"))
+            lastCenter = new Vector2(tag.GetFloat("snailX"), tag.GetFloat("snailY"));
+    }
+
+    public override void PostUpdateWorld()
+    {
+        // The server (or single-player) decides; clients receive the NPC normally
+        if (Main.netMode == NetmodeID.MultiplayerClient || ++timer < CheckInterval)
+            return;
+
+        timer = 0;
+
+        int index = NPC.FindFirstNPC(ModContent.NPCType<TheSnail>());
+
+        if (!Sadomasochist.Active)
+        {
+            if (index >= 0)
+                Remove(index);
+
+            return;
+        }
+
+        if (index >= 0)
+            return;
+
+        Player player = FirstActivePlayer();
+
+        if (player == null)
+            return;
+
+        //if (lastCenter is Vector2 center)
+        //TheSnail.SpawnAt(center);
+        // else
+        TheSnail.SpawnNear(player); // first appearance: near the player, as before
+    }
+
+    private static void Remove(int index)
+    {
+        NPC snail = Main.npc[index];
+        lastCenter = snail.Center;
+
+        snail.active = false;
+        snail.netUpdate = true;
+
+        if (Main.netMode == NetmodeID.Server)
+            NetMessage.SendData(MessageID.SyncNPC, number: index);
+    }
+
+    private static Player FirstActivePlayer()
+    {
+        for (int i = 0; i < Main.maxPlayers; i++)
+        {
+            if (Main.player[i].active && !Main.player[i].dead)
+                return Main.player[i];
+        }
+
+        return null;
     }
 }

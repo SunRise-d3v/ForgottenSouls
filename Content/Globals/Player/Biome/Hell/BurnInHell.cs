@@ -4,6 +4,9 @@ internal sealed class BurnInHell : ModPlayer
 {
     public override void PreUpdateBuffs()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.ZoneUnderworldHeight)
         {
             bool hasFireProtection =

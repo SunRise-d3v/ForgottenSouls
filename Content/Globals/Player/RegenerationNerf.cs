@@ -7,6 +7,9 @@ internal sealed class RegenerationNerf : ModPlayer
 
     public override void UpdateLifeRegen()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!Player.HasBuff(BuffID.Regeneration) || Player.lifeRegen <= 0)
             return;
 

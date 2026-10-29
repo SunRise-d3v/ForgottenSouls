@@ -6,6 +6,9 @@ internal sealed class MirrorManaCost : GlobalItem
 
     public override bool CanUseItem(Item item, Player player)
     {
+        if (!Sadomasochist.Active)
+            return base.CanUseItem(item, player);
+
         if (IsMirror(item.type))
         {
             if (player.statMana >= MANA_COST)

@@ -12,6 +12,9 @@ internal sealed class FallingStarKill : GlobalProjectile
 
     public override void OnSpawn(Projectile projectile, IEntitySource source)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (source is EntitySource_ItemUse or EntitySource_ItemUse_WithAmmo)
             return;
 

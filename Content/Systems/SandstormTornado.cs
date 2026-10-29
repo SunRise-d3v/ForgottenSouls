@@ -12,6 +12,9 @@ internal sealed class SandstormTornado : ModSystem
 
     public override void PostUpdateWorld()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient || !Sandstorm.Happening)
             return;
 

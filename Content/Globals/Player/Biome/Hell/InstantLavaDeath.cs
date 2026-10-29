@@ -4,6 +4,9 @@ internal sealed class InstantLavaDeath : ModPlayer
 {
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.lavaWet && !HasLavaProtection())
         {
             Player.statLife = 0;

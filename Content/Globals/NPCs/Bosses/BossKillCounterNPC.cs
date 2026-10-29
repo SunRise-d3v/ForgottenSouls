@@ -4,6 +4,9 @@ internal sealed class BossKillCounterNPC : GlobalNPC
 {
     public override void OnKill(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (npc.type == NPCID.EyeofCthulhu)
         {
             for (int i = 0; i < Main.maxPlayers; i++)

@@ -4,6 +4,9 @@ internal sealed class DrownFaster : ModPlayer
 {
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.wet && !Player.lavaWet && !Player.honeyWet)
         {
             if (Player.breath > 0 && Main.GameUpdateCount % 7f == 0)

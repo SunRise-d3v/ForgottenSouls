@@ -6,6 +6,9 @@ internal sealed class SkeletonArcherMultishot : GlobalProjectile
 
     public override void OnSpawn(Projectile projectile, IEntitySource source)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient || !projectile.hostile)
             return;
 

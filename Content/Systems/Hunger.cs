@@ -18,6 +18,9 @@ internal sealed class HungerPlayer : ModPlayer
 
     public override void PreUpdateBuffs()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         _savedFlag = Main.dontStarveWorld;
         Main.dontStarveWorld = true;
     }
@@ -26,6 +29,9 @@ internal sealed class HungerPlayer : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.dead || Player.whoAmI != Main.myPlayer)
             return;
 

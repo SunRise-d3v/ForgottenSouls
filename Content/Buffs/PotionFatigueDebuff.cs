@@ -104,6 +104,7 @@ internal sealed class PotionFatigueItem : GlobalItem
 
     public override void OnConsumeItem(Item item, Player player)
     {
-        player.GetModPlayer<PotionFatiguePlayer>().OnPotionUsed();
+        if (Sadomasochist.Active)
+            player.GetModPlayer<PotionFatiguePlayer>().OnPotionUsed();
     }
 }

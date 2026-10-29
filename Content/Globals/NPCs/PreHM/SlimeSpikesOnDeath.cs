@@ -11,6 +11,9 @@ internal sealed class SlimeDeathSpikes : GlobalNPC
 
     public override void OnKill(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient || !IsHostileSlime(npc))
             return;
 

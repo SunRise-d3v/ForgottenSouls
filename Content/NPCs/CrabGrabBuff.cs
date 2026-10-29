@@ -47,6 +47,9 @@ internal sealed class CrabGrabNPC : GlobalNPC
 
     public override void OnHitPlayer(NPC npc, Player target, Player.HurtInfo hurtInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (target.whoAmI != Main.myPlayer || Main.GameUpdateCount < nextGrabTick || target.HasBuff<CrabGrabBuff>())
             return;
 
@@ -76,6 +79,9 @@ internal sealed class CrabGrabNPC : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient || heldPlayer < 0)
             return;
 

@@ -14,6 +14,9 @@ internal sealed class SniperOneShot : GlobalProjectile
 
     public override void OnHitPlayer(Projectile projectile, Player target, Player.HurtInfo info)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!_fromSniper || target.dead)
             return;
 

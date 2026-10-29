@@ -7,6 +7,9 @@ internal sealed class FreezeInSnow : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.ZoneSnow)
         {
             freezeCooldown--;

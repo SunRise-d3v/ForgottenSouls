@@ -2,11 +2,11 @@
 
 internal sealed class GraveyardCurse : ModPlayer
 {
-    public const float SpawnBonus = 0.15f;
+    internal const float SpawnBonus = 0.15f;
 
     public override void PostUpdate()
     {
-        if (Player.ZoneGraveyard)
+        if (Player.ZoneGraveyard && Sadomasochist.Active)
             Player.AddBuff(BuffID.Weak, 60);
     }
 }
@@ -15,6 +15,9 @@ internal sealed class GraveyardSpawnNPC : GlobalNPC
 {
     public override void EditSpawnRate(Player player, ref int spawnRate, ref int maxSpawns)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!player.ZoneGraveyard)
             return;
 

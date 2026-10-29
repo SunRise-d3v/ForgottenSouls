@@ -50,6 +50,7 @@ internal sealed class GraniteElemental : GlobalNPC
     private const int MaxFallTicks = 360;
 
     private readonly string TexturePath = Helper.TextureLoadNPC("GraniteElementalInvulnerable");
+
     private const int FrameW = 20;
     private const int FrameH = 32;
     private const int FrameGap = 2;
@@ -126,6 +127,9 @@ internal sealed class GraniteElemental : GlobalNPC
 
     public override bool PreAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         ApplyFlags(npc);
 
         if (!IsProtected)
@@ -143,6 +147,9 @@ internal sealed class GraniteElemental : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         timer++;
 
         if (Main.netMode != NetmodeID.MultiplayerClient)
@@ -300,6 +307,9 @@ internal sealed class GraniteElemental : GlobalNPC
 
     public override bool PreDraw(NPC npc, SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
     {
+        if (!Sadomasochist.Active)
+            return true;
+
         if (!IsProtected)
             return true;
 

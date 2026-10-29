@@ -44,6 +44,9 @@ internal sealed class GraniteGolemRoll : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!Main.dedServ)
             Lighting.AddLight(npc.Center, 0.12f, 0.28f, 0.65f);
 
@@ -199,6 +202,9 @@ internal sealed class GraniteGolemRoll : GlobalNPC
 
     public override bool PreDraw(NPC npc, SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         if (npc.IsABestiaryIconDummy)
             return true;
 

@@ -4,10 +4,10 @@ internal sealed class SadoDifficultySystem : ModSystem
 {
     public static bool Sadomasochist;
 
-    private static readonly SoundStyle DeactivateSound = new("NoCompromises/Assets/Sounds/SadomasochistActivate")
+    /*private static readonly SoundStyle DeactivateSound = new("NoCompromises/Assets/Sounds/SadomasochistActivate")
     {
         Volume = 1f,
-    };
+    };*/
 
     public override void ClearWorld() => Sadomasochist = false;
 
@@ -111,4 +111,9 @@ internal sealed class DifficultyMenuHook : ModSystem
         self.BackPanel.Left.Set(-panelWidth / 2f, 0.5f);
         self.BackPanel.Recalculate();
     }
+}
+
+internal sealed class Sadomasochist
+{
+    public static bool Active => !Main.gameMenu && SadoDifficultySystem.Sadomasochist;
 }

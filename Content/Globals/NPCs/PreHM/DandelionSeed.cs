@@ -12,6 +12,9 @@ internal sealed class DandelionSeed : GlobalProjectile
 
     public override void AI(Projectile projectile)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (projectile.type != ProjectileID.DandelionSeed)
             return;
 

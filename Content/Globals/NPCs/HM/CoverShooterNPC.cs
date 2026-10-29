@@ -40,6 +40,9 @@ public sealed class CoverShooterNPC : GlobalNPC
 
     public override bool PreAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         if (Main.netMode == NetmodeID.MultiplayerClient)
             return false;
 
@@ -241,7 +244,7 @@ public sealed class CoverShooterNPC : GlobalNPC
         return true;
     }
 
-    private bool FindCover(NPC npc, Player p, out int cover, out int hide)
+    private static bool FindCover(NPC npc, Player p, out int cover, out int hide)
     {
         cover = hide = 0;
 
@@ -270,6 +273,7 @@ public sealed class CoverShooterNPC : GlobalNPC
             hide = hx;
             return true;
         }
+
         return false;
     }
 }

@@ -6,6 +6,9 @@ internal sealed class WyvernGlobalNPC : GlobalNPC
         IDictionary<int, float> pool,
         NPCSpawnInfo spawnInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!Main.hardMode && spawnInfo.Player.ZoneSkyHeight)
             pool[NPCID.WyvernHead] = 0.1f;
     }

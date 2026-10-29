@@ -21,6 +21,9 @@ internal sealed class BatClone : GlobalNPC
 
     public override void OnHitPlayer(NPC npc, Player target, Player.HurtInfo hurtInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.rand.NextFloat() < BlindChance)
             target.AddBuff(BuffID.Obstructed, BlindTicks);
 

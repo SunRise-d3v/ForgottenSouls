@@ -8,6 +8,9 @@ internal sealed class WerewolfLifesteal : GlobalNPC
 
     public override void OnHitPlayer(NPC npc, Player target, Player.HurtInfo hurtInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         int heal = Math.Max(1, (int)(hurtInfo.Damage * HealFraction));
 
         heal = Math.Min(heal, npc.lifeMax - npc.life);

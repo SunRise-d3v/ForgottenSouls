@@ -6,6 +6,9 @@ internal sealed class ExplosiveBunny : GlobalNPC
 
     public override void EditSpawnPool(IDictionary<int, float> pool, NPCSpawnInfo spawnInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         Player player = spawnInfo.Player;
 
         if (!player.ZoneForest || !player.ZoneOverworldHeight)
@@ -39,6 +42,9 @@ internal sealed class ExplosiveBunnyBehavior : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient)
             return;
 

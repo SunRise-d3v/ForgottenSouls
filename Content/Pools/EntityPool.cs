@@ -172,6 +172,23 @@ internal static partial class Pool
         //NPCID.ArmedZombieRaincoat,
     ];
 
+    public static readonly HashSet<int> Criers =
+    [
+        NPCID.GreekSkeleton,
+        NPCID.LostGirl,
+        NPCID.HellArmoredBones,
+        NPCID.Paladin,
+        NPCID.Necromancer,
+        NPCID.Moth
+    ];
+
+    public static readonly HashSet<int> Hunters =
+[
+        NPCID.Wraith,
+            NPCID.Ghost,
+            NPCID.DungeonSpirit
+    ];
+
     public static (bool Beaten, int Type)[] Bosses =
         [
             (NPC.downedSlimeKing, NPCID.KingSlime),

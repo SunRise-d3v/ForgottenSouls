@@ -7,6 +7,9 @@ internal sealed class MinerPickaxeKnockout : GlobalNPC
     [Obsolete]
     public override void OnHitPlayer(NPC npc, Player target, Player.HurtInfo hurtInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (target.dead)
             return;
 

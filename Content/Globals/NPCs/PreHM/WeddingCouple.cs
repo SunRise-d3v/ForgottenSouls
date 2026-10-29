@@ -26,6 +26,9 @@ internal sealed class WeddingCouple : GlobalNPC
 
     public override void OnSpawn(NPC npc, IEntitySource source)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (source is not EntitySource_SpawnNPC || Main.netMode == NetmodeID.MultiplayerClient)
             return;
 
@@ -47,6 +50,9 @@ internal sealed class WeddingCouple : GlobalNPC
 
     public override void OnKill(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient || _partner < 0)
             return;
 
@@ -92,6 +98,9 @@ internal sealed class WeddingCouple : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!_enraged || Main.netMode == NetmodeID.MultiplayerClient)
             return;
 
@@ -131,6 +140,9 @@ internal sealed class WeddingCouple : GlobalNPC
 
     public override void DrawEffects(NPC npc, ref Color drawColor)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (_enraged)
             drawColor = Color.Lerp(drawColor, Color.Red, RedTint);
     }

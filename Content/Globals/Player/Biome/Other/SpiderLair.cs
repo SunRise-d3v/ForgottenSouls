@@ -4,6 +4,9 @@ internal sealed class SpiderLair : ModPlayer
 {
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         bool surroundedBySpiders = false;
 
         if (!IsInSpiderNest())

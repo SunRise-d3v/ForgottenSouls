@@ -12,16 +12,6 @@ internal sealed class WarCryBuff : ModBuff
 
 internal sealed class WarCryNpc : GlobalNPC
 {
-    private static readonly HashSet<int> Criers =
-    [
-        NPCID.GreekSkeleton,
-        NPCID.LostGirl,
-        NPCID.HellArmoredBones,
-        NPCID.Paladin,
-        NPCID.Necromancer,
-        NPCID.Moth
-    ];
-
     private const int CryChanceDenominator = 600;
     private const float CryRange = 1000f;
     private const int CryDurationTicks = 30 * 60;
@@ -53,12 +43,15 @@ internal sealed class WarCryNpc : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!IsAffectable(npc) || Main.netMode == NetmodeID.MultiplayerClient)
             return;
 
         bool empowered = npc.HasBuff<WarCryBuff>();
 
-        if (Criers.Contains(npc.type))
+        if (Pool.Criers.Contains(npc.type))
         {
             if (_crying)
             {

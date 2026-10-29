@@ -4,6 +4,9 @@ internal sealed class GoldCritterDrop : GlobalNPC
 {
     public override void OnKill(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!Pool.GoldCritters.Contains(npc.type))
             return;
 

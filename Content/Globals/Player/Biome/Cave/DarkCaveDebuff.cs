@@ -4,6 +4,9 @@ internal sealed class DarkCaveDebuff : ModPlayer
 {
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         bool inCave = Player.ZoneRockLayerHeight || Player.ZoneDirtLayerHeight;
 
         if (inCave)

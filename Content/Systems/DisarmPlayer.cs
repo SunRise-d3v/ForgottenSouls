@@ -8,6 +8,9 @@ internal sealed class DisarmPlayer : ModPlayer
 
     public override void OnHitByNPC(NPC npc, Player.HurtInfo hurtInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         TryDisarm();
     }
 

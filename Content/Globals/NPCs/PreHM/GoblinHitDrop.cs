@@ -8,6 +8,9 @@ internal sealed class GoblinHitDrop : GlobalNPC
     [Obsolete]
     public override void OnHitPlayer(NPC npc, Player target, Player.HurtInfo hurtInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!Pool.Goblins.Contains(npc.type) || target.dead)
             return;
 

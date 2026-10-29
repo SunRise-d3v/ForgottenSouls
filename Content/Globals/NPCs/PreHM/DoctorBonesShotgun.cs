@@ -35,6 +35,9 @@ internal sealed class DoctorBonesShotgun : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient)
             return;
 

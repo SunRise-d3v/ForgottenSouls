@@ -7,6 +7,9 @@ internal sealed class TortoiseOneShot : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (_tortoiseCooldown > 0)
             _tortoiseCooldown--;
 

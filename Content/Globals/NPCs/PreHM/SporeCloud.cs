@@ -55,6 +55,9 @@ internal sealed class SporeCloud : ModProjectile
 
     public override bool PreDraw(ref Color lightColor)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         Texture2D texture = TextureAssets.Projectile[Projectile.type].Value;
 
         int frameWidth = 14;
@@ -86,6 +89,9 @@ internal sealed class SporeCloud : ModProjectile
 
     public override void OnHitPlayer(Player target, Player.HurtInfo info)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         target.AddBuff(BuffID.Poisoned, PoisonTicks);
     }
 
@@ -111,6 +117,9 @@ internal sealed class MushroomSpores : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (npc.friendly || npc.townNPC)
             return;
 
@@ -133,6 +142,9 @@ internal sealed class MushroomSpores : GlobalNPC
 
     public override void OnKill(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (npc.friendly || npc.townNPC || Main.netMode == NetmodeID.MultiplayerClient)
             return;
 

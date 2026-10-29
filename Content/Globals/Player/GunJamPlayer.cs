@@ -49,6 +49,9 @@ internal sealed class GunJamItem : GlobalItem
 
     public override bool CanUseItem(Item item, Player player)
     {
+        if (!Sadomasochist.Active)
+            return true;
+
         if (!UsesBullets(item))
             return true;
 
@@ -63,6 +66,9 @@ internal sealed class GunJamItem : GlobalItem
 
     public override bool Shoot(Item item, Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         if (player.HeldItem.type == ModContent.ItemType<NavalRustrifle>() || !UsesBullets(item))
             return true;
 

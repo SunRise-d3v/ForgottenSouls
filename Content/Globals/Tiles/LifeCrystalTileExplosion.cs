@@ -4,6 +4,9 @@ internal sealed class LifeCrystalTileExplosion : GlobalTile
 {
     public override void KillTile(int i, int j, int type, ref bool fail, ref bool effectOnly, ref bool noItem)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (type != TileID.Heart || fail || effectOnly)
             return;
 
@@ -36,6 +39,9 @@ internal sealed class LifeCrystalBoulderDropBlocker : GlobalProjectile
     [Obsolete]
     public override void OnKill(Projectile projectile, int timeLeft)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (projectile.type == ProjectileID.LifeCrystalBoulder)
         {
             foreach (Item item in Main.item)

@@ -30,13 +30,16 @@ internal sealed class EnemyDodgeNPC : GlobalNPC
 
     private int stillTicks;
     private bool firstAttackDodged;
-    private bool dodgedThisHit; 
+    private bool dodgedThisHit;
 
     public bool IsStatic(NPC npc)
         => AlwaysStatic.Contains(npc.type) || stillTicks >= StaticTicks;
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (npc.velocity.LengthSquared() < 0.04f)
         {
             if (stillTicks < 10000)
@@ -50,16 +53,25 @@ internal sealed class EnemyDodgeNPC : GlobalNPC
 
     public static float GetDodgeChance(NPC npc, Player attacker)
     {
+        if (!Sadomasochist.Active)
+            return 0f;
+
         float chance = BaseMissChance;
 
-        if (attacker.HasBuff(BuffID.Darkness) || attacker.HasBuff(BuffID.Blackout) ||
-            attacker.HasBuff(BuffID.Obstructed) || attacker.HasBuff(BuffID.Confused))
+        if (attacker.HasBuff(BuffID.Darkness) ||
+            attacker.HasBuff(BuffID.Blackout) ||
+            attacker.HasBuff(BuffID.Obstructed) ||
+            attacker.HasBuff(BuffID.Confused))
+        {
             chance += 0.05f;
+        }
 
         if (attacker.HasBuff(ModContent.BuffType<GuiltyBuff>()) ||
             attacker.HasBuff(ModContent.BuffType<LethargicBuff>()) ||
             attacker.HasBuff(ModContent.BuffType<LovestruckBuff>()))
+        {
             chance += 0.04f;
+        }
 
         chance += MathHelper.Clamp(npc.velocity.Length() - 6f, 0f, 2f) * 0.01f;
 
@@ -70,6 +82,7 @@ internal sealed class EnemyDodgeNPC : GlobalNPC
             chance *= BossMultiplier;
 
         chance -= attacker.GetModPlayer<MissChancePlayer>().AccuracyBonus;
+
         return MathHelper.Clamp(chance, 0f, MaxMissChance);
     }
 
@@ -112,12 +125,20 @@ internal sealed class EnemyDodgeNPC : GlobalNPC
 
     public override void ModifyHitByItem(NPC npc, Player player, Item item, ref NPC.HitModifiers modifiers)
     {
-        if (player.whoAmI == Main.myPlayer)
-            TryDodge(npc, player, ref modifiers);
+        if (!Sadomasochist.Active)
+            return;
+
+        if (player.whoAmI != Main.myPlayer)
+            return;
+
+        TryDodge(npc, player, ref modifiers);
     }
 
     public override void ModifyHitByProjectile(NPC npc, Projectile projectile, ref NPC.HitModifiers modifiers)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (projectile.owner != Main.myPlayer)
             return;
 

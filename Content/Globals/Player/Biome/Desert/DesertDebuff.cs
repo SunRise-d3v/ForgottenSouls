@@ -4,6 +4,9 @@ internal sealed class DesertDebuff : ModPlayer
 {
     public override void PreUpdateBuffs()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.ZoneDesert)
         {
             Player.AddBuff(BuffID.Slow, 60);

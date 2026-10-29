@@ -8,6 +8,9 @@ internal sealed class LifeFruitPlantera : GlobalItem
 
     public override void OnConsumeItem(Item item, Player player)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.rand.NextFloat() >= Chance)
             return;
 

@@ -4,6 +4,9 @@ internal sealed class InstantDrowningPlayer : ModPlayer
 {
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.dead || Player.breath > 0)
             return;
 

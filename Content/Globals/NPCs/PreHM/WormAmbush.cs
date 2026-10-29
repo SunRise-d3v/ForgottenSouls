@@ -21,6 +21,9 @@ internal sealed class WormAmbush : GlobalNPC
 
     public override bool PreAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         shiftedPlayer = -1;
 
         npc.TargetClosest(true);
@@ -54,6 +57,9 @@ internal sealed class WormAmbush : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (shiftedPlayer >= 0)
         {
             Main.player[shiftedPlayer].position = savedPosition;

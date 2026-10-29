@@ -96,6 +96,9 @@ internal sealed class ChestDebuffPlayer : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.whoAmI != Main.myPlayer)
             return;
 

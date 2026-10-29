@@ -2,13 +2,6 @@
 
 internal sealed class LightHunt
 {
-    public static readonly HashSet<int> Hunters =
-    [
-            NPCID.Wraith,
-            NPCID.Ghost,
-            NPCID.DungeonSpirit
-    ];
-
     public const int HuntRangeX = 60;
     public const int HuntRangeY = 40;
     public const int SpawnLightThreshold = 20;
@@ -73,7 +66,7 @@ public sealed class LightHunterNPC : GlobalNPC
     public override bool InstancePerEntity => true;
 
     public override bool AppliesToEntity(NPC entity, bool lateInstantiation)
-        => LightHunt.Hunters.Contains(entity.type);
+        => Pool.Hunters.Contains(entity.type);
 
     private int timer;
     private bool hasTarget;
@@ -82,6 +75,9 @@ public sealed class LightHunterNPC : GlobalNPC
 
     public override bool PreAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         timer++;
 
         if (hasTarget && targetTile.X >= 0 && !LightHunt.IsLightTile(targetTile.X, targetTile.Y))
@@ -175,13 +171,21 @@ public sealed class LightHunterNPC : GlobalNPC
     }
 
     public override bool CanHitPlayer(NPC npc, Player target, ref int cooldownSlot)
-        => false;
+    {
+        if (!Sadomasochist.Active)
+            return true;
+
+        return false;
+    }
 }
 
 public sealed class LightSpawnNPC : GlobalNPC
 {
     public override void EditSpawnRate(Player player, ref int spawnRate, ref int maxSpawns)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!Main.hardMode)
             return;
 
@@ -195,6 +199,9 @@ public sealed class LightSpawnNPC : GlobalNPC
 
     public override void EditSpawnPool(IDictionary<int, float> pool, NPCSpawnInfo spawnInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!Main.hardMode)
             return;
 
@@ -217,6 +224,9 @@ public class LightHuntPlayer : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         bool isMe = Player.whoAmI == Main.myPlayer;
 
         if ((isMe || Main.netMode == NetmodeID.Server) && ++scanTimer >= 30)
@@ -237,7 +247,7 @@ public class LightHuntPlayer : ModPlayer
         for (int i = 0; i < Main.maxNPCs; i++)
         {
             NPC npc = Main.npc[i];
-            if (!npc.active || !LightHunt.Hunters.Contains(npc.type))
+            if (!npc.active || !Pool.Hunters.Contains(npc.type))
                 continue;
             if (!npc.Hitbox.Intersects(Player.Hitbox))
                 continue;

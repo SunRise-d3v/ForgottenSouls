@@ -17,6 +17,9 @@ internal sealed class Dash : ModPlayer
 
     public override void ResetEffects()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.controlRight && Player.releaseRight && Player.doubleTapCardinalTimer[DASH_RIGHT] < 15)
             _dashDir = DASH_RIGHT;
         else if (Player.controlLeft && Player.releaseLeft && Player.doubleTapCardinalTimer[DASH_LEFT] < 15)
@@ -29,6 +32,9 @@ internal sealed class Dash : ModPlayer
 
     public override void PreUpdateMovement()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (CanUseDash())
         {
             Vector2 newVelocity = Player.velocity;

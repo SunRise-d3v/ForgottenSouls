@@ -7,6 +7,9 @@ internal sealed class NightChill : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Player.whoAmI != Main.myPlayer || Player.dead)
             return;
 

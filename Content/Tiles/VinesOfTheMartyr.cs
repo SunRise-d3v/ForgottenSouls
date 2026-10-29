@@ -325,6 +325,9 @@ internal sealed class VinesSpawn : GlobalNPC
 
     public override void EditSpawnPool(IDictionary<int, float> pool, NPCSpawnInfo spawnInfo)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (spawnInfo.SpawnTileType != TileID.Grass)
             return;
 

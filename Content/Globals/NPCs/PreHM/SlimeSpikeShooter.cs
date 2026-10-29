@@ -20,6 +20,9 @@ internal sealed class SlimeSpikeShooter : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (!SlimeDeathSpikes.IsHostileSlime(npc) || Main.netMode == NetmodeID.MultiplayerClient)
             return;
 

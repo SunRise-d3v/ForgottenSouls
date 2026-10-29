@@ -4,6 +4,9 @@ internal sealed class NPCProperties : GlobalNPC
 {
     public override void SetDefaults(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (npc.friendly || npc.townNPC || NPCID.Sets.CountsAsCritter[npc.type] || npc.type == NPCID.None)
             return;
 

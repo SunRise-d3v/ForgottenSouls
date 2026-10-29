@@ -2,7 +2,6 @@
 
 internal sealed class DemonEyeBloodShot : GlobalNPC
 {
- 
     private const float MinRange = 200f;             
     private const float MaxRange = 650f;
     private const int AttemptChance = 45;     
@@ -26,6 +25,9 @@ internal sealed class DemonEyeBloodShot : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient)
             return;
 

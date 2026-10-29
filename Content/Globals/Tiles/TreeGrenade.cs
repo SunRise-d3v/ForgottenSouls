@@ -6,7 +6,7 @@ internal sealed class TreeGrenade : ModSystem
     private const int GrenadeDamage = 40;
     private const int FuseTicks = 150;
 
-    private static readonly HashSet<Point> ShakenTrees = new();
+    private static readonly HashSet<Point> ShakenTrees = [];
 
     public override void Load()
     {
@@ -25,6 +25,9 @@ internal sealed class TreeGrenade : ModSystem
 
     private static void ShakeTreeDetour(On_WorldGen.orig_ShakeTree orig, int i, int j)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         orig(i, j);
 
         /*if (Main.netMode == NetmodeID.MultiplayerClient)

@@ -13,6 +13,9 @@ internal sealed class SwampThingRespawn : GlobalNPC
 
     public override void OnKill(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient || respawns >= MaxRespawns)
             return;
 

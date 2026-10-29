@@ -47,6 +47,9 @@ internal sealed class HouseRaid : ModSystem
 
     public override void PostUpdateWorld()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.netMode == NetmodeID.MultiplayerClient)
             return;
 
@@ -271,6 +274,9 @@ internal sealed class HouseRaidNPC : GlobalNPC
 
     public override bool PreAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return false;
+
         if (Level > 0 && !scaled && Main.netMode != NetmodeID.MultiplayerClient)
         {
             scaled = true;
@@ -283,6 +289,9 @@ internal sealed class HouseRaidNPC : GlobalNPC
 
     public override void PostAI(NPC npc)
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Level <= 0)
             return;
 

@@ -37,7 +37,8 @@ internal sealed class DevianttGift : ModSystem
             SuppressGifts = false;
         }
 
-        GiveStarterBag(self.NPC);
+        if (Sadomasochist.Active)
+            GiveStarterBag(self.NPC);
     }
 
     private static string GetChatDetour(Func<Deviantt, string> orig, Deviantt self)
@@ -59,7 +60,7 @@ internal sealed class DevianttGift : ModSystem
 
         bool giftsJustGiven = !giftsWereReceived && (eternityBefore || GiftsReceived);
 
-        if (giftsJustGiven)
+        if (giftsJustGiven && Sadomasochist.Active)
             GiveStarterBag(self.NPC);
 
         return result;

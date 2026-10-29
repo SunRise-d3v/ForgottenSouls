@@ -10,6 +10,9 @@ internal sealed class HardmodeBlizzard : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         if (Main.dedServ || Player.whoAmI != Main.myPlayer)
             return;
 

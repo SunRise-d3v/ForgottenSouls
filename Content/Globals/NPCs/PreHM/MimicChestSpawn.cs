@@ -1,6 +1,6 @@
 ﻿namespace ForgottenSouls.Content.Globals;
 
-internal sealed class MimicChest : ModSystem
+internal sealed class MimicChestSpawn : ModSystem
 {
     private static readonly HashSet<Point16> SafeChests = [];
     internal static bool MarkSafe(Point16 origin) => SafeChests.Add(origin);
@@ -47,8 +47,8 @@ internal sealed class ChestPlacementTracker : GlobalTile
 {
     public override void PlaceInWorld(int i, int j, int type, Item item)
     {
-        if (MimicChest.IsChestTile(type))
-            MimicChest.MarkSafe(MimicChest.GetOrigin(i, j));
+        if (MimicChestSpawn.IsChestTile(type))
+            MimicChestSpawn.MarkSafe(MimicChestSpawn.GetOrigin(i, j));
     }
 }
 
@@ -60,6 +60,9 @@ internal sealed class MimicChestPlayer : ModPlayer
 
     public override void PostUpdate()
     {
+        if (!Sadomasochist.Active)
+            return;
+
         int current = Player.chest;
 
         if (current >= 0 && current != _lastChest)
@@ -78,13 +81,13 @@ internal sealed class MimicChestPlayer : ModPlayer
             return;
 
         Tile tile = Main.tile[chest.x, chest.y];
-        if (!tile.HasTile || !MimicChest.IsChestTile(tile.TileType))
+        if (!tile.HasTile || !MimicChestSpawn.IsChestTile(tile.TileType))
             return;
 
-        if (MimicChest.IsShadowChest(tile) || MimicChest.IsTrapChest(tile))
+        if (MimicChestSpawn.IsShadowChest(tile) || MimicChestSpawn.IsTrapChest(tile))
             return;
 
-        if (!MimicChest.MarkSafe(new Point16(chest.x, chest.y)))
+        if (!MimicChestSpawn.MarkSafe(new Point16(chest.x, chest.y)))
             return;
 
         if (Main.rand.NextFloat() >= MimicChance)
