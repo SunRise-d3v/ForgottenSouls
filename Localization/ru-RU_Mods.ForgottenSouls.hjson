@@ -258,3 +258,5 @@ Biomes: {
 		TownNPCDialogueName: биом нашествия кроликов
 	}
 }
+
+// Keybinds.ActivateRage.DisplayName: Activate Rage

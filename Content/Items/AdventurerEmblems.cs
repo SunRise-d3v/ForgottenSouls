@@ -11,8 +11,8 @@ internal abstract class AdventurerEmblems : ModItem
     {
         Item.maxStack = 1;
         Item.consumable = false;
-        Item.width = 28;
-        Item.height = 28;
+        Item.width = 16;
+        Item.height = 16;
         Item.rare = Rarity;
 
         Item.accessory = false;

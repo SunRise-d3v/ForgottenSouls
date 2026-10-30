@@ -39,6 +39,7 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="CrossMod\BossChecklist\" />
+	  <Folder Include="Localization\ru-RU\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Include=".lib\Fargowiltas.dll" />

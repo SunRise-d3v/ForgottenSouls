@@ -258,3 +258,5 @@ Biomes: {
 		TownNPCDialogueName: rabbit invasion biome
 	}
 }
+
+Keybinds.ActivateRage.DisplayName: Activate Rage

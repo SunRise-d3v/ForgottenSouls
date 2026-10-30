@@ -24,6 +24,7 @@ global using Terraria.IO;
 global using Terraria.WorldBuilding;
 global using Terraria.GameContent.UI.Elements;
 global using Terraria.GameContent.Events;
+global using Terraria.GameInput;
 #endregion
 
 #region ReLogic
@@ -35,6 +36,7 @@ global using ReLogic.Content;
 #region XNA Framework
 global using Microsoft.Xna.Framework;
 global using Microsoft.Xna.Framework.Graphics;
+global using Microsoft.Xna.Framework.Input;
 #endregion
 
 #region Fargo's
