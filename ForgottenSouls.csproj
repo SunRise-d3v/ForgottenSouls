@@ -45,4 +45,15 @@
 	  <None Include=".lib\FargowiltasSouls.dll" />
 	  <None Include=".lib\Luminance.dll" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Update="Assets\Musics\GraniteCave.mp3">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Assets\Musics\MarbleCave.mp3">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Assets\Musics\SpiderNest.mp3">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
 </Project>

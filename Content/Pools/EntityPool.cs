@@ -189,6 +189,52 @@ internal static partial class Pool
             NPCID.DungeonSpirit
     ];
 
+    public static readonly HashSet<int> PreHardmodeBosses =
+[
+    NPCID.KingSlime,
+        NPCID.EyeofCthulhu,
+        NPCID.EaterofWorldsHead,
+        NPCID.EaterofWorldsBody,
+        NPCID.EaterofWorldsTail,
+        NPCID.BrainofCthulhu,
+        NPCID.QueenBee,
+        NPCID.SkeletronHead,
+        NPCID.Deerclops,
+        NPCID.WallofFlesh,
+    ];
+
+    public static readonly HashSet<int> HardmodeBosses =
+    [
+        NPCID.QueenSlimeBoss,
+        NPCID.TheDestroyer,
+        NPCID.Retinazer,
+        NPCID.Spazmatism,
+        NPCID.SkeletronPrime,
+        NPCID.Plantera,
+        NPCID.Golem,
+        NPCID.DukeFishron,
+        NPCID.HallowBoss,
+        NPCID.CultistBoss,
+        NPCID.MoonLordCore,
+    ];
+
+    public static readonly HashSet<int> EvilNPCs =
+    [
+        NPCID.CochinealBeetle,
+    ];
+
+    public static readonly string[] EvilNameParts =
+    [
+        "Corrupt", "Crim", "Eater", "Devourer", "FaceMonster", "BloodCrawler", "Herpling", "Slimer", "Clinger",
+    ];
+
+    public static readonly HashSet<string> BloodMoonNames =
+    [
+        "BloodZombie", "Drippler", "BloodFeeder", "BloodJelly", "BloodEelHead", "GoblinShark",
+        "Dreadnautilus", "ZombieMerman", "EyeballFlyingFish",
+    ];
+
+
     public static (bool Beaten, int Type)[] Bosses =
         [
             (NPC.downedSlimeKing, NPCID.KingSlime),

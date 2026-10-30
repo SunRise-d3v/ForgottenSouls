@@ -201,6 +201,11 @@ Items: {
 		DisplayName: True Copper Dagger
 		Tooltip: ""
 	}
+
+	Soul: {
+		Tooltip: ""
+		DisplayName: Soul
+	}
 }
 
 NPCs: {

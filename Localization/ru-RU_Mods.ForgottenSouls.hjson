@@ -201,6 +201,11 @@ Items: {
 		DisplayName: Истинный медный кинжал
 		Tooltip: ""
 	}
+
+	Soul: {
+		// Tooltip: ""
+		// DisplayName: Soul
+	}
 }
 
 NPCs: {

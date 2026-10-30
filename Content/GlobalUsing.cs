@@ -73,6 +73,7 @@ global using FargowiltasSouls.Content.Buffs.Masomode;
 global using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 global using FargowiltasSouls.Core.Toggler;
 global using FargowiltasSouls.Core.Toggler.Content;
+global using FargowiltasSouls.Content.Rarities;
 
 #endregion
 
