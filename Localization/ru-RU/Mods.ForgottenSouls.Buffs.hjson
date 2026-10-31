@@ -1,0 +1,77 @@
+HeroVillage1: {
+	DisplayName: Герой деревни
+	Description: Жители благодарны вам за защиту
+}
+
+HeroVillage2: {
+	DisplayName: Герой деревни
+	Description: Жители благодарны вам за защиту
+}
+
+HeroVillage3: {
+	DisplayName: Герой деревни
+	Description: Жители благодарны вам за защиту
+}
+
+HeroVillage4: {
+	DisplayName: Герой деревни
+	Description: Жители благодарны вам за защиту
+}
+
+ObserverBuff: {
+	// DisplayName: Observer Buff
+	// Description: Mods.ForgottenSouls.Buffs.ObserverBuff.Description
+}
+
+ArachnophobiaDebuff: {
+	DisplayName: Арахнофобия
+	Description: Вы испытываете страх перед членистоногими
+}
+
+Jammed: {
+	DisplayName: Заедание
+	Description: Ваше оружие заклинило
+}
+
+WarCry: {
+	DisplayName: Боевой клич
+	Description:
+		'''
+		Существо издаёт рёв.
+		Другие существа чувствуют прилив сил
+		'''
+}
+
+PotionFatigueBuff: {
+	// DisplayName: Potion Fatigue
+	// Description: Potions heal less
+}
+
+CrabGrabBuff: {
+	DisplayName: Крепкая хватка
+	Description: Вас схватил краб
+}
+
+ShatteredArmorBuff: {
+	DisplayName: Расколотая броня
+	Description: Защита снижена
+}
+
+WarCryBuff: {
+	DisplayName: Боевой клич
+	Description:
+		'''
+		Существо издаёт рёв.
+		Другие существа чувствуют прилив сил
+		'''
+}
+
+JammedDebuff: {
+	DisplayName: Заедание
+	Description: Ваше оружие заклинило
+}
+
+PotionFatigueDebuff: {
+	DisplayName: Усталость от зелий
+	Description: Зелья лечат слабее
+}

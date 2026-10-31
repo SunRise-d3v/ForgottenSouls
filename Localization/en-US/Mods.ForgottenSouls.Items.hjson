@@ -1,0 +1,109 @@
+ARankAdventurerEmblem: {
+	DisplayName: A Rank Adventurer Emblem
+	Tooltip: ""
+}
+
+BRankAdventurerEmblem: {
+	DisplayName: B Rank Adventurer Emblem
+	Tooltip: ""
+}
+
+CRankAdventurerEmblem: {
+	DisplayName: C Rank Adventurer Emblem
+	Tooltip: ""
+}
+
+FRankAdventurerEmblem: {
+	DisplayName: F Rank Adventurer Emblem
+	Tooltip: ""
+}
+
+StarterBag: {
+	DisplayName: Starter Bag
+	Tooltip: ""
+}
+
+CookEnchantment: {
+	DisplayName: Cook Enchantment
+	Tooltip: ""
+}
+
+TrueSnowball: {
+	DisplayName: True Snowball
+	Tooltip: ""
+}
+
+TrueShuriken: {
+	DisplayName: True Shuriken
+	Tooltip: ""
+}
+
+TrueRottenEgg: {
+	DisplayName: True Rotten Egg
+	Tooltip: ""
+}
+
+TrueThrowingKnife: {
+	DisplayName: True Throwing Knife
+	Tooltip: ""
+}
+
+TruePoisonedKnife: {
+	DisplayName: True Poisoned Knife
+	Tooltip: ""
+}
+
+TrueBoneDagger: {
+	DisplayName: True Bone Dagger
+	Tooltip: ""
+}
+
+TrueBone: {
+	DisplayName: True Bone
+	Tooltip: ""
+}
+
+TrueStarAnise: {
+	DisplayName: True Star Anise
+	Tooltip: ""
+}
+
+TrueJavelin: {
+	DisplayName: True Javelin
+	Tooltip: ""
+}
+
+TrueMolotovCocktail: {
+	DisplayName: True Molotov Cocktail
+	Tooltip: ""
+}
+
+TrueBoneJavelin: {
+	DisplayName: True Bone Javelin
+	Tooltip: ""
+}
+
+TrueDaggerFish: {
+	DisplayName: True Dagger Fish
+	Tooltip: ""
+}
+
+Multitool: {
+	DisplayName: Multitool
+	Tooltip: ""
+}
+
+ClassChoiceItem: {
+	DisplayName: Class Choice Item
+	Tooltip: ""
+}
+
+TrueCopperDagger: {
+	DisplayName: True Copper Dagger
+	Tooltip: ""
+}
+
+Soul: {
+	DisplayName: Soul
+	Tooltip: ""
+}

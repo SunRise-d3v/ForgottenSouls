@@ -1,4 +1,4 @@
-﻿#region System
+#region System
 global using System;
 global using System.Collections.Generic;
 global using System.Linq;
@@ -76,6 +76,7 @@ global using FargowiltasSouls.Content.Items.Accessories.Enchantments;
 global using FargowiltasSouls.Core.Toggler;
 global using FargowiltasSouls.Core.Toggler.Content;
 global using FargowiltasSouls.Content.Rarities;
+global using FargowiltasSouls.Content.Items.Materials;
 
 #endregion
 

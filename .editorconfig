@@ -142,3 +142,6 @@ dotnet_naming_style.всечастиспрописнойбуквы.required_pref
 dotnet_naming_style.всечастиспрописнойбуквы.required_suffix = 
 dotnet_naming_style.всечастиспрописнойбуквы.word_separator = 
 dotnet_naming_style.всечастиспрописнойбуквы.capitalization = pascal_case
+
+[*]
+charset = utf-8

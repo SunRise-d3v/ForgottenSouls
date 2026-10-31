@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Mechanics;
+namespace ForgottenSouls.Content.Mechanics;
 
 internal sealed class StartingHealth : ModPlayer
 {

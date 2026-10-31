@@ -1,0 +1,26 @@
+// RestlessSoul.DisplayName: Restless Soul
+VinesOfTheMartyr.DisplayName: Лозы мученика
+DisasterBunny.DisplayName: Кролик-катастрофа
+
+Lepus: {
+}
+
+// SmallEgg.DisplayName: Small Egg
+BonePile.DisplayName: Куча костей
+
+TheSnail: {
+	TownNPCMood: {
+		Content: Я доволен.
+		NoHome: Ненавижу жить без дома.
+		FarFromHome: Я слишком далеко от дома.
+		LoveSpace: Обожаю, когда вокруг так много места.
+		DislikeCrowded: Мне не нравится такая теснота.
+		HateCrowded: Ненавижу такую тесноту.
+		LikeNPC_Princess: Мне нравится {NPCName}.
+		Princess_LovesNPC: Мне нравится {NPCName}.
+	}
+
+	DisplayName: Улитка
+}
+
+// RestlessSoul.DisplayName: Restless Soul

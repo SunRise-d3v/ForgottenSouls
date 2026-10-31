@@ -1,0 +1,26 @@
+// RestlessSoul.DisplayName: Restless Soul
+VinesOfTheMartyr.DisplayName: Vines Of The Martyr
+DisasterBunny.DisplayName: Disaster Bunny
+
+Lepus: {
+}
+
+// SmallEgg.DisplayName: Small Egg
+BonePile.DisplayName: Bone Pile
+
+TheSnail: {
+	TownNPCMood: {
+		Content: I'm content.
+		NoHome: I hate living without a home.
+		FarFromHome: I'm too far from home.
+		LoveSpace: I love having so much space around me.
+		DislikeCrowded: I don't like how crowded it is here.
+		HateCrowded: I hate how crowded it is here.
+		LikeNPC_Princess: I like {NPCName}.
+		Princess_LovesNPC: I like {NPCName}.
+	}
+
+	DisplayName: The Snail
+}
+
+RestlessSoul.DisplayName: Restless Soul

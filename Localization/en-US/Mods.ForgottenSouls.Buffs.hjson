@@ -1,0 +1,73 @@
+HeroVillage1: {
+	DisplayName: Hero Village1
+	Description: Mods.ForgottenSouls.Buffs.HeroVillage1.Description
+}
+
+HeroVillage2: {
+	DisplayName: Hero Village2
+	Description: Mods.ForgottenSouls.Buffs.HeroVillage2.Description
+}
+
+HeroVillage3: {
+	DisplayName: Hero Village3
+	Description: Mods.ForgottenSouls.Buffs.HeroVillage3.Description
+}
+
+HeroVillage4: {
+	DisplayName: Hero Village4
+	Description: Mods.ForgottenSouls.Buffs.HeroVillage4.Description
+}
+
+ObserverBuff: {
+	DisplayName: Observer Buff
+	Description: Mods.ForgottenSouls.Buffs.ObserverBuff.Description
+}
+
+ArachnophobiaDebuff: {
+	DisplayName: Arachnophobia Debuff
+	Description: Mods.ForgottenSouls.Buffs.ArachnophobiaDebuff.Description
+}
+
+Jammed: {
+	DisplayName: Jammed
+	Description: Your weapon is jammed
+}
+
+WarCry: {
+	DisplayName: War Cry
+	Description:
+		'''
+		A creature lets out a roar.
+		Other creatures feel a surge of strength
+		'''
+}
+
+PotionFatigueBuff: {
+	DisplayName: Potion Fatigue
+	Description: Potions heal less
+}
+
+CrabGrabBuff: {
+	DisplayName: Crab Grab Buff
+	Description: Mods.ForgottenSouls.Buffs.CrabGrabBuff.Description
+}
+
+ShatteredArmorBuff: {
+	DisplayName: Shattered Armor Buff
+	Description: Mods.ForgottenSouls.Buffs.ShatteredArmorBuff.Description
+}
+
+WarCryBuff: {
+	DisplayName: War Cry Buff
+	Description: Mods.ForgottenSouls.Buffs.WarCryBuff.Description
+}
+
+JammedDebuff: {
+	DisplayName: Jammed Debuff
+	Description: Mods.ForgottenSouls.Buffs.JammedDebuff.Description
+}
+
+PotionFatigueDebuff: {
+	DisplayName: Potion Fatigue Debuff
+	Description: Mods.ForgottenSouls.Buffs.PotionFatigueDebuff.Description
+}

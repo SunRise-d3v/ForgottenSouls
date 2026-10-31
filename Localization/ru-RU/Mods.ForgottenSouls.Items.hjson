@@ -1,0 +1,127 @@
+ARankAdventurerEmblem: {
+	DisplayName: Эмблема авантюриста (ранг A)
+	Tooltip: Жители дают вам скидку 20%
+}
+
+BRankAdventurerEmblem: {
+	DisplayName: Эмблема авантюриста (ранг B)
+	Tooltip: Жители дают вам скидку 13%
+}
+
+CRankAdventurerEmblem: {
+	DisplayName: Эмблема авантюриста (ранг C)
+	Tooltip: Жители дают вам скидку 8%
+}
+
+FRankAdventurerEmblem: {
+	DisplayName: Эмблема авантюриста (ранг F)
+	Tooltip: Жители дают вам скидку 5%
+}
+
+StarterBag: {
+	DisplayName: Стартовый мешок
+	Tooltip:
+		'''
+		Даёт начинающим авантюристам всё необходимое для старта
+		Не потеряйте его: он у вас один
+		'''
+}
+
+CookEnchantment: {
+	DisplayName: Зачарование повара
+	Tooltip:
+		'''
+		Вы больше не испытываете голода
+		Вы получаете бафф «Сытость»
+		Вместе с атакой может вылететь пара ингредиентов для торта
+		Регенерация здоровья увеличена на 1
+		'''
+}
+
+TrueSnowball: {
+	DisplayName: Истинный снежок
+	Tooltip: ""
+}
+
+TrueShuriken: {
+	DisplayName: Истинный сюрикен
+	Tooltip: ""
+}
+
+TrueRottenEgg: {
+	DisplayName: Истинное тухлое яйцо
+	Tooltip: ""
+}
+
+TrueThrowingKnife: {
+	DisplayName: Истинный метательный нож
+	Tooltip: ""
+}
+
+TruePoisonedKnife: {
+	DisplayName: Истинный отравленный нож
+	Tooltip: ""
+}
+
+TrueBoneDagger: {
+	DisplayName: Истинный костяной метательный нож
+	Tooltip: ""
+}
+
+TrueBone: {
+	DisplayName: Истинная кость
+	Tooltip: ""
+}
+
+TrueStarAnise: {
+	DisplayName: Истинный бадьян
+	Tooltip: ""
+}
+
+TrueJavelin: {
+	DisplayName: Истинное метательное копьё
+	Tooltip: ""
+}
+
+TrueMolotovCocktail: {
+	DisplayName: Истинный коктейль Молотова
+	Tooltip: ""
+}
+
+TrueBoneJavelin: {
+	DisplayName: Истинное костяное метательное копьё
+	Tooltip: ""
+}
+
+TrueDaggerFish: {
+	DisplayName: Истинная метательная рыба-кинжал
+	Tooltip: ""
+}
+
+Multitool: {
+	DisplayName: Универсальный инструмент
+	Tooltip:
+		'''
+		Выпускает 4–5 случайных метательных снарядов
+		При попадании с шансом 50% накладывает эффект
+		'''
+}
+
+ClassChoiceItem: {
+	DisplayName: Выбор мастера
+	Tooltip:
+		'''
+		Позволяет выбрать класс
+		Исчезает после выбора
+		'''
+}
+
+TrueCopperDagger: {
+	DisplayName: Истинный медный кинжал
+	Tooltip: ""
+}
+
+Soul: {
+	// DisplayName: Soul
+	// Tooltip: ""
+}
