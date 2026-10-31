@@ -2,7 +2,7 @@
 
 [Русская версия](README.ru.md)
 
-A global difficulty add-on for **[Fargo's Souls Mod](https://github.com/Fargo-Team/FargowiltasSoulsMod)** on tModLoader. It adds a fourth difficulty mode, **"Sadomasochist"**, and heavily reworks vanilla Terraria. The whole point of the mod is built around this mode: it is meant to be a real challenge for experienced players.
+A global difficulty add-on for **[Fargo's Souls Mod](https://github.com/Fargo-Team/FargosSoulsMod)** on tModLoader. It adds a fourth difficulty mode, **"Sadomasochist"**, and heavily reworks vanilla Terraria. The whole point of the mod is built around this mode: it is meant to be a real challenge for experienced players.
 
 > The mod is under active development. Some of what is described below may change.
 > The version of the mod described here 0.1.9

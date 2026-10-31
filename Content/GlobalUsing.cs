@@ -25,6 +25,7 @@ global using Terraria.WorldBuilding;
 global using Terraria.GameContent.UI.Elements;
 global using Terraria.GameContent.Events;
 global using Terraria.GameInput;
+global using Terraria.Utilities;
 #endregion
 
 #region ReLogic

@@ -1,1 +1,7 @@
 Keybinds.ActivateRage.DisplayName: Активация ярости
+
+Prefixes: {
+	// HaulerPrefix.DisplayName: Hauler Prefix
+	// PackAnimalPrefix.DisplayName: Pack Animal Prefix
+	// PorterPrefix.DisplayName: Porter Prefix
+}

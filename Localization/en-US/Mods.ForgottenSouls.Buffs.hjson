@@ -71,3 +71,23 @@ PotionFatigueDebuff: {
 	DisplayName: Potion Fatigue Debuff
 	Description: Mods.ForgottenSouls.Buffs.PotionFatigueDebuff.Description
 }
+
+HypothermiaBuff: {
+	DisplayName: Hypothermia Buff
+	Description: Mods.ForgottenSouls.Buffs.HypothermiaBuff.Description
+}
+
+OverheatBuff: {
+	DisplayName: Overheat Buff
+	Description: Mods.ForgottenSouls.Buffs.OverheatBuff.Description
+}
+
+HeavyOverburden: {
+	DisplayName: Heavy Overburden
+	Description: Mods.ForgottenSouls.Buffs.HeavyOverburden.Description
+}
+
+LightOverburden: {
+	DisplayName: Light Overburden
+	Description: Mods.ForgottenSouls.Buffs.LightOverburden.Description
+}

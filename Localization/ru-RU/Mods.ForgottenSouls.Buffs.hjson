@@ -75,3 +75,23 @@ PotionFatigueDebuff: {
 	DisplayName: Усталость от зелий
 	Description: Зелья лечат слабее
 }
+
+HypothermiaBuff: {
+	// DisplayName: Hypothermia Buff
+	// Description: Mods.ForgottenSouls.Buffs.HypothermiaBuff.Description
+}
+
+OverheatBuff: {
+	// DisplayName: Overheat Buff
+	// Description: Mods.ForgottenSouls.Buffs.OverheatBuff.Description
+}
+
+HeavyOverburden: {
+	// DisplayName: Heavy Overburden
+	// Description: Mods.ForgottenSouls.Buffs.HeavyOverburden.Description
+}
+
+LightOverburden: {
+	// DisplayName: Light Overburden
+	// Description: Mods.ForgottenSouls.Buffs.LightOverburden.Description
+}
