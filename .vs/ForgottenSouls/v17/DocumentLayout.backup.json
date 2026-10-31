@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\license||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:license||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\license||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:license||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\readme.ru.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:readme.ru.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\readme.ru.md||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:readme.ru.md||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\forgottensouls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:forgottensouls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\content\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:build.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|c:\\users\\user\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\my games\\terraria\\tmodloader\\modsources\\forgottensouls\\icon_workshop.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{C30B1F13-3259-38D4-F3ED-779B05BC7C94}|ForgottenSouls.csproj|solutionrelative:icon_workshop.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
@@ -118,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 28,
+          "SelectedChildIndex": 32,
           "Children": [
             {
               "$type": "Bookmark",
@@ -155,6 +167,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "README.ru.md",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\README.ru.md",
+              "RelativeDocumentMoniker": "README.ru.md",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\README.ru.md",
+              "RelativeToolTip": "README.ru.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-31T11:40:50.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.ru.md",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\README.ru.md",
+              "RelativeDocumentMoniker": "README.ru.md",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\README.ru.md",
+              "RelativeToolTip": "README.ru.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-31T11:39:56.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForgottenSouls.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\ForgottenSouls.cs",
+              "RelativeDocumentMoniker": "ForgottenSouls.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\ForgottenSouls.cs",
+              "RelativeToolTip": "ForgottenSouls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T11:31:39.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "Content\\GlobalUsing.cs",
@@ -162,12 +213,11 @@
               "RelativeToolTip": "Content\\GlobalUsing.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T00:45:14.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:45:14.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CustomRecipeGroups.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Recipes\\CustomRecipeGroups.cs",
               "RelativeDocumentMoniker": "Content\\Recipes\\CustomRecipeGroups.cs",
@@ -175,12 +225,11 @@
               "RelativeToolTip": "Content\\Recipes\\CustomRecipeGroups.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T00:43:16.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:43:16.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CustomRecipes.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Recipes\\CustomRecipes.cs",
               "RelativeDocumentMoniker": "Content\\Recipes\\CustomRecipes.cs",
@@ -188,12 +237,11 @@
               "RelativeToolTip": "Content\\Recipes\\CustomRecipes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T00:31:13.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:31:13.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "StartingHealth.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\Globals\\Player\\StartingHealth.cs",
               "RelativeDocumentMoniker": "Content\\Globals\\Player\\StartingHealth.cs",
@@ -201,12 +249,11 @@
               "RelativeToolTip": "Content\\Globals\\Player\\StartingHealth.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T00:19:32.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:19:32.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Mods.ForgottenSouls.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\ru-RU\\Mods.ForgottenSouls.hjson",
               "RelativeDocumentMoniker": "Localization\\ru-RU\\Mods.ForgottenSouls.hjson",
@@ -214,12 +261,11 @@
               "RelativeToolTip": "Localization\\ru-RU\\Mods.ForgottenSouls.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:17:15.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:17:15.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Mods.ForgottenSouls.Biomes.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\ru-RU\\Mods.ForgottenSouls.Biomes.hjson",
               "RelativeDocumentMoniker": "Localization\\ru-RU\\Mods.ForgottenSouls.Biomes.hjson",
@@ -227,12 +273,11 @@
               "RelativeToolTip": "Localization\\ru-RU\\Mods.ForgottenSouls.Biomes.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:14:24.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:14:24.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Mods.ForgottenSouls.Projectiles.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\ru-RU\\Mods.ForgottenSouls.Projectiles.hjson",
               "RelativeDocumentMoniker": "Localization\\ru-RU\\Mods.ForgottenSouls.Projectiles.hjson",
@@ -240,12 +285,11 @@
               "RelativeToolTip": "Localization\\ru-RU\\Mods.ForgottenSouls.Projectiles.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:14:10.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:14:10.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Mods.ForgottenSouls.NPCs.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\ru-RU\\Mods.ForgottenSouls.NPCs.hjson",
               "RelativeDocumentMoniker": "Localization\\ru-RU\\Mods.ForgottenSouls.NPCs.hjson",
@@ -253,12 +297,11 @@
               "RelativeToolTip": "Localization\\ru-RU\\Mods.ForgottenSouls.NPCs.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:13:53.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:13:53.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Mods.ForgottenSouls.Buffs.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\ru-RU\\Mods.ForgottenSouls.Buffs.hjson",
               "RelativeDocumentMoniker": "Localization\\ru-RU\\Mods.ForgottenSouls.Buffs.hjson",
@@ -266,12 +309,11 @@
               "RelativeToolTip": "Localization\\ru-RU\\Mods.ForgottenSouls.Buffs.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:13:39.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:13:39.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Mods.ForgottenSouls.Items.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\ru-RU\\Mods.ForgottenSouls.Items.hjson",
               "RelativeDocumentMoniker": "Localization\\ru-RU\\Mods.ForgottenSouls.Items.hjson",
@@ -279,12 +321,11 @@
               "RelativeToolTip": "Localization\\ru-RU\\Mods.ForgottenSouls.Items.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:12:46.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:12:46.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Mods.ForgottenSouls.Biomes.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\en-US\\Mods.ForgottenSouls.Biomes.hjson",
               "RelativeDocumentMoniker": "Localization\\en-US\\Mods.ForgottenSouls.Biomes.hjson",
@@ -292,12 +333,11 @@
               "RelativeToolTip": "Localization\\en-US\\Mods.ForgottenSouls.Biomes.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:08:48.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:08:48.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Mods.ForgottenSouls.Projectiles.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\en-US\\Mods.ForgottenSouls.Projectiles.hjson",
               "RelativeDocumentMoniker": "Localization\\en-US\\Mods.ForgottenSouls.Projectiles.hjson",
@@ -305,12 +345,11 @@
               "RelativeToolTip": "Localization\\en-US\\Mods.ForgottenSouls.Projectiles.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:08:36.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:08:36.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Mods.ForgottenSouls.NPCs.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\en-US\\Mods.ForgottenSouls.NPCs.hjson",
               "RelativeDocumentMoniker": "Localization\\en-US\\Mods.ForgottenSouls.NPCs.hjson",
@@ -318,12 +357,11 @@
               "RelativeToolTip": "Localization\\en-US\\Mods.ForgottenSouls.NPCs.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:08:26.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:08:26.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Mods.ForgottenSouls.Items.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\en-US\\Mods.ForgottenSouls.Items.hjson",
               "RelativeDocumentMoniker": "Localization\\en-US\\Mods.ForgottenSouls.Items.hjson",
@@ -331,12 +369,11 @@
               "RelativeToolTip": "Localization\\en-US\\Mods.ForgottenSouls.Items.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:08:16.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:08:16.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Mods.ForgottenSouls.Buffs.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\en-US\\Mods.ForgottenSouls.Buffs.hjson",
               "RelativeDocumentMoniker": "Localization\\en-US\\Mods.ForgottenSouls.Buffs.hjson",
@@ -344,12 +381,11 @@
               "RelativeToolTip": "Localization\\en-US\\Mods.ForgottenSouls.Buffs.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-31T00:08:00.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T00:08:00.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Mods.ForgottenSouls.hjson",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Localization\\en-US\\Mods.ForgottenSouls.hjson",
               "RelativeDocumentMoniker": "Localization\\en-US\\Mods.ForgottenSouls.hjson",
@@ -357,12 +393,11 @@
               "RelativeToolTip": "Localization\\en-US\\Mods.ForgottenSouls.hjson",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-30T22:38:35.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T22:38:35.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": ".editorconfig",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\.editorconfig",
               "RelativeDocumentMoniker": ".editorconfig",
@@ -370,12 +405,11 @@
               "RelativeToolTip": ".editorconfig",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-30T22:36:58.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T22:36:58.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "description_workshop.txt",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\description_workshop.txt",
               "RelativeDocumentMoniker": "description_workshop.txt",
@@ -383,12 +417,11 @@
               "RelativeToolTip": "description_workshop.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-10-30T21:41:14.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T21:41:14.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "description.txt",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\description.txt",
               "RelativeDocumentMoniker": "description.txt",
@@ -400,45 +433,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 4,
               "Title": ".gitattributes",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\.gitattributes",
               "RelativeDocumentMoniker": ".gitattributes",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\.gitattributes",
               "RelativeToolTip": ".gitattributes",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-10-30T21:40:46.936Z"
+              "WhenOpened": "2026-10-30T21:40:46.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-10-30T21:40:35.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LICENSE",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\LICENSE",
               "RelativeDocumentMoniker": "LICENSE",
               "ToolTip": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\LICENSE",
               "RelativeToolTip": "LICENSE",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-10-30T21:40:30.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "icon_workshop.png",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\icon_workshop.png",
               "RelativeDocumentMoniker": "icon_workshop.png",
@@ -449,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "icon_small.png",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\icon_small.png",
               "RelativeDocumentMoniker": "icon_small.png",
@@ -460,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "icon.png",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\icon.png",
               "RelativeDocumentMoniker": "icon.png",
@@ -471,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "build.txt",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\build.txt",
               "RelativeDocumentMoniker": "build.txt",
@@ -483,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "TownNPCExtraDialogue.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\My Games\\Terraria\\tModLoader\\ModSources\\ForgottenSouls\\Content\\NPCs\\Town\\TownNPCExtraDialogue.cs",
               "RelativeDocumentMoniker": "Content\\NPCs\\Town\\TownNPCExtraDialogue.cs",
