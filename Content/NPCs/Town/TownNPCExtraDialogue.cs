@@ -1,9 +1,9 @@
-﻿namespace ForgottenSouls.Content.Globals;
+namespace ForgottenSouls.Content.Globals;
 
 internal sealed class TownNPCExtraDialogue : GlobalNPC
 {
-    private const float CustomChance = 0.16f;  
-    private const float ModeChance = CustomChance * 2f;  
+    private const float CustomChance = 0.16f;
+    private const float ModeChance = CustomChance * 2f;
 
     private static readonly Dictionary<int, string[]> Lines = new()
     {
@@ -20,6 +20,10 @@ internal sealed class TownNPCExtraDialogue : GlobalNPC
         [NPCID.Nurse] =
         [
             "Линия для связи с медсестрой (заполнитель 1)."
+        ],
+        [NPCID.DD2Bartender] =
+        [
+
         ]
     };
 

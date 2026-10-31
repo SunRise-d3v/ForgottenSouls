@@ -1,13 +1,19 @@
-﻿namespace ForgottenSouls.Content.Recipes;
+namespace ForgottenSouls.Content.Recipes;
 
-internal sealed record CustomRecipe(int Result, (int Type, int Stack)[] Items, (string Group, int Stack)[] Groups, int Tile);
+internal sealed record CustomRecipe(int Result)
+{
+    public int ResultStack { get; init; } = 1;
+    public (int Type, int Stack)[] Items { get; init; } = [];
+    public (string Group, int Stack)[] Groups { get; init; } = [];
+    public int[] Tiles { get; init; } = [];
+}
 internal sealed partial class CustomRecipes : ModSystem
 {
     public override void AddRecipes()
     {
         foreach (CustomRecipe def in Recipes)
         {
-            Recipe recipe = Recipe.Create(def.Result);
+            Recipe recipe = Recipe.Create(def.Result, def.ResultStack);
 
             foreach (var (type, stack) in def.Items)
                 recipe.AddIngredient(type, stack);
@@ -15,18 +21,18 @@ internal sealed partial class CustomRecipes : ModSystem
             foreach (var (group, stack) in def.Groups)
                 recipe.AddRecipeGroup(group, stack);
 
-            recipe.AddTile(def.Tile);
+            foreach (int tile in def.Tiles)
+                recipe.AddTile(tile);
+
             recipe.Register();
         }
     }
 
     public override void PostAddRecipes()
     {
-        HashSet<int> results = [.. Recipes.Select(r => r.Result)];
-
         foreach (Recipe recipe in Main.recipe)
         {
-            if (recipe.Mod != Mod && results.Contains(recipe.createItem.type))
+            if (recipe.Mod != Mod && RecipeRemovals.Results.Contains(recipe.createItem.type))
                 recipe.DisableRecipe();
         }
     }
