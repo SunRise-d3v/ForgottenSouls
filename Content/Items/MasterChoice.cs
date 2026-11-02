@@ -1,4 +1,6 @@
-﻿namespace ForgottenSouls.Content.Items;
+using ForgottenSouls.Content.Rarities;
+
+namespace ForgottenSouls.Content.Items;
 
 internal enum ChosenClass { None, Melee, Ranged, Magic, Summoner }
 internal sealed class ClassChoicePlayer : ModPlayer
@@ -79,6 +81,7 @@ internal sealed class ClassChoiceItem : ModItem
         Item.height = 28;
         Item.maxStack = 9999;
         Item.rare = ItemRarityID.Expert;
+        //Item.rare = ModContent.RarityType<DivineRarity>();
         Item.useStyle = ItemUseStyleID.HoldUp;
         Item.useTime = 20;
         Item.useAnimation = 20;

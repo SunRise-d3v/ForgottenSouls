@@ -87,11 +87,11 @@ OverheatBuff: {
 }
 
 HeavyOverburden: {
-	// DisplayName: Heavy Overburden
-	// Description: Mods.ForgottenSouls.Buffs.HeavyOverburden.Description
+	DisplayName: Сильный перевес
+	Description: Вы несёте слишком много и не можете сдвинуться с места
 }
 
 LightOverburden: {
-	// DisplayName: Light Overburden
-	// Description: Mods.ForgottenSouls.Buffs.LightOverburden.Description
+	DisplayName: Лёгкий перевес
+	Description: Вы несёте слишком много, скорость снижена
 }

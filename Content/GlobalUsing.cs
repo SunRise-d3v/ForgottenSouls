@@ -26,6 +26,7 @@ global using Terraria.GameContent.UI.Elements;
 global using Terraria.GameContent.Events;
 global using Terraria.GameInput;
 global using Terraria.Utilities;
+global using Terraria.Graphics;
 #endregion
 
 #region ReLogic
@@ -99,6 +100,7 @@ global using ForgottenSouls.Content.UI;
 global using ForgottenSouls.Content.ModPlayers;
 global using ForgottenSouls.Content.Recipes;
 global using ForgottenSouls.Content.Difficulty;
+global using ForgottenSouls.Content.Rarities;
 
 global using CrossMod;
 #endregion

@@ -125,3 +125,18 @@ Soul: {
 	// DisplayName: Soul
 	// Tooltip: ""
 }
+
+GlassSoul: {
+	// DisplayName: Glass Soul
+	// Tooltip: ""
+}
+
+IronHeart: {
+	// DisplayName: Iron Heart
+	// Tooltip: ""
+}
+
+UnbearablePain: {
+	// DisplayName: Unbearable Pain
+	// Tooltip: ""
+}

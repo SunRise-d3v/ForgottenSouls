@@ -1,4 +1,7 @@
-﻿namespace ForgottenSouls.Content.Biomes;
+using Terraria.Graphics.Effects;
+using Terraria.Graphics.Shaders;
+
+namespace ForgottenSouls.Content.Biomes;
 
 internal sealed class SolarStrikeShader : ModSystem
 {

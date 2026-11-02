@@ -127,6 +127,7 @@ internal class WeightPlayer : ModPlayer
             Player.maxRunSpeed = 0f;
             Player.accRunSpeed = 0f;
             Player.runAcceleration = 0f;
+            Player.AddBuff(ModContent.BuffType<LowGroundBuff>(), 60);
         }
         else if (Player.HasBuff<LightOverburden>())
         {
@@ -195,7 +196,6 @@ internal class WeightPlayer : ModPlayer
         if (item.consumable && (item.buffType > 0 || item.healLife > 0 || item.healMana > 0))
             return 0.5f;
 
-        // Оружие: стопки метательного лёгкие, остальное тяжёлое
         if (item.damage > 0)
             return item.maxStack > 1 ? 0.3f : 5f;
 
@@ -232,17 +232,15 @@ internal class WeightSystem : ModSystem
             return true;
 
         WeightPlayer weight = Main.LocalPlayer.GetModPlayer<WeightPlayer>();
-        string text = $"{(int)weight.Weight}/{(int)weight.Limit}";
+        string text = Language.GetTextValue("Mods.ForgottenSouls.UI.Capacity", (int)weight.Weight, (int)weight.Limit);
 
-        // Слот корзины стоит под последней колонкой инвентаря: слева от него и находится надпись
-        float trashX = 20f + 9f * 56f * Main.inventoryScale;
-        float trashY = 20f + 5f * 56f * Main.inventoryScale;
+        float trashX = 20f + 9f * 56f * Main.inventoryScale + 115;
+        float trashY = 20f + 5f * 56f * Main.inventoryScale + 75;
         float slotSize = 52f * Main.inventoryScale;
 
         var font = FontAssets.MouseText.Value;
         Vector2 size = font.MeasureString(text);
 
-        // Прижимаем к левому краю корзины, по высоте ниже середины слота
         Vector2 position = new(trashX - 8f - size.X, trashY + (slotSize - size.Y) / 2f + TextOffsetY);
 
         Main.spriteBatch.DrawString(font, text, position, Color.White);

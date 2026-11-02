@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Items;
+namespace ForgottenSouls.Content.Items;
 
 internal class Soul : ModItem
 {

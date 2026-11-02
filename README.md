@@ -71,7 +71,11 @@ A special karma system. Good deeds (housing townsfolk, planting trees, cleansing
 
 ## Help wanted
 
-I am a programmer and can't draw, make sounds, or write shaders, so I'm looking for people interested in the project:
+I am a programmer and can't draw, make sounds, or write 
+
+
+
+, so I'm looking for people interested in the project:
 
 - **Artist**: sprites for creatures and items, icons, and rework of vanilla textures.
 - **Shader programmer**

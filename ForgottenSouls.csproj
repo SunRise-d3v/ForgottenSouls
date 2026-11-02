@@ -38,8 +38,9 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
+	  <Folder Include="Assets\Shaders\.xnb\" />
+	  <Folder Include="Content\Globals\Player\Biomes\Consecration\" />
 	  <Folder Include="CrossMod\BossChecklist\" />
-	  <Folder Include="Localization\ru-RU\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Include=".lib\Fargowiltas.dll" />

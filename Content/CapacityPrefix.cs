@@ -55,8 +55,6 @@ internal class CapacityPrefixItem : GlobalItem
 {
     public override void UpdateAccessory(Item item, Player player, bool hideVisual) => Apply(item, player);
 
-    public override void UpdateEquip(Item item, Player player) => Apply(item, player);
-
     private static void Apply(Item item, Player player)
     {
         if (CapacityPrefix.TryGetBonus(item.prefix, out int bonus))

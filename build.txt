@@ -1,12 +1,15 @@
 displayName = [c/36454F:Forgotten] [c/305CDE:Souls] [c/C0C0C0:Mod] [ALPHA]
-author = [c/D4AF37:SunRise-d3v]
-version = 0.1.9
+author = [c/D4AF37:SunRise-d3v] & Bleedsnya
+version = 0.2.0
 
-buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.gif, .lib\*, Properties\*, LICENSE.md, README.md, README.ru.md, .editorconfig, .gitignore, .gitattributes
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, *.gif, .lib\*, Properties\*, //modfile
+LICENSE.md, README.md, README.ru.md, .editorconfig, .gitignore, .gitattributes, //gitfile
+\Shaders\Compiler\* //effectdevelopmentfiles
+
 hideCode = false
 hideResources = true
 includeSource = false
-includePDB = true
+includePDB = false
 
 modReferences = FargowiltasSouls, Fargowiltas, Luminance@1.0.3
 weakReferences = FargowiltasMusic, MagicStorage, BossChecklist

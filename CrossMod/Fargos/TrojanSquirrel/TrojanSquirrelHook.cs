@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content;
+namespace CrossMod;
 
 internal class TrojanSquirrelHook : GlobalNPC
 {

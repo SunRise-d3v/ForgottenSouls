@@ -290,20 +290,6 @@ internal sealed class Temperature : ModPlayer
     }
 }
 
-internal sealed class HypothermiaBuff : ModBuff
-{
-    public override string Texture => "Terraria/Images/Buff_" + BuffID.Chilled;
-
-    public override void SetStaticDefaults()
-    {
-        Main.debuff[Type] = true;
-        Main.buffNoSave[Type] = true;
-        BuffID.Sets.NurseCannotRemoveDebuff[Type] = true;
-    }
-
-    public override bool RightClick(int buffIndex) => false;
-}
-
 internal sealed class OverheatBuff : ModBuff
 {
     public override string Texture => "Terraria/Images/Buff_" + BuffID.OnFire;

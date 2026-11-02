@@ -1,7 +1,5 @@
-Keybinds.ActivateRage.DisplayName: Activate Rage
-
-Prefixes: {
-	HaulerPrefix.DisplayName: Hauler Prefix
-	PackAnimalPrefix.DisplayName: Pack Animal Prefix
-	PorterPrefix.DisplayName: Porter Prefix
+Keybinds: {
+	ActivateRage.DisplayName: Activate Rage
+	ZoomOut.DisplayName: Zoom Out
+	ZoomIn.DisplayName: Zoom In
 }

@@ -84,10 +84,10 @@ OverheatBuff: {
 
 HeavyOverburden: {
 	DisplayName: Heavy Overburden
-	Description: Mods.ForgottenSouls.Buffs.HeavyOverburden.Description
+	Description: You carry too much and cannot move
 }
 
 LightOverburden: {
 	DisplayName: Light Overburden
-	Description: Mods.ForgottenSouls.Buffs.LightOverburden.Description
+	Description: You carry too much, your speed is reduced
 }
