@@ -1,3 +1,5 @@
+using ForgottenSouls.Content.Players;
+
 namespace ForgottenSouls.Content.Recipes;
 
 internal sealed record CustomRecipe(int Result)
@@ -35,5 +37,13 @@ internal sealed partial class CustomRecipes : ModSystem
             if (recipe.Mod != Mod && RecipeRemovals.Results.Contains(recipe.createItem.type))
                 recipe.DisableRecipe();
         }
+    }
+
+    public override void PostSetupContent()
+    {
+        DrawingPlayer.RequireDrawing(ItemID.Zenith);
+        DrawingPlayer.RequireDrawing(ItemID.TerraBlade);
+        DrawingPlayer.RequireDrawing(ItemID.Meowmere);
+        DrawingPlayer.RequireDrawing(ItemID.Gladius);
     }
 }

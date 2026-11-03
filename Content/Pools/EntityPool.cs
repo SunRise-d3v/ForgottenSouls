@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content;
+namespace ForgottenSouls.Content;
 
 internal static partial class Pool
 {
@@ -232,6 +232,15 @@ internal static partial class Pool
     [
         "BloodZombie", "Drippler", "BloodFeeder", "BloodJelly", "BloodEelHead", "GoblinShark",
         "Dreadnautilus", "ZombieMerman", "EyeballFlyingFish",
+    ];
+
+    public static readonly HashSet<int> Casters =
+    [
+        NPCID.Tim,
+        NPCID.RuneWizard,
+        NPCID.Necromancer,
+        NPCID.NecromancerArmored,
+        NPCID.DarkCaster
     ];
 
 

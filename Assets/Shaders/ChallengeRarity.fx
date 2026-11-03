@@ -10,89 +10,57 @@ float4 ChallengePixel(
 {
     float4 source = tex2D(uImage0, uv);
 
-    // Анимация крови.
-    float wave1 = sin(uv.x * 85.0 + uv.y * 25.0 - uTime * 3.0);
-    float wave2 = sin(uv.x * 130.0 - uv.y * 40.0 - uTime * 4.0);
+    // Переход от металла к бордовому.
+    float gradient = smoothstep(0.15, 0.9, uv.x);
 
-    float flame = saturate((wave1 + wave2) * 0.25 + 0.5);
+    // Холодная металлическая поверхность.
+    float metalNoise = sin(uv.y * 35.0 + uv.x * 8.0) * 0.5 + 0.5;
 
-    // Кровавые потёки.
-    float x1 = abs(uv.x - 0.78);
-    float x2 = abs(uv.x - 0.88);
-    float x3 = abs(uv.x - 0.97);
-
-    float y = uv.y - 0.48;
-
-    float length1 = 0.12 + sin(uTime * 0.7) * 0.025;
-    float length2 = 0.19 + sin(uTime * 0.5 + 1.0) * 0.035;
-    float length3 = 0.09 + sin(uTime * 0.9 + 2.0) * 0.02;
-
-    float drip1 =
-        (1.0 - smoothstep(0.009, 0.016, x1)) *
-        (1.0 - smoothstep(length1, length1 + 0.015, y)) *
-        step(0.0, y);
-
-    float drip2 =
-        (1.0 - smoothstep(0.008, 0.014, x2)) *
-        (1.0 - smoothstep(length2, length2 + 0.015, y)) *
-        step(0.0, y);
-
-    float drip3 =
-        (1.0 - smoothstep(0.009, 0.015, x3)) *
-        (1.0 - smoothstep(length3, length3 + 0.015, y)) *
-        step(0.0, y);
-
-    float tip1 = 1.0 - smoothstep(
-        0.012, 0.022,
-        length(float2(x1, y - length1))
+    float3 metal = lerp(
+        float3(0.22, 0.25, 0.30),
+        float3(0.85, 0.88, 0.92),
+        metalNoise
     );
 
-    float tip2 = 1.0 - smoothstep(
-        0.011, 0.020,
-        length(float2(x2, y - length2))
-    );
+    // Глубокий бордовый оттенок крови.
+    float bloodWave = sin(uv.y * 18.0 - uTime * 0.8) * 0.5 + 0.5;
 
-    float tip3 = 1.0 - smoothstep(
-        0.012, 0.021,
-        length(float2(x3, y - length3))
-    );
-
-    float drips = saturate(
-        max(max(drip1, drip2), drip3) +
-        max(max(tip1, tip2), tip3)
-    );
-
-    // Цвет крови.
     float3 blood = lerp(
-        float3(0.10, 0.005, 0.025),
-        float3(0.75, 0.04, 0.08),
-        flame * 0.5
+        float3(0.12, 0.005, 0.025),
+        float3(0.38, 0.015, 0.055),
+        bloodWave * 0.35
     );
 
-    // Более яркие кончики капель.
-    float3 dropColor = lerp(
-        float3(0.30, 0.005, 0.02),
-        float3(0.85, 0.08, 0.12),
-        flame
+    float3 blade = lerp(metal, blood, gradient);
+
+    // Металлический блик.
+    float shine = pow(
+        saturate(
+            1.0 - abs(
+                uv.y - 0.5 - sin(uv.x * 8.0) * 0.04
+            ) * 18.0
+        ),
+        5.0
     );
 
-    float3 outline = lerp(
-        blood,
-        dropColor,
-        drips
+    blade = lerp(
+        blade,
+        float3(1.0, 0.92, 0.88),
+        shine * (1.0 - gradient) * 0.65
     );
 
-    // Чёрные буквы, красный контур.
-    float3 result = lerp(
-        outline,
-        float3(0.0, 0.0, 0.0),
-        source.a
+    // Лёгкое движение кровавого оттенка.
+    float pulse = sin(uTime * 1.5 + uv.x * 12.0) * 0.025;
+
+    blade = lerp(
+        blade,
+        float3(0.48, 0.015, 0.065),
+        saturate(gradient + pulse) * 0.2
     );
 
-    // Сохраняем альфа-канал текста.
     float alpha = source.a * color.a;
 
-    return float4(result * alpha, alpha);
+    return float4(blade * color.rgb * alpha, alpha);
 }
 
 technique Technique1

@@ -1,132 +1,96 @@
-using System;
-using System.Collections.Generic;
-
-using FargowiltasSouls.Content.Bosses.TrojanSquirrel;
-
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.ModLoader.IO;
-
 namespace CrossMod;
 
-/// <summary>Когда игрок призывает Троянскую белку, вокруг него появляется арена: деревянная рамка 100x100 блоков.</summary>
 internal class TrojanArenaTrigger : GlobalNPC
 {
+    public override bool InstancePerEntity => true;
+
     public override bool AppliesToEntity(NPC entity, bool lateInstantiation)
         => entity.type == ModContent.NPCType<TrojanSquirrel>();
+
+    private bool hasArea;
+    private Rectangle area;
 
     public override void OnSpawn(NPC npc, IEntitySource source)
     {
         if (Main.netMode == NetmodeID.MultiplayerClient)
             return;
 
-        // Арена строится вокруг ближайшего игрока (того, кто призвал белку)
         Player player = Main.player[Player.FindClosest(npc.Center, 0, 0)];
 
-        if (player.active && !player.dead)
-            TrojanArenaSystem.Build(player.Center.ToTileCoordinates());
+        if (!player.active || player.dead)
+            return;
+
+        area = TrojanArenaSystem.Build(player.Center.ToTileCoordinates());
+        hasArea = true;
+        npc.netUpdate = true;
+    }
+
+    public override void SendExtraAI(NPC npc, BitWriter bitWriter, BinaryWriter binaryWriter)
+    {
+        binaryWriter.Write(hasArea);
+
+        if (!hasArea)
+            return;
+
+        binaryWriter.Write(area.X);
+        binaryWriter.Write(area.Y);
+        binaryWriter.Write(area.Width);
+        binaryWriter.Write(area.Height);
+    }
+
+    public override void ReceiveExtraAI(NPC npc, BitReader bitReader, BinaryReader binaryReader)
+    {
+        hasArea = binaryReader.ReadBoolean();
+
+        if (!hasArea)
+            return;
+
+        area = new Rectangle(binaryReader.ReadInt32(), binaryReader.ReadInt32(), binaryReader.ReadInt32(), binaryReader.ReadInt32());
+        TrojanArenaSystem.SetArea(area);
     }
 }
 
 internal class TrojanArenaSystem : ModSystem
 {
-    private const int Size = 100;          // сторона квадрата в блоках
-    private const int Thickness = 2;       // толщина стены в блоках
-    private const int WorldMargin = 50;    // насколько арена должна держаться от края мира
-    private const int SyncChunk = 25;      // кусками такого размера отправляем изменения клиентам
-    private const int AbsentTicks = 60;    // сколько белки не должно быть в мире, чтобы арена исчезла
-
-    // Блоки арены, которые мы поставили: только их мы потом убираем (настоящий ландшафт не трогаем)
-    private static readonly HashSet<Point> Placed = [];
+    private const int Size = 125;       
+    private const int Thickness = 2;   
+    private const int WorldMargin = 50;   
+    private const int AbsentTicks = 60; 
 
     private int _absent;
 
-    /// <summary>Арена в координатах блоков. null, если арены сейчас нет.</summary>
     public static Rectangle? Area { get; private set; }
+
+    public static Rectangle? InnerPixels
+        => Area is Rectangle a
+            ? new Rectangle((a.X + Thickness) * 16, (a.Y + Thickness) * 16, (a.Width - Thickness * 2) * 16, (a.Height - Thickness * 2) * 16)
+            : null;
+
+    public static Rectangle? OuterPixels
+        => Area is Rectangle a ? new Rectangle(a.X * 16, a.Y * 16, a.Width * 16, a.Height * 16) : null;
 
     public static bool Contains(Vector2 worldPosition)
         => Area is Rectangle area && area.Contains(worldPosition.ToTileCoordinates());
 
-    // ---------- Постройка ----------
-
-    internal static void Build(Point center)
+    internal static Rectangle Build(Point center)
     {
-        if (Area != null)
-            return;
+        if (Area is Rectangle existing)
+            return existing;
 
         int left = Math.Clamp(center.X - Size / 2, WorldMargin, Main.maxTilesX - Size - WorldMargin);
         int top = Math.Clamp(center.Y - Size / 2, WorldMargin, Main.maxTilesY - Size - WorldMargin);
 
         Area = new Rectangle(left, top, Size, Size);
-
-        // Верхняя и нижняя стены на всю ширину
-        for (int x = left; x < left + Size; x++)
-        {
-            for (int t = 0; t < Thickness; t++)
-            {
-                Place(x, top + t);
-                Place(x, top + Size - 1 - t);
-            }
-        }
-
-        // Боковые стены между ними
-        for (int y = top + Thickness; y < top + Size - Thickness; y++)
-        {
-            for (int t = 0; t < Thickness; t++)
-            {
-                Place(left + t, y);
-                Place(left + Size - 1 - t, y);
-            }
-        }
-
-        SyncArea(left, top);
+        return Area.Value;
     }
 
-    private static void Place(int x, int y)
-    {
-        if (!WorldGen.InWorld(x, y, 5))
-            return;
-
-        Tile tile = Main.tile[x, y];
-
-        // Уже есть сплошной блок: он сам служит стеной, его не трогаем
-        if (tile.HasUnactuatedTile && Main.tileSolid[tile.TileType] && !Main.tileSolidTop[tile.TileType])
-            return;
-
-        tile.HasTile = true;
-        tile.TileType = TileID.WoodBlock;
-        tile.IsHalfBlock = false;
-        tile.Slope = SlopeType.Solid;
-
-        Placed.Add(new Point(x, y));
-        WorldGen.SquareTileFrame(x, y, false);
-    }
-
-    private static void SyncArea(int left, int top)
-    {
-        if (Main.netMode != NetmodeID.Server)
-            return;
-
-        for (int x = left; x < left + Size; x += SyncChunk)
-        {
-            for (int y = top; y < top + Size; y += SyncChunk)
-                NetMessage.SendTileSquare(-1, x, y, SyncChunk, SyncChunk);
-        }
-    }
-
-    // ---------- Удаление ----------
+    internal static void SetArea(Rectangle area) => Area = area;
 
     public override void PostUpdateWorld()
     {
-        if (Main.netMode == NetmodeID.MultiplayerClient || Placed.Count == 0)
+        if (Area == null)
             return;
 
-        // Пока белка жива, арена стоит
         if (NPC.AnyNPCs(ModContent.NPCType<TrojanSquirrel>()))
         {
             _absent = 0;
@@ -134,76 +98,161 @@ internal class TrojanArenaSystem : ModSystem
         }
 
         if (++_absent >= AbsentTicks)
-            RemoveArena();
-    }
-
-    private static void RemoveArena()
-    {
-        foreach (Point p in Placed)
         {
-            Tile tile = Main.tile[p.X, p.Y];
-
-            // Убираем только наши деревянные блоки (если игрок уже сломал их или заменил, пропускаем)
-            if (tile.HasTile && tile.TileType == TileID.WoodBlock)
-                tile.ClearTile();
-
-            WorldGen.SquareTileFrame(p.X, p.Y, false);
+            Area = null;
+            _absent = 0;
         }
-
-        if (Area is Rectangle area)
-            SyncArea(area.X, area.Y);
-
-        Placed.Clear();
-        Area = null;
     }
-
-    // ---------- Сохранение: блоки остаются в файле мира, поэтому после загрузки их нужно убрать ----------
 
     public override void ClearWorld()
     {
-        Placed.Clear();
         Area = null;
+        _absent = 0;
     }
 
-    public override void SaveWorldData(TagCompound tag)
+    public override void PostDrawTiles()
     {
-        if (Placed.Count == 0)
+        if (Area is not Rectangle area)
             return;
 
-        List<int> packed = [];
+        Rectangle screen = new(
+            (int)(Main.screenPosition.X / 16f) - 1,
+            (int)(Main.screenPosition.Y / 16f) - 1,
+            Main.screenWidth / 16 + 3,
+            Main.screenHeight / 16 + 3);
 
-        foreach (Point p in Placed)
+        Rectangle visible = Rectangle.Intersect(area, screen);
+
+        if (visible.IsEmpty)
+            return;
+
+        Main.instance.LoadTiles(TileID.WoodBlock);
+        Texture2D texture = TextureAssets.Tile[TileID.WoodBlock].Value;
+        Rectangle frame = new(18, 18, 16, 16);
+
+        Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, Main.DefaultSamplerState, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
+
+        for (int x = visible.Left; x < visible.Right; x++)
         {
-            packed.Add(p.X);
-            packed.Add(p.Y);
+            for (int y = visible.Top; y < visible.Bottom; y++)
+            {
+                bool border = x < area.Left + Thickness || x >= area.Right - Thickness
+                    || y < area.Top + Thickness || y >= area.Bottom - Thickness;
+
+                if (!border)
+                    continue;
+
+                Vector2 position = new Vector2(x * 16f, y * 16f) - Main.screenPosition;
+                Main.spriteBatch.Draw(texture, position, frame, Lighting.GetColor(x, y));
+            }
         }
 
-        tag["ArenaTiles"] = packed;
-    }
-
-    public override void LoadWorldData(TagCompound tag)
-    {
-        Placed.Clear();
-
-        IList<int> packed = tag.GetList<int>("ArenaTiles");
-
-        // После загрузки белки в мире нет, поэтому PostUpdateWorld сам уберёт остатки арены
-        for (int i = 0; i + 1 < packed.Count; i += 2)
-            Placed.Add(new Point(packed[i], packed[i + 1]));
+        Main.spriteBatch.End();
     }
 }
 
-/// <summary>Пока игрок внутри арены, на нём висит «Творческий шок». Значок этого баффа скрыт.</summary>
 internal class TrojanArenaPlayer : ModPlayer
 {
     public bool Shocked;
 
+    private bool _inside;
+    private bool _hadArena;
+
     public override void PostUpdate()
     {
-        Shocked = TrojanArenaSystem.Area != null && TrojanArenaSystem.Contains(Player.Center);
+        if (Player.whoAmI != Main.myPlayer)
+            return;
 
-        // Продлеваем бафф, пока игрок внутри. Выйдет (или умрёт), через пару тиков бафф пропадёт сам
+        Rectangle? area = TrojanArenaSystem.Area;
+
+        Shocked = area != null && TrojanArenaSystem.Contains(Player.Center);
+
         if (Shocked && !Player.dead)
-            Player.AddBuff(BuffID.NoBuilding, 60);
+            Player.AddBuff(BuffID.NoBuilding, 2);
+
+        if (area == null || Player.dead)
+        {
+            _hadArena = false;
+            _inside = false;
+            return;
+        }
+
+        if (!_hadArena)
+        {
+            _hadArena = true;
+            _inside = Shocked;
+        }
+
+        Rectangle inner = TrojanArenaSystem.InnerPixels.Value;
+
+        if (_inside)
+            KeepInside(inner);
+        else
+            KeepOutside(TrojanArenaSystem.OuterPixels.Value);
     }
+
+    private void KeepInside(Rectangle inner)
+    {
+        if (Player.position.X < inner.Left)
+        {
+            Player.position.X = inner.Left;
+            Player.velocity.X = Math.Max(0f, Player.velocity.X);
+        }
+        else if (Player.position.X + Player.width > inner.Right)
+        {
+            Player.position.X = inner.Right - Player.width;
+            Player.velocity.X = Math.Min(0f, Player.velocity.X);
+        }
+
+        if (Player.position.Y < inner.Top)
+        {
+            Player.position.Y = inner.Top;
+            Player.velocity.Y = Math.Max(0f, Player.velocity.Y);
+        }
+        else if (Player.position.Y + Player.height > inner.Bottom)
+        {
+            Player.position.Y = inner.Bottom - Player.height;
+            Player.velocity.Y = Math.Min(0f, Player.velocity.Y);
+        }
+    }
+
+    private void KeepOutside(Rectangle outer)
+    {
+        if (!Player.Hitbox.Intersects(outer))
+            return;
+
+        float toLeft = Player.Right.X - outer.Left;
+        float toRight = outer.Right - Player.Left.X;
+        float toTop = Player.Bottom.Y - outer.Top;
+        float toBottom = outer.Bottom - Player.Top.Y;
+
+        float min = Math.Min(Math.Min(toLeft, toRight), Math.Min(toTop, toBottom));
+
+        if (min == toLeft)
+        {
+            Player.position.X = outer.Left - Player.width;
+            Player.velocity.X = Math.Min(0f, Player.velocity.X);
+        }
+        else if (min == toRight)
+        {
+            Player.position.X = outer.Right;
+            Player.velocity.X = Math.Max(0f, Player.velocity.X);
+        }
+        else if (min == toTop)
+        {
+            Player.position.Y = outer.Top - Player.height;
+            Player.velocity.Y = Math.Min(0f, Player.velocity.Y);
+        }
+        else
+        {
+            Player.position.Y = outer.Bottom;
+            Player.velocity.Y = Math.Max(0f, Player.velocity.Y);
+        }
+    }
+}
+
+internal class HideCreativeShock : GlobalBuff
+{
+    public override bool PreDraw(SpriteBatch spriteBatch, int type, int buffIndex, ref BuffDrawParams drawParams)
+        => !(type == BuffID.NoBuilding && Main.LocalPlayer.GetModPlayer<TrojanArenaPlayer>().Shocked);
 }

@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Recipes;
+namespace ForgottenSouls.Content.Recipes;
 
 internal sealed class CustomRecipeGroups : ModSystem
 {
@@ -7,6 +7,11 @@ internal sealed class CustomRecipeGroups : ModSystem
     public override void AddRecipeGroups()
     {
         RecipeGroup.RegisterGroup(EvilSwordGroup,
-            new RecipeGroup(() => "Any evil sword", ItemID.LightsBane, ItemID.BloodButcherer));
+            new RecipeGroup(
+                () => Language.GetTextValue("Mods.ForgottenSouls.RecipeGroups.EvilSword"),
+                ItemID.LightsBane,
+                ItemID.BloodButcherer
+            )
+        );
     }
 }

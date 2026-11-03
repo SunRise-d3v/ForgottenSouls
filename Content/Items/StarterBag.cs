@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Items;
+namespace ForgottenSouls.Content.Items;
 
 internal sealed class StarterBag : ModItem
 {
@@ -81,7 +81,11 @@ internal sealed class StarterBag : ModItem
 
         Give(player, ItemID.ManaCrystal, 1);
         Give(player, ItemID.Apple, 3);
-        Give(player, ModContent.ItemType<FRankAdventurerEmblem>());
+        Give(player, ModContent.ItemType<FRankAdventurerEmblem>(), 1);
+
+        Give(player, ModContent.ItemType<IronHeart>(), 1);
+        Give(player, ModContent.ItemType<GlassSoul>(), 1);
+        Give(player, ModContent.ItemType<UnbearablePain>(), 1);
     }
 
     private void GivePotions(Player player)

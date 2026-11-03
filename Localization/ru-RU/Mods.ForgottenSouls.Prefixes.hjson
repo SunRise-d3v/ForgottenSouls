@@ -1,3 +1,80 @@
 HaulerPrefix.DisplayName: Грузовой
 PackAnimalPrefix.DisplayName: Вьючный
 PorterPrefix.DisplayName: Заплечный
+TemperedPrefix.DisplayName: Закалённый
+ForgedPrefix.DisplayName: Кованый
+MasterworkPrefix.DisplayName: Мастерской
+ArmorPenetrationWeapon1.DisplayName: Пробивающий I
+ArmorPenetrationWeapon2.DisplayName: Пробивающий II
+ArmorPenetrationWeapon3.DisplayName: Пробивающий III
+ArmorPenetrationWeapon4.DisplayName: Пробивающий IV
+ArmorPenetrationAccessory1.DisplayName: Пробивающий I
+ArmorPenetrationAccessory2.DisplayName: Пробивающий II
+ArmorPenetrationAccessory3.DisplayName: Пробивающий III
+ArmorPenetrationAccessory4.DisplayName: Пробивающий IV
+DamageOverTimeAccessory1.DisplayName: Едкий I
+DamageOverTimeAccessory2.DisplayName: Едкий II
+DamageOverTimeAccessory3.DisplayName: Едкий III
+DamageOverTimeAccessory4.DisplayName: Едкий IV
+DamageOverTimeAccessory5.DisplayName: Едкий V
+LifeStealWeapon1.DisplayName: Кровожадный I
+LifeStealWeapon2.DisplayName: Кровожадный II
+LifeStealWeapon3.DisplayName: Кровожадный III
+LifeStealWeapon4.DisplayName: Кровожадный IV
+LifeStealAccessory1.DisplayName: Кровожадный I
+LifeStealAccessory2.DisplayName: Кровожадный II
+LifeStealAccessory3.DisplayName: Кровожадный III
+LifeStealAccessory4.DisplayName: Кровожадный IV
+DamageReductionAccessory1.DisplayName: Крепкий I
+DamageReductionAccessory2.DisplayName: Крепкий II
+DamageReductionAccessory3.DisplayName: Крепкий III
+DamageReductionAccessory4.DisplayName: Крепкий IV
+DamageReductionAccessory5.DisplayName: Крепкий V
+ThornsAccessory1.DisplayName: Шипастый I
+ThornsAccessory2.DisplayName: Шипастый II
+ThornsAccessory3.DisplayName: Шипастый III
+ThornsAccessory4.DisplayName: Шипастый IV
+LifeRegenerationAccessory1.DisplayName: Живительный I
+LifeRegenerationAccessory2.DisplayName: Живительный II
+LifeRegenerationAccessory3.DisplayName: Живительный III
+LifeRegenerationAccessory4.DisplayName: Живительный IV
+LifeRegenerationAccessory5.DisplayName: Живительный V
+LifeRegenerationAccessory6.DisplayName: Живительный VI
+WingTimeWings1.DisplayName: Парящий I
+WingTimeWings2.DisplayName: Парящий II
+WingTimeWings3.DisplayName: Парящий III
+WingTimeWings4.DisplayName: Парящий IV
+ManaCostReductionAccessory1.DisplayName: Экономный I
+ManaCostReductionAccessory2.DisplayName: Экономный II
+ManaCostReductionAccessory3.DisplayName: Экономный III
+ManaCostReductionAccessory4.DisplayName: Экономный IV
+ManaCostReductionAccessory5.DisplayName: Экономный V
+ManaRegenerationAccessory1.DisplayName: Медитативный I
+ManaRegenerationAccessory2.DisplayName: Медитативный II
+ManaRegenerationAccessory3.DisplayName: Медитативный III
+ManaRegenerationAccessory4.DisplayName: Медитативный IV
+ManaRegenerationAccessory5.DisplayName: Медитативный V
+ManaRegenerationAccessory6.DisplayName: Медитативный VI
+ManaRegenerationAccessory7.DisplayName: Медитативный VII
+MinionBonusAccessory1.DisplayName: Командирский I
+MinionBonusAccessory2.DisplayName: Командирский II
+WhipRangeWhip1.DisplayName: Дальний I
+WhipRangeWhip2.DisplayName: Дальний II
+WhipRangeWhip3.DisplayName: Дальний III
+WhipRangeWhip4.DisplayName: Дальний IV
+
+Stat: {
+	ArmorPenetration: Игнорирует {0} ед. защиты
+	DamageOverTime: +{0}% к урону от горения, яда и других эффектов
+	LifeSteal: Восстанавливает {0}% нанесённого урона
+	DamageReduction: -{0}% получаемого урона
+	Thorns: Возвращает {0}% полученного урона
+	LifeRegeneration: +{0} ед. здоровья в секунду
+	WingTime: +{0} с времени полёта
+	ManaCostReduction: -{0}% расхода маны
+	ManaRegeneration: +{0} к восстановлению маны в секунду
+	MinionBonus: +{0} к количеству миньонов (не суммируется)
+	WhipRange: +{0}% к дальности хлыста
+	Capacity: +{0} к вместимости
+	FlatDamage: +{0} к урону
+}

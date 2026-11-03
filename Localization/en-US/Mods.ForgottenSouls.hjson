@@ -3,3 +3,6 @@ Keybinds: {
 	ZoomOut.DisplayName: Zoom Out
 	ZoomIn.DisplayName: Zoom In
 }
+
+Conditions.DrawingUnlocked: Requires the corresponding drawing
+RecipeGroups.EvilSword: "Any evil sword"
