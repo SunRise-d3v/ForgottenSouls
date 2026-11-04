@@ -1,0 +1,30 @@
+DeathMessages: {
+	Message1: You have perished.
+	Message2: Darkness consumes you.
+	Message3: Your story ends here.
+	Message4: Rest now.
+	Message5: You died.
+	Message6: Do you see the light?
+	Message7: You tried.
+	Message8: Gloom.
+	Message9: Loser.
+	Message10: The end.
+}
+
+Configs: {
+	DisasterConfig: {
+		DisplayName: Disaster Mod
+
+		RespawnSeconds: {
+			Label: Respawn time (seconds)
+			Tooltip:
+				'''
+				Time before the player respawns.
+				1 second: no death effect, the vanilla death message is shown.
+				Under 3 seconds: death effect without the text.
+				3 seconds and above: full death effect with the text.
+				While a boss is alive, the vanilla respawn time is used.
+				'''
+		}
+	}
+}

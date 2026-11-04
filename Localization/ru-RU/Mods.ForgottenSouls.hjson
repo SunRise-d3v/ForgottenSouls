@@ -1,8 +1,0 @@
-Keybinds: {
-	ActivateRage.DisplayName: Активация ярости
-	// ZoomOut.DisplayName: Zoom Out
-	// ZoomIn.DisplayName: Zoom In
-}
-
-Conditions.DrawingUnlocked: Необходим соответствующий чертёж
-RecipeGroups.EvilSword: Любой меч порчи или кровавого алтаря

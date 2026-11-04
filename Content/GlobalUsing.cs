@@ -4,6 +4,8 @@ global using System.Collections.Generic;
 global using System.Linq;
 global using System.Reflection;
 global using System.IO;
+global using System.Globalization;
+global using System.ComponentModel;
 #endregion
 
 #region Terraria
@@ -28,8 +30,8 @@ global using Terraria.GameInput;
 global using Terraria.Graphics.Effects;
 global using Terraria.Graphics.Shaders;
 global using Terraria.Utilities;
-global using Terraria.Graphics;
-global using System.Globalization;
+global using Terraria.Graphics; 
+global using Terraria.ModLoader.Config;
 #endregion
 
 #region ReLogic
@@ -42,72 +44,5 @@ global using ReLogic.Content;
 global using Microsoft.Xna.Framework;
 global using Microsoft.Xna.Framework.Graphics;
 global using Microsoft.Xna.Framework.Input;
-#endregion
-
-#region Fargo's
-global using Fargowiltas.NPCs;
-global using Fargowiltas.Items.Explosives;
-
-global using FargowiltasSouls.Content.Items;
-global using FargowiltasSouls.Content.UI;
-global using FargowiltasSouls.Content.UI.Elements;
-global using FargowiltasSouls.Core.Systems;
-global using FargowiltasSouls;
-global using FargowiltasSouls.Content.NPCs;
-global using FargowiltasSouls.Content.Projectiles;
-global using FargowiltasSouls.Core.AccessoryEffectSystem;
-global using FargowiltasSouls.Content.Bosses.AbomBoss;
-global using FargowiltasSouls.Content.Bosses.BanishedBaron;
-global using FargowiltasSouls.Content.Bosses.Champions.Cosmos;
-global using FargowiltasSouls.Content.Bosses.Champions.Earth;
-global using FargowiltasSouls.Content.Bosses.Champions.Life;
-global using FargowiltasSouls.Content.Bosses.Champions.Nature;
-global using FargowiltasSouls.Content.Bosses.Champions.Shadow;
-global using FargowiltasSouls.Content.Bosses.Champions.Spirit;
-global using FargowiltasSouls.Content.Bosses.Champions.Terra;
-global using FargowiltasSouls.Content.Bosses.Champions.Timber;
-global using FargowiltasSouls.Content.Bosses.Champions.Will;
-global using FargowiltasSouls.Content.Bosses.CursedCoffin;
-global using FargowiltasSouls.Content.Bosses.DeviBoss;
-global using FargowiltasSouls.Content.Bosses.Lifelight;
-global using FargowiltasSouls.Content.Bosses.MutantBoss;
-global using FargowiltasSouls.Content.Bosses.TrojanSquirrel;
-global using FargowiltasSouls.Content.Items.Weapons.Challengers;
-global using FargowiltasSouls.Content.Items.Accessories.Masomode;
-global using FargowiltasSouls.Content.Items.Misc;
-global using FargowiltasSouls.Content.Projectiles.Masomode;
-global using FargowiltasSouls.Content.Buffs.Masomode;
-global using FargowiltasSouls.Content.Items.Accessories.Enchantments;
-global using FargowiltasSouls.Core.Toggler;
-global using FargowiltasSouls.Core.Toggler.Content;
-global using FargowiltasSouls.Content.Rarities;
-global using FargowiltasSouls.Content.Items.Materials;
-global using FargowiltasSouls.Content.Items.Weapons.BossDrops;
-global using FargowiltasSouls.Content.Items.Weapons.FinalUpgrades;
-global using FargowiltasSouls.Content.Items.Weapons.SwarmDrops;
-global using FargowiltasSouls.Content.Patreon.Sasha;
-
-#endregion
-
-#region Mod
-global using ForgottenSouls;
-global using ForgottenSouls.Debug;
-global using ForgottenSouls.Content;
-global using ForgottenSouls.Content.Biomes;
-global using ForgottenSouls.Content.Buffs;
-global using ForgottenSouls.Content.Debuffs;
-global using ForgottenSouls.Content.Items;
-global using ForgottenSouls.Content.Mechanics;
-global using ForgottenSouls.Content.NPCs;
-global using ForgottenSouls.Content.Systems;
-global using ForgottenSouls.Content.Tiles;
-global using ForgottenSouls.Content.Projectiles;
-global using ForgottenSouls.Content.Globals;
-global using ForgottenSouls.Content.UI;
-global using ForgottenSouls.Content.ModPlayers;
-global using ForgottenSouls.Content.Recipes;
-global using ForgottenSouls.Content.Difficulty;
-global using ForgottenSouls.Content.Rarities;
-
-global using CrossMod;
+global using Microsoft.Xna.Framework.Audio;
 #endregion
