@@ -1,21 +1,22 @@
-namespace DisasterMod.Content;
+namespace DisasterMod.Content.ModPlayers;
 
-internal sealed class DeathBurnSystem : ModSystem
+internal sealed class DeathEffect : ModSystem
 {
     private const string FilterKey = "DisasterMod:DeathEffect";
-    private const string AudioPath = "DisasterMod/Assets/PlayerKill";
-    private const string TextSoundPath = "DisasterMod/Assets/PlayerPerishTextAppear";
+    private readonly string AudioPath = Helper.LoadSFX("", "PlayerDeath");
+    private readonly string TextSoundPath = Helper.LoadSFX("", "EmergingTextOfDeath");
+
     private static string Key(int i) => $"Mods.DisasterMod.DeathMessages.Message{i}";
 
-    private const float DissolveStart = 15f; 
-    private const float DissolveEnd = 69f;    
-    private const float TextStart = 90f;      
-    private const float TextFade = 48f;      
-    private const float MinScale = 0.4f;    
+    private const float DissolveStart = 15f;
+    private const float DissolveEnd = 69f;
+    private const float TextStart = 90f;
+    private const float TextFade = 48f;
+    private const float MinScale = 0.4f;
 
     private const int RevealDuration = 70;
 
-    private static string _message = "";
+    private static string _message = string.Empty;
 
     private enum State { None, Dead, Reveal }
 
@@ -30,14 +31,14 @@ internal sealed class DeathBurnSystem : ModSystem
     private static SoundEffectInstance _textSound;
 
     private static bool _textSoundPlayed;
-    private static bool _showText; 
+    private static bool _showText;
 
     public override void Load()
     {
         if (Main.dedServ)
             return;
 
-        Asset<Effect> shader = ModContent.Request<Effect>("DisasterMod/Assets/Shaders/.xnb/DeathEffect");
+        Asset<Effect> shader = ModContent.Request<Effect>(Helper.LoadShader("", "DeathEffect"));
 
         Filters.Scene[FilterKey] = new Filter(new ScreenShaderData(shader, "DeathEffect"), EffectPriority.VeryHigh);
 
@@ -91,7 +92,7 @@ internal sealed class DeathBurnSystem : ModSystem
 
         _textSoundPlayed = false;
         _showText = target < 0 || target >= QuickRespawn.DEFAULT_TICKS;
-        _message = PickMessage();  
+        _message = PickMessage();
 
         if (!Filters.Scene[FilterKey].IsActive())
             Filters.Scene.Activate(FilterKey);
@@ -109,7 +110,7 @@ internal sealed class DeathBurnSystem : ModSystem
         for (int i = 1; Language.Exists(Key(i)); i++)
             list.Add(Language.GetTextValue(Key(i)));
 
-        return list.Count > 0 ? list[Main.rand.Next(list.Count)] : "You have perished.";
+        return list.Count > 0 ? list[Main.rand.Next(list.Count)] : string.Empty; /*"You have perished."*/
     }
 
     public static void Reveal()
@@ -328,7 +329,7 @@ internal sealed class DeathBurnSystem : ModSystem
         if (opacity <= 0f || string.IsNullOrEmpty(_message))
             return;
 
-        var font = FontAssets.DeathText.Value;
+		DynamicSpriteFont font = FontAssets.DeathText.Value;
         const float scale = 0.7f;
 
         Vector2 position = new(Main.screenWidth / 2f, Main.screenHeight / 2f);

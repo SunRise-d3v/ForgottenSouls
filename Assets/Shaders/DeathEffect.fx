@@ -34,7 +34,7 @@ float fbm(float2 p)
     return v;
 }
 
-float4 DeathBurnPS(float2 uv : TEXCOORD0) : COLOR0
+float4 DeathEffectPS(float2 uv : TEXCOORD0) : COLOR0
 {
     float3 scene = tex2D(uImage0, uv).rgb;
     
@@ -48,8 +48,8 @@ float4 DeathBurnPS(float2 uv : TEXCOORD0) : COLOR0
 
 technique Technique1
 {
-    pass DeathBurn
+    pass DeathEffect
     {
-        PixelShader = compile ps_3_0 DeathBurnPS();
+        PixelShader = compile ps_3_0 DeathEffectPS();
     }
 }

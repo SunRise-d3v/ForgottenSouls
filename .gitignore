@@ -1,0 +1,62 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# tModLoader
+*.tmod
+*.tmod.bak
+ModCompile.log
+*.pdb
+
+# Compiled shaders
+Assets/Shaders/Compiler/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.cache
+*.log
+
+# Backup files
+*~
+*.orig
+*.rej
+
+# Git
+.git/
+.gitattributes
+.gitignore~
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Personal files
+.destructive_team.txt

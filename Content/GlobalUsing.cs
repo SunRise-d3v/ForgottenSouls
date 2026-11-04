@@ -46,3 +46,10 @@ global using Microsoft.Xna.Framework.Graphics;
 global using Microsoft.Xna.Framework.Input;
 global using Microsoft.Xna.Framework.Audio;
 #endregion
+
+#region Mod
+global using DisasterMod;
+global using DisasterMod.Content;
+global using DisasterMod.Content.Mechanics;
+global using DisasterMod.Content.ModPlayers;
+#endregion

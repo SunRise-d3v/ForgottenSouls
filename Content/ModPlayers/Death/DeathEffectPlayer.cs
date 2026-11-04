@@ -1,13 +1,13 @@
-namespace DisasterMod.Content;
+namespace DisasterMod.Content.ModPlayers;
 
-internal sealed class DeathBurnPlayer : ModPlayer
+internal sealed class DeathEffectPlayer : ModPlayer
 {
     public override void Kill(double damage, int hitDirection, bool pvp, PlayerDeathReason damageSource)
     {
         if (Player.whoAmI != Main.myPlayer)
             return;
 
-        DeathBurnSystem.Start();
+        DeathEffect.Start();
     }
 
     public override void OnRespawn()
@@ -15,9 +15,9 @@ internal sealed class DeathBurnPlayer : ModPlayer
         if (Player.whoAmI != Main.myPlayer)
             return;
 
-        DeathBurnSystem.Reveal();
+        DeathEffect.Reveal();
     }
 
     public override void OnEnterWorld()
-        => DeathBurnSystem.Reveal();
+        => DeathEffect.Reveal();
 }
