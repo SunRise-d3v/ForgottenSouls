@@ -4,7 +4,7 @@ internal sealed class DrawingPlayer : ModPlayer
 {
     private readonly HashSet<int> _unlockedItems = [];
 
-    public static readonly HashSet<int> DrawingRequiredItems = [];
+    private static readonly HashSet<int> DrawingRequiredItems = [];
 
     public static void RequireDrawing(int itemID)
     {

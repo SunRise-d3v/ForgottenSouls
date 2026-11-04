@@ -1,8 +1,22 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
 namespace ForgottenSouls.Content.Items;
 
 internal abstract class ModDrawing : ModItem
 {
+    private static readonly List<ModDrawing> modDrawings = [];
+
+    public static IReadOnlyList<ModDrawing> AllModDrawings => modDrawings;
+
     protected abstract int UnlockItemID { get; }
+    public int UnlockItem => UnlockItemID;
+
+    protected ModDrawing()
+    {
+        modDrawings.Add(this);
+    }
 
     public override string Texture => Helper.TextureLoadItem("Drawing");
 
