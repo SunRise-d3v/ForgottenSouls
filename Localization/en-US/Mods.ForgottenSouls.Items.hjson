@@ -632,3 +632,23 @@ ZenithDrawing: {
 	DisplayName: Zenith Drawing
 	Tooltip: ""
 }
+
+BrandOfTheInfernoDrawing: {
+	DisplayName: Brand Of The Inferno Drawing
+	Tooltip: ""
+}
+
+Code2Drawing: {
+	DisplayName: Code2 Drawing
+	Tooltip: ""
+}
+
+HiveFiveDrawing: {
+	DisplayName: Hive Five Drawing
+	Tooltip: ""
+}
+
+NightsEdgeDrawing: {
+	DisplayName: Nights Edge Drawing
+	Tooltip: ""
+}

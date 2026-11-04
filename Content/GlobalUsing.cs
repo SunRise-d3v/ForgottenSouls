@@ -82,6 +82,10 @@ global using FargowiltasSouls.Core.Toggler;
 global using FargowiltasSouls.Core.Toggler.Content;
 global using FargowiltasSouls.Content.Rarities;
 global using FargowiltasSouls.Content.Items.Materials;
+global using FargowiltasSouls.Content.Items.Weapons.BossDrops;
+global using FargowiltasSouls.Content.Items.Weapons.FinalUpgrades;
+global using FargowiltasSouls.Content.Items.Weapons.SwarmDrops;
+global using FargowiltasSouls.Content.Patreon.Sasha;
 
 #endregion
 

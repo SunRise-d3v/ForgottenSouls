@@ -1,10 +1,10 @@
-namespace ForgottenSouls.Content.Players;
+namespace ForgottenSouls.Content.ModPlayers;
 
 internal sealed class DrawingPlayer : ModPlayer
 {
     private readonly HashSet<int> _unlockedItems = [];
 
-    private static readonly HashSet<int> DrawingRequiredItems = [];
+    public static readonly HashSet<int> DrawingRequiredItems = [];
 
     public static void RequireDrawing(int itemID)
     {

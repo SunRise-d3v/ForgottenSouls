@@ -5,4 +5,4 @@ Keybinds: {
 }
 
 Conditions.DrawingUnlocked: Requires the corresponding drawing
-RecipeGroups.EvilSword: "Any evil sword"
+RecipeGroups.EvilSword: Any evil sword

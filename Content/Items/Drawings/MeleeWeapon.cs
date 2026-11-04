@@ -1,8 +1,3 @@
-using FargowiltasSouls.Content.Items.Weapons.BossDrops;
-using FargowiltasSouls.Content.Items.Weapons.FinalUpgrades;
-using FargowiltasSouls.Content.Items.Weapons.SwarmDrops;
-using FargowiltasSouls.Content.Patreon.Sasha;
-
 namespace ForgottenSouls.Content.Items;
 
 #region Sword Drawings
@@ -32,7 +27,7 @@ internal sealed class YellowPhasesaberDrawing : ModDrawing { protected override 
 internal sealed class WhitePhasesaberDrawing : ModDrawing { protected override int UnlockItemID => ItemID.WhitePhasesaber; }
 internal sealed class WhitePhasebladeDrawing : ModDrawing { protected override int UnlockItemID => ItemID.WhitePhaseblade; }
 internal sealed class VolcanoDrawing : ModDrawing { protected override int UnlockItemID => ItemID.FieryGreatsword; }
-internal sealed class EdgeOfNightDrawing : ModDrawing { protected override int UnlockItemID => ItemID.NightsEdge; }
+internal sealed class NightsEdgeDrawing : ModDrawing { protected override int UnlockItemID => ItemID.NightsEdge; }
 internal sealed class FrostbrandDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Frostbrand; }
 internal sealed class ChlorophyteSaberDrawing : ModDrawing { protected override int UnlockItemID => ItemID.ChlorophyteSaber; }
 internal sealed class ChlorophyteClaymoreDrawing : ModDrawing { protected override int UnlockItemID => ItemID.ChlorophyteClaymore; }
@@ -44,13 +39,11 @@ internal sealed class TrueExcaliburDrawing : ModDrawing { protected override int
 internal sealed class PsychoKnifeDrawing : ModDrawing { protected override int UnlockItemID => ItemID.PsychoKnife; }
 internal sealed class TerraBladeDrawing : ModDrawing { protected override int UnlockItemID => ItemID.TerraBlade; }
 internal sealed class ChristmasTreeSwordDrawing : ModDrawing { protected override int UnlockItemID => ItemID.ChristmasTreeSword; }
-internal sealed class DrandOfTheInfernoDrawing : ModDrawing { protected override int UnlockItemID => ItemID.DD2SquireDemonSword; }
+internal sealed class BrandOfTheInfernoDrawing : ModDrawing { protected override int UnlockItemID => ItemID.DD2SquireDemonSword; }
 internal sealed class InfluxWaverDrawing : ModDrawing { protected override int UnlockItemID => ItemID.InfluxWaver; }
 internal sealed class KeybrandDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Keybrand; }
 internal sealed class TheHorsemansBladeDrawing : ModDrawing { protected override int UnlockItemID => ItemID.TheHorsemansBlade; }
 internal sealed class ZenithDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Zenith; }
-internal sealed class MissDrakovisFishingPoleDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<MissDrakovisFishingPole>(); }
-internal sealed class SlimeSlingingSlasherDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<SlimeSlingingSlasher>(); }
 internal sealed class ThePenetratorDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<Penetrator>(); }
 internal sealed class SlimeRainDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<SlimeRain>(); }
 #endregion
@@ -80,7 +73,7 @@ internal sealed class UmbraRegaliaDrawing : ModDrawing { protected override int 
 internal sealed class BallOHurtDrawing : ModDrawing { protected override int UnlockItemID => ItemID.BallOHurt; }
 internal sealed class TheMeatballDrawing : ModDrawing { protected override int UnlockItemID => ItemID.TheMeatball; }
 internal sealed class BlueMoonDrawing : ModDrawing { protected override int UnlockItemID => ItemID.BlueMoon; }
-internal sealed class SunfuryDrawing : ModDrawing { protected override int UnlockItemID =>ItemID.Sunfury; }
+internal sealed class SunfuryDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Sunfury; }
 internal sealed class DaoOfPowDrawing : ModDrawing { protected override int UnlockItemID => ItemID.DaoofPow; }
 internal sealed class ChainGuillotinesDrawing : ModDrawing { protected override int UnlockItemID => ItemID.ChainGuillotines; }
 internal sealed class AnchorDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Anchor; }
@@ -92,37 +85,41 @@ internal sealed class PhantasmalLeashOfCthulhuDrawing : ModDrawing { protected o
 #region Yo-yo Drawings
 internal sealed class MalaiseDrawing : ModDrawing { protected override int UnlockItemID => ItemID.CorruptYoyo; }
 internal sealed class ArteryDrawing : ModDrawing { protected override int UnlockItemID => ItemID.CrimsonYoyo; }
-internal sealed class HiveFiverawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class AmazonDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class CascadeDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class ValorDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class ChikDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class CodeTwoDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class YeletsDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class KrakenDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class TheEyeOfCthulhuDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class TheBlenderDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
+internal sealed class HiveFiveDrawing : ModDrawing { protected override int UnlockItemID => ItemID.HiveFive; }
+internal sealed class AmazonDrawing : ModDrawing { protected override int UnlockItemID => ItemID.JungleYoyo; }
+internal sealed class CascadeDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Cascade; }
+internal sealed class ValorDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Valor; }
+internal sealed class ChikDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Chik; }
+internal sealed class Code2Drawing : ModDrawing { protected override int UnlockItemID => ItemID.Code2; }
+internal sealed class YeletsDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Yelets; }
+internal sealed class KrakenDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Kraken; }
+internal sealed class TheEyeOfCthulhuDrawing : ModDrawing { protected override int UnlockItemID => ItemID.TheEyeOfCthulhu; }
+internal sealed class TheBlenderDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<Blender>(); }
 #endregion
 
 #region Boomerang Drawings
-internal sealed class EnchantedBoomerangDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class IceBoomerangDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class ShroomerangDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class FlamerangDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class TrimarangDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class LightDiscDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class SergeantUnitedShieldDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class PaladinsHammerDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class GeminiGlaivesDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class SparklingLoveDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
+internal sealed class EnchantedBoomerangDrawing : ModDrawing { protected override int UnlockItemID => ItemID.EnchantedBoomerang; }
+internal sealed class IceBoomerangDrawing : ModDrawing { protected override int UnlockItemID => ItemID.IceBoomerang; }
+internal sealed class ShroomerangDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Shroomerang; }
+internal sealed class FlamerangDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Flamarang; }
+internal sealed class TrimarangDrawing : ModDrawing { protected override int UnlockItemID => ItemID.Trimarang; }
+internal sealed class LightDiscDrawing : ModDrawing { protected override int UnlockItemID => ItemID.LightDisc; }
+internal sealed class SergeantUnitedShieldDrawing : ModDrawing { protected override int UnlockItemID => ItemID.BouncingShield; }
+internal sealed class PaladinsHammerDrawing : ModDrawing { protected override int UnlockItemID => ItemID.PaladinsHammer; }
+internal sealed class GeminiGlaivesDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<GeminiGlaives>(); }
+internal sealed class SparklingLoveDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<SparklingLove>(); }
 #endregion
 
 #region Scythe Drawings
-internal sealed class IceSickleDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class DeathSickleDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
-internal sealed class StyxGazerDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
+internal sealed class IceSickleDrawing : ModDrawing { protected override int UnlockItemID => ItemID.IceSickle; }
+internal sealed class DeathSickleDrawing : ModDrawing { protected override int UnlockItemID => ItemID.DeathSickle; }
+internal sealed class StyxGazerDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<StyxGazer>(); }
 #endregion
 
 #region Lance Drawings
-internal sealed class ShadowJoustingLanceDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<TreeSword>(); }
+internal sealed class ShadowJoustingLanceDrawing : ModDrawing { protected override int UnlockItemID => ItemID.ShadowJoustingLance; }
+#endregion
+
+#region Other Drawings
+internal sealed class MissDrakovisFishingPoleDrawing : ModDrawing { protected override int UnlockItemID => ModContent.ItemType<MissDrakovisFishingPole>(); }
 #endregion

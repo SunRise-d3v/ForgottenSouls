@@ -1,5 +1,3 @@
-using ForgottenSouls.Content.Players;
-
 namespace ForgottenSouls.Content.Items;
 
 internal abstract class ModDrawing : ModItem

@@ -1,4 +1,4 @@
-﻿namespace ForgottenSouls.Content.Globals;
+namespace ForgottenSouls.Content.Globals;
 
 internal sealed class ChestDebuffSystem : ModSystem
 {

@@ -5,4 +5,4 @@ Keybinds: {
 }
 
 Conditions.DrawingUnlocked: Необходим соответствующий чертёж
-RecipeGroups.EvilSword: "Любой меч порчи или кровавого алтаря"
+RecipeGroups.EvilSword: Любой меч порчи или кровавого алтаря

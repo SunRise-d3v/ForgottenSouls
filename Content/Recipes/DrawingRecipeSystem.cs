@@ -1,5 +1,3 @@
-using ForgottenSouls.Content.Players;
-
 namespace ForgottenSouls.Content.Systems;
 
 internal sealed class DrawingRecipeSystem : ModSystem
