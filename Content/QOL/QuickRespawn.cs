@@ -1,4 +1,4 @@
-namespace DisasterMod.Content.Mechanics;
+namespace DisasterMod.Content.QOL;
 
 internal sealed class QuickRespawn : ModPlayer
 {

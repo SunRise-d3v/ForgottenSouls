@@ -13,7 +13,7 @@ DeathMessages: {
 
 Configs: {
 	DisasterConfig: {
-		DisplayName: Disaster Mod
+		DisplayName: Configuration
 
 		RespawnSeconds: {
 			Label: Respawn time (seconds)
@@ -26,5 +26,54 @@ Configs: {
 				While a boss is alive, the vanilla respawn time is used.
 				'''
 		}
+
+		EnableDeathEffect: {
+			Label: Death effect
+			Tooltip:
+				'''
+				Turn the custom death effect (screen fade, sound and text) on or off.
+				When off, the vanilla death screen and message are used instead.
+				'''
+		}
+
+		EnableEnterWorldEffect: {
+			Label: Effect when entering a world
+			Tooltip: Turn the light-gathering reveal effect that plays when you enter a world on or off.
+		}
+
+		SleepSpeed: {
+			Label: Sleep speed
+			Tooltip: How fast time passes while the player is sleeping
+		}
 	}
 }
+
+OreList: {
+	Whitelisted: "{0} added to the whitelist (the whole vein is mined with one hit)"
+	Blacklisted: "{0} added to the blacklist (mined one block at a time)"
+	UnknownOre: Ore
+}
+
+WeaponClass: {
+	Summon: -- Summoner --
+	Magic: -- Mage --
+	Ranged: -- Ranger --
+	Throwing: -- Thrower --
+	Melee: -- Warrior --
+	Universal: -- Universal --
+}
+
+Hardmode: {
+	OreBlessed: Your world has been blessed with {0}!
+
+	Ore: {
+		Cobalt: Cobalt
+		Palladium: Palladium
+		Mythril: Mythril
+		Orichalcum: Orichalcum
+		Adamantite: Adamantite
+		Titanium: Titanium
+	}
+}
+
+Conditions.AllMechsDefeated: Only after defeating all three mechanical bosses

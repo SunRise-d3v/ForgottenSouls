@@ -4,6 +4,9 @@ internal static class Helper
 {
     private const string Root = "DisasterMod/Assets";
 
+    public static string LoadTexture(string directory, string fileName)
+       => BuildAssetPath("Textures", directory == null ? "" : $"{directory}", fileName);
+
     public static string LoadNpcTexture(string directory, string fileName)
         => BuildAssetPath("Textures/NPCs", directory == null ? "" : $"{directory}", fileName);
 

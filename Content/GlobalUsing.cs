@@ -30,8 +30,9 @@ global using Terraria.GameInput;
 global using Terraria.Graphics.Effects;
 global using Terraria.Graphics.Shaders;
 global using Terraria.Utilities;
-global using Terraria.Graphics; 
+global using Terraria.Graphics;
 global using Terraria.ModLoader.Config;
+global using Terraria.Map;
 #endregion
 
 #region ReLogic
@@ -49,7 +50,10 @@ global using Microsoft.Xna.Framework.Audio;
 
 #region Mod
 global using DisasterMod;
+global using DisasterMod.Debug;
 global using DisasterMod.Content;
-global using DisasterMod.Content.Mechanics;
+global using DisasterMod.Content.Globals;
 global using DisasterMod.Content.ModPlayers;
+global using DisasterMod.Content.QOL;
+global using DisasterMod.Content.ModTooltip;
 #endregion

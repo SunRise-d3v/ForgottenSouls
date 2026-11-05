@@ -19,5 +19,5 @@ internal sealed class DeathEffectPlayer : ModPlayer
     }
 
     public override void OnEnterWorld()
-        => DeathEffect.Reveal();
+        => DeathEffect.Reveal(enterWorld: true);
 }

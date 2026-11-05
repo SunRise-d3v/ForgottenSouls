@@ -6,6 +6,8 @@ internal sealed class DeathEffect : ModSystem
     private readonly string AudioPath = Helper.LoadSFX("", "PlayerDeath");
     private readonly string TextSoundPath = Helper.LoadSFX("", "EmergingTextOfDeath");
 
+    private static DisasterConfig Config => ModContent.GetInstance<DisasterConfig>();
+
     private static string Key(int i) => $"Mods.DisasterMod.DeathMessages.Message{i}";
 
     private const float DissolveStart = 15f;
@@ -74,7 +76,7 @@ internal sealed class DeathEffect : ModSystem
 
     public static void Start()
     {
-        if (Main.dedServ || _state == State.Dead)
+        if (Main.dedServ || _state == State.Dead || !Config.EnableDeathEffect)
             return;
 
         int target = QuickRespawn.TargetTicks();
@@ -113,9 +115,12 @@ internal sealed class DeathEffect : ModSystem
         return list.Count > 0 ? list[Main.rand.Next(list.Count)] : string.Empty; /*"You have perished."*/
     }
 
-    public static void Reveal()
+    public static void Reveal(bool enterWorld = false)
     {
         if (Main.dedServ || _state == State.Reveal)
+            return;
+
+        if (enterWorld ? !Config.EnableEnterWorldEffect : !Config.EnableDeathEffect)
             return;
 
         if (_state == State.None && ModContent.GetInstance<DisasterConfig>().RespawnSeconds <= 1f)
@@ -213,6 +218,12 @@ internal sealed class DeathEffect : ModSystem
     {
         if (_state == State.None || Main.dedServ)
             return;
+
+        if (_state == State.Dead && !Config.EnableDeathEffect)
+        {
+            Stop();
+            return;
+        }
 
         _timer++;
 
@@ -329,7 +340,7 @@ internal sealed class DeathEffect : ModSystem
         if (opacity <= 0f || string.IsNullOrEmpty(_message))
             return;
 
-		DynamicSpriteFont font = FontAssets.DeathText.Value;
+        DynamicSpriteFont font = FontAssets.DeathText.Value;
         const float scale = 0.7f;
 
         Vector2 position = new(Main.screenWidth / 2f, Main.screenHeight / 2f);

@@ -1,6 +1,6 @@
 displayName = Disaster~Mod [ALPHA]
 author = Destructive Team
-version = 0.0.2
+version = 0.0.3
 
 buildIgnore = *.csproj, *.user, *.suo, *.cache, *.tmp, *.bak, *.old, *.log, obj\*, bin\*, .vs\*, .git\*, .idea\*, .vscode\*, .git, *.gif, *.lib\*, *.pdb, *.dll, Properties\*, .editorconfig, .destructive_team.txt, LICENSE.md, README.md, README.ru.md, .gitignore, .gitattributes, Assets\Shaders\Compiler\*, *.fx
 

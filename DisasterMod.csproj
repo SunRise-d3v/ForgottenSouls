@@ -9,6 +9,7 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <Folder Include="Assets\Shaders\.xnb\" />
+	  <Folder Include="Content\Globals\Biomes\" />
 	  <Folder Include="CrossMod\" />
 	  <Folder Include="Localization\ru-RU\" />
 	  <Folder Include="Localization\es-ES\" />
